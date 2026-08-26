@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "packageId": "pkg-genchem-u35f0f11",
+  "title": "GenChem",
+  "description": "",
+  "keywords": [],
+  "discipline": "chemistry",
+  "courseContext": {},
+  "license": "CC-BY-4.0",
+  "unitTerm": "chapter",
+  "createdAt": "2026-08-26T18:41:10.733Z",
+  "publicRepo": {
+    "owner": "wangyu16",
+    "name": "genchem-u35f0f11-oer"
+  },
+  "privateRepo": {
+    "owner": "wangyu16",
+    "name": "genchem-u35f0f11-private"
+  }
+}
