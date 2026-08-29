@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "mode": "full",
+  "reviewKind": "cross-model",
+  "authoringSystem": "Claude Code (Coursewerk harness)",
+  "authoringModelId": "claude-opus-5",
+  "reviewer": {
+    "name": "Independent cross-model reviewers (Claude Agent SDK subagents)",
+    "type": "ai",
+    "modelId": "claude-sonnet-5"
+  },
+  "independence": {
+    "separatePass": true,
+    "contextReset": true,
+    "approach": "Five reviewer agents were spawned on a different model (claude-sonnet-5) with no access to the authoring conversation, no knowledge of what had been written or revised, and no shared context with each other. Each was given only a package path, a list of files, and an instruction to find wrong chemistry rather than to approve the work. Four covered chapters 1-4, 5-8, 9-12, 13-16 and 17-19; one covered the rights and metadata record. Each was required to recompute results itself in Python rather than accept a printed answer, and to report an empty error list only if it genuinely found nothing. Nine candidate errors were returned; each was re-derived by the authoring model before being accepted or rejected, and two were rejected on evidence."
+  },
+  "reviewedAt": "2026-08-26",
+  "checks": [
+    {
+      "id": "accountable-identity",
+      "status": "passed",
+      "note": "README, FOUNDATION.json outputAuthors, the LICENSE, and all 126 self-generated PROVENANCE creator fields consistently name Yu Wang, University of Louisiana at Lafayette as author and rights holder. No AI system is named as author or rights holder anywhere; Claude/Coursewerk appear only as a disclosed drafting tool under instructor direction."
+    },
+    {
+      "id": "source-identity-version",
+      "status": "passed",
+      "note": "All three declared sources carry title, role, use and scope. OpenStax and Wikipedia additionally carry publisher/edition and canonicalUrl. The primary source is the instructor's own unpublished lecture-notes draft; it has no canonical URL by nature, so its comparison is recorded in metadata/SOURCE_RECORD.json as a dated human attestation by Yu Wang (2026-08-26) rather than an automatic hash comparison, with the near-verbatim evidence it rests on in reports/verbatim_scan.md. That evidence was produced by the harness's own detector against a 54,522-word concatenation of the nineteen chapter files, and the sourceId matches FOUNDATION."
+    },
+    {
+      "id": "source-license-evidence",
+      "status": "passed",
+      "note": "Each source has a rights basis with a local evidence snapshot and a hash-bound preflight receipt. The cross-model reviewer challenged the OpenStax entry, reporting Chemistry 2e as CC BY 4.0 based on a web search and a LibreTexts mirror. That challenge was adjudicated against the authoritative page: openstax.org/details/books/chemistry-2e was loaded live and states Creative Commons Attribution-NonCommercial-ShareAlike License v4.0, including the same 'NonCommerical' misspelling the saved evidence records. FOUNDATION's CC BY-NC-SA 4.0 determination is correct and the evidence file is genuine; the reviewer's finding was not accepted."
+    },
+    {
+      "id": "external-media-rights",
+      "status": "passed",
+      "note": "All 157 assets are registered, present on disk, and referenced; there are no orphans and no unregistered images. Every one of the 31 third-party items has a creator, license, source URL, a matching evidence snapshot under metadata/evidence/, and an assets/<name>.attrib.json sidecar whose license and license_url agree with PROVENANCE. Zero remote hot-linked media anywhere, confirmed independently and by the harness's own remoteMediaReferences count."
+    },
+    {
+      "id": "output-license-compatibility",
+      "status": "passed",
+      "note": "The output license is CC BY 4.0 and covers everything authored here. The 31 third-party images keep their own licenses: 16 are share-alike, and README states per-license counts recomputed directly from PROVENANCE and explains that share-alike binds those images and their adaptations, not reuse of the course's own text or figures. No NonCommercial or NoDerivatives asset is used. The only NC-SA work involved is OpenStax, used strictly as a fact-checking reference with nothing adapted, which a grep of all 96 deliverables confirmed."
+    },
+    {
+      "id": "attribution-obligations",
+      "status": "passed",
+      "note": "ATTRIBUTION.md is generated from PROVENANCE and never maintained separately; a row-by-row comparison matched all 157 rows on path, title, creator, license and usedIn. The reviewer found that FOUNDATION promised OpenStax and Wikipedia attribution would appear in ATTRIBUTION.md while it did not; README now carries a Reference sources section naming both with license URLs, FOUNDATION's placement field points there, and the preflight receipts were rebound."
+    },
+    {
+      "id": "scientific-key-facts",
+      "status": "passed",
+      "note": "Nineteen chapter-level key facts, one per chapter, were independently recomputed by fresh-context reviewers on a different model and are recorded below. The same pass surfaced nine candidate errors; seven were confirmed on recheck and corrected before this record was bound (Ch. 1 rounding convention, Ch. 4 solubility exceptions, Ch. 5 STP derivation, Ch. 12 mole fraction and vapor pressure, Ch. 14 figure-caption contradiction, Ch. 16 buffer pH, Ch. 18 rounding chain, Ch. 19 figure citation). Two were not accepted and the reasons are recorded in the corresponding notes."
+    }
+  ],
+  "keyFacts": [
+    {
+      "id": "ch01-density",
+      "claim": "Density d = m/V; a 45.3 g gold sample of volume 2.35 cm^3 gives d = 19.3 g/cm^3, the accepted density of gold.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/introduction.md"
+      ],
+      "note": "Recomputed 45.3/2.35 = 19.2766, which is 19.3 at the three significant figures both inputs carry, and matches gold's real density as an external check. The two rearrangements in the same example (mass from d*V = 19.7 g ethanol; volume from m/d = 20.0 cm^3 aluminum) were recomputed and also match."
+    },
+    {
+      "id": "ch02-isotope-notation",
+      "claim": "Z is the proton count and A the nucleon count, so a neutral U-235 atom (A=235, Z=92) has 92 protons, 143 neutrons and 92 electrons.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md"
+      ],
+      "note": "Definitions checked against standard chemistry and the arithmetic 235-92=143 verified. The companion problems were also checked: 17 protons plus 20 neutrons gives A=37 and element 17 is chlorine; the chloride ion has 17 protons and 18 electrons. All correct."
+    },
+    {
+      "id": "ch03-mole-definition",
+      "claim": "The mole was defined before 20 May 2019 by the carbon-12 mass standard, making N_A a measured quantity; since 2019 N_A is fixed by definition at exactly 6.02214076e23 and the mole is defined from it, with both giving 6.022e23 at four significant figures.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/stoichiometry.md"
+      ],
+      "note": "Verified against the 2019 SI redefinition: the CGPM resolution effective 20 May 2019 fixed N_A exactly and decoupled the mole from carbon-12, which is why pre-2019 tables report N_A to eight or nine shifting digits. The passage states both definitions, the reversed direction of dependency, and the agreement at four figures, all correctly. The atomic mass unit remains carbon-12 based and the text says so."
+    },
+    {
+      "id": "ch04-diprotic-titration",
+      "claim": "Titrating 25.0 mL of H2SO4 against 31.5 mL of 0.150 M NaOH via H2SO4 + 2NaOH -> Na2SO4 + 2H2O gives 0.0945 M, exactly half what a 1:1 assumption would give.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/aqueous-reactions.md"
+      ],
+      "note": "Recomputed: 0.0315 L x 0.150 M = 4.725e-3 mol NaOH; halved for the 1:2 stoichiometry gives 2.3625e-3 mol H2SO4; divided by 0.0250 L gives 0.0945 M. The 1:1 shortcut gives 0.189 M, exactly double, as the text states. The balanced equation is correct for a diprotic acid."
+    },
+    {
+      "id": "ch05-stp-molar-volume",
+      "claim": "At STP (0 C, 1 atm) one mole of an ideal gas occupies 22.41 L, correcting the source notes' transposed 22.14 L.",
+      "status": "qualified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/gases.md"
+      ],
+      "note": "The reviewer found that 0.0821 x 273.15 = 22.4256, which is 22.43 rather than the 22.41 printed, so the derivation as written did not produce its own stated result even though 22.41 L is the correct standard value. The chapter now performs this one calculation with R = 0.082057 (giving 22.4139) and explains that a four-figure molar volume needs a four-figure R. Verified: 0.082057 x 273.15 = 22.414."
+    },
+    {
+      "id": "ch06-hess-fecl3",
+      "claim": "By Hess's Law, dHf(FeCl3, s) = dH1 + dH2/2 = -341.8 + (-115.4)/2 = -399.5 kJ/mol, correcting the source notes' +399.5 kJ.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/thermochemistry.md"
+      ],
+      "note": "Recomputed as exactly -399.5 kJ/mol. Both contributing steps are exothermic, so a negative result is the only physically sensible sign, which is an independent check on the correction. The chapter's other worked examples (thermite, methane combustion, sucrose, acetylene formation) were recomputed and all match."
+    },
+    {
+      "id": "ch07-balmer-line",
+      "claim": "A hydrogen electron falling from n=5 to n=2 emits a photon at 434 nm, using R_H = 2.18e-18 J, h = 6.63e-34 J s and c = 3.00e8 m/s.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/quantum-theory.md"
+      ],
+      "note": "Recomputed: dE = 2.18e-18 x (1/25 - 1/4) = -4.578e-19 J, and lambda = hc/|dE| = 4.34e-7 m = 434 nm. Independently, 434 nm is the real Balmer H-gamma line, so the result checks against physical measurement and not only against its own arithmetic. Other photon and de Broglie calculations in the chapter use the same constants consistently."
+    },
+    {
+      "id": "ch08-successive-ie",
+      "claim": "Successive ionization energies 738, 1451, 7733, 10540 kJ/mol jump by a factor of 5.3 between IE2 and IE3, so the element has two valence electrons, is in Group 2A, and forms a 2+ ion.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/periodic-table.md"
+      ],
+      "note": "Recomputed the ratios as 2.0, 5.3 and 1.4, placing the jump at IE3 as claimed. The four values match published successive ionization energies of magnesium (737.7, 1450.7, 7732.7, 10540), so both the data and the group-assignment logic check out. The chapter's two stated exceptions to the first-ionization trend, Be to B and N to O, are the standard pair."
+    },
+    {
+      "id": "ch09-bond-enthalpy",
+      "claim": "Reaction enthalpy from bond enthalpies is bonds broken minus bonds formed; for methane combustion this gives -798 kJ against -802.5 kJ from formation enthalpies, agreeing to 0.6%.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/chemical-bonding.md"
+      ],
+      "note": "Recomputed: broken = 4(414) + 2(498) = 2652 kJ; formed = 2(799) + 4(463) = 3450 kJ; difference = -798 kJ. The sign convention is applied consistently in the H2 + Cl2 example too (678 - 862 = -184 kJ against a literature -185 kJ). The cross-check against Chapter 6 is itself the strongest evidence the convention is right."
+    },
+    {
+      "id": "ch10-polarity",
+      "claim": "CO2 and BF3 are nonpolar despite polar bonds because their symmetry cancels the bond dipoles, while H2O and NH3 are polar because a lone pair breaks that symmetry.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/molecular-geometry.md"
+      ],
+      "note": "Each geometry/domain pairing was checked against VSEPR: CO2 has two domains and no lone pairs so its dipoles oppose at 180 degrees; BF3 has three at 120 degrees summing to zero; H2O has four domains with two lone pairs giving a bent shape; NH3 has one lone pair giving trigonal pyramidal. All four verdicts are correct and consistent with the chapter's own domain-count table."
+    },
+    {
+      "id": "ch11-clausius-clapeyron",
+      "claim": "Diethyl ether at 400 mmHg and 27 C rises to about 1,770 mmHg at 77 C, given dHvap = 26.0 kJ/mol.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/intermolecular-forces.md"
+      ],
+      "note": "Recomputed: ln(P1/P2) = (26000/8.314) x ((300-350)/(300 x 350)) = -1.4892, so P2 = 400/e^-1.4892 = 1773 mmHg, matching the printed 1,770 mmHg. The temperature-pressure pairing is assigned to the correct sides of the equation, which is the usual failure point. The companion benzene back-calculation of dHvap = 33.4 kJ/mol also reproduces exactly."
+    },
+    {
+      "id": "ch12-molality-vs-molarity",
+      "claim": "For 15.0 g NaCl in 85.0 g water at density 1.10 g/mL, the molality is 3.02 mol/kg while the molarity is 2.82 mol/L, because the denominators are mass of solvent and volume of solution respectively.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/solutions.md"
+      ],
+      "note": "Recomputed: 0.2567 mol NaCl, 4.717 mol water, mole fraction 0.0516, molality 0.2567/0.0850 = 3.02, solution volume 100.0/1.10 = 90.9 mL, molarity 0.2567/0.0909 = 2.82. This distinction is load-bearing because every boiling-point-elevation and freezing-point-depression example in the chapter depends on using molality, and each was checked to do so."
+    },
+    {
+      "id": "ch13-ozone-mechanism",
+      "claim": "For the ozone mechanism (fast equilibrium O3 <=> O2 + O, slow O + O3 -> 2 O2), eliminating the intermediate gives rate = k[O3]^2/[O2].",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/chemical-kinetics.md"
+      ],
+      "note": "Re-derived independently: equating forward and reverse rates of the fast step gives [O] = (k1/k-1)([O3]/[O2]); substituting into rate = k2[O][O3] gives rate = k[O3]^2/[O2], containing only measurable species and correctly excluding the intermediate. This is the single most error-prone derivation in the chapter. The NO2 + CO mechanism and the Arrhenius two-point activation energy of 190.7 kJ/mol were also recomputed and match."
+    },
+    {
+      "id": "ch14-small-x-validity",
+      "claim": "For N2O4 <=> 2 NO2 with Kc = 0.211 and 0.050 M initial N2O4, the small-x shortcut fails (it predicts x at 103% of the starting concentration) and the exact quadratic gives x = 0.0314 M.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md"
+      ],
+      "note": "Solved 4x^2 + 0.211x - 0.01055 = 0 independently, giving x = 0.03136 M, and back-substituted to recover Kc = 0.211. The companion example with Kc = 1.2e-4 correctly passes the 5% test at 0.77%. Both the failing and the passing validity checks are computed correctly and the right quadratic root is selected throughout."
+    },
+    {
+      "id": "ch15-weak-acid-base-ph",
+      "claim": "0.50 M HF (Ka = 7.1e-4) has pH 1.73 and 3.7% ionization; 0.40 M NH3 (Kb = 1.8e-5) has pH 11.43 via pOH 2.57.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/acids-and-bases.md"
+      ],
+      "note": "Both ICE-table quadratics were solved independently: HF gives x = 0.01849 M, pH 1.733, 3.70% ionization; ammonia gives [OH-] = 2.674e-3, pOH 2.573, pH 11.427. The HCN, oxalic acid, sulfurous acid, sodium acetate and ammonium chloride problems were also recomputed and all match, with Ka x Kb = Kw applied correctly in each hydrolysis case. One dilution illustration mixed the small-x and quadratic results across its two numbers and was corrected to a single consistent method."
+    },
+    {
+      "id": "ch16-equivalence-ph",
+      "claim": "Titrating 25.0 mL of 0.100 M acetic acid with 0.100 M NaOH gives pH 8.72 at the equivalence point, where the acetate concentration is 0.050 M after dilution.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md"
+      ],
+      "note": "Recomputed: Kb = Kw/Ka = 5.56e-10, then the acetate hydrolysis quadratic gives [OH-] = 5.270e-6, pOH 5.278, pH 8.722. This value was wrong in an earlier revision (9.22, from a Kb ten times too large) and the chapter's own titration figure, computed from correct chemistry, had contradicted the text; text and figure now agree. The buffer, common-ion, Ksp and Kf calculations were also recomputed, and one Henderson-Hasselbalch result was corrected from 4.66 to 4.65."
+    },
+    {
+      "id": "ch17-dg-k-relation",
+      "claim": "dG = -RT ln K, illustrated by Kp = 0.323 for N2O4 <=> 2 NO2 at 298 K from formation free energies of 99.8 and 51.3 kJ/mol.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/thermodynamics.md"
+      ],
+      "note": "Recomputed: dG_rxn = 2(51.3) - 99.8 = 2.8 kJ/mol and K = exp(-2800/(8.314 x 298)) = 0.323. The other non-standard-condition problems reproduce too (ammonia decomposition Q = 0.817 and dG = +32.5 kJ/mol against K = 1.64e-6; N2O4 at Q = 5.00e-3 giving dG = -10.3 kJ/mol), as do the crossover temperatures, which depend on getting the kJ-to-J conversion right and consistently do."
+    },
+    {
+      "id": "ch18-dg-nfe-k",
+      "claim": "For the Daniell cell (E_cell = +1.10 V, n = 2), dG = -nFE = -212 kJ/mol and K = 1.6e37.",
+      "status": "qualified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/electrochemistry.md"
+      ],
+      "note": "Recomputed: -(2)(96485)(1.10) = -212,267 J/mol and K = exp(212267/(8.314 x 298)) = 1.62e37. A separate Sn/Cu example in the same section rounded at every step and reported K as 6.55e9 where carrying the fourth digit of E gives 6.7e9; it sat directly beneath a warning box about K's sensitivity to E, and has been corrected to carry that digit."
+    },
+    {
+      "id": "ch19-binding-energy",
+      "claim": "Fe-56 (atomic mass 55.9349 amu) has a mass defect of -0.5302 amu, a binding energy of -7.913e-11 J per nucleus, -494 MeV per nucleus, and -8.82 MeV per nucleon.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wang-genchem-lecture-notes"
+      ],
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md"
+      ],
+      "note": "The full amu to kg to J to MeV to MeV-per-nucleon chain was reproduced independently from the chapter's own input masses (1.0073, 1.0087, 0.00055 amu): every figure matches to the stated precision. The F-19 companion example (-0.15925 amu, -148.4 MeV, -7.81 MeV/nucleon) also reproduces exactly, and Fe-56 at the peak of the binding-energy curve is an independent physical check."
+    }
+  ],
+  "bindings": {
+    "manifestSha256": "d40029fa8cb80fd1884116df453ad9f931d81cad0334ed88e605f08fa024e79a",
+    "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "foundationSha256": "cd9f577d53eab026a3c6d16c93dbdf3c1b80941cd94db7b60f14faf9e5c69bc0",
+    "provenanceSha256": "e2387604f5f97e402189a5c8d28574e4ba17b0ee4c2d222bd1a2f312ed81bda0",
+    "attributionSha256": "61515b1620b90b53fa104b16fe089ea6b48a118e24a736670519ace18c79670f",
+    "sourceRecordSha256": "585f89238ccb88876bdded7be6cd8dac9103b36abb3bf235aee758fe713d6908",
+    "deliverableTreeSha256": "70e9f5b5a49d2e35052d7c638d875bdd2ad4ad265035949b7f36b09c37ad9fa9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "sourceId": "wang-genchem-lecture-notes",
+      "comparisonMode": "human-attested",
+      "attestedBy": "Yu Wang",
+      "attestedAt": "2026-08-26",
+      "reason": "The primary source is my own unpublished lecture-notes draft, so it has no canonical URL. I compared the package against it: the harness near-verbatim detector flags 93 spans, of which 82 are math, table or unit-factor token runs and 11 are prose. Those 11 are data tables, standard definitions, and problem statements I chose to retain from my own notes; the longest is 31 words and none is a reproduced passage of original expression. Evidence: reports/verbatim_scan.md."
+    }
+  ]
+}

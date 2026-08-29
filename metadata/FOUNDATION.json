@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "usageProfile": "public-oer",
+  "audience": "public",
+  "access": "public-web",
+  "redistribution": "open-license",
+  "jurisdiction": "United States",
+  "outputLicense": "CC-BY-4.0",
+  "outputAuthors": [
+    {
+      "name": "Yu Wang, University of Louisiana at Lafayette",
+      "role": "author and instructor",
+      "rightsHolder": true,
+      "accountabilityConfirmedByUser": true,
+      "aiAssistanceDisclosure": "Drafting and production assistance provided by an AI agent (Claude, via Claude Code) using the Coursewerk harness, under the instructor's direction and review."
+    }
+  ],
+  "privacy": {
+    "containsPersonalData": false,
+    "containsRestrictedContent": false
+  },
+  "sources": [
+    {
+      "id": "wang-genchem-lecture-notes",
+      "title": "Yu Wang's General Chemistry Lecture Notes (Ch. 1-19: Introduction through Nuclear Chemistry)",
+      "version": "instructor's working draft, as of 2026-08-23",
+      "role": "primary",
+      "use": "adaptation",
+      "scope": [
+        "all 19 chapters: Introduction, Atoms/Molecules/Ions, Stoichiometry, Aqueous Reactions, Gases, Thermochemistry, Quantum Theory, Periodic Table, Chemical Bonds, Molecular Geometry, Intermolecular Forces, Solutions, Kinetics, Equilibrium, Acid-Base, Acid-Base Equilibria, Thermodynamics, Electrochemistry, Nuclear Chemistry"
+      ],
+      "rightsBasis": {
+        "type": "owned",
+        "attestedByUser": true,
+        "note": "Original lecture notes authored by the instructor (Yu Wang). The instructor has flagged that some short passages or figures may have been drawn from published textbooks during prior course development. Coursewerk will not carry any such passage or figure into the package verbatim: text is rewritten originally in Coursewerk's own words from the underlying facts/concepts, and any figure is either self-generated (RDKit/matplotlib) or fetched from an openly-licensed source, never reproduced from a textbook. See docs/authoring-guidelines.md and format-contracts/deliverables.md (copyright section)."
+      }
+    },
+    {
+      "id": "openstax-chemistry-2e",
+      "title": "Chemistry 2e",
+      "publisher": "OpenStax (Rice University)",
+      "edition": "2e",
+      "canonicalUrl": "https://openstax.org/details/books/chemistry-2e",
+      "role": "supplemental",
+      "use": "reference",
+      "scope": [
+        "used only to verify factual/conceptual accuracy and coverage across all 19 chapters; never as a source of wording or figures"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-NC-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://openstax.org/books/chemistry-2e/pages/preface",
+        "verifiedAt": "2026-08-23",
+        "note": "IMPORTANT correction to initial assumption: OpenStax's own book preface states Chemistry 2e is licensed CC BY-NC-SA 4.0 (NonCommercial + ShareAlike), not the more commonly assumed CC BY 4.0. This is INCOMPATIBLE with this package's CC BY 4.0 output license for any adapted expression or reused figure. Accordingly this source is used strictly as use=reference (fact/coverage verification only, in 100% original wording) and its figures/images are never reused in this package. Evidence captured by rendering the JS-rendered page in a browser (server response is a client-side app shell); local snapshot retained under metadata/evidence/.",
+        "evidenceSnapshot": "metadata/evidence/openstax-chemistry-2e.txt",
+        "evidenceSha256": "64e7343a4bdfb0311cbd868183d9808bbbeb0aff750cc3dd4d83e2de4bfe8a10",
+        "evidenceRetrieval": {
+          "captureMode": "local-file",
+          "claimedEvidenceUrl": "https://openstax.org/books/chemistry-2e/pages/preface",
+          "localFileName": "openstax-chemistry-2e.txt",
+          "retrievedAt": "2026-08-26T17:24:13.957Z",
+          "byteLength": 1915,
+          "contentType": "text/plain",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-26T17:24:13.957Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-08-26T17:24:13.957Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/openstax-chemistry-2e.json",
+        "preflightReceiptSha256": "629ecdd1d937228e6e1e79050abf7b34a5a259fb206bc1523fb57b2c18c3b973"
+      },
+      "requiredAttribution": {
+        "textIncludes": "OpenStax, Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "modificationNotice": "Used only as a fact-checking reference; no text or figures adapted or reproduced from this source.",
+        "placement": "README.md (Licensing -> Reference sources); not embedded per-deliverable, since no content is adapted from it"
+      }
+    },
+    {
+      "id": "wikipedia-general",
+      "title": "Wikipedia (English)",
+      "publisher": "Wikipedia contributors / Wikimedia Foundation",
+      "edition": "live pages, various retrieval dates per chapter",
+      "canonicalUrl": "https://en.wikipedia.org/",
+      "role": "supplemental",
+      "use": "reference",
+      "scope": [
+        "used only to verify factual/conceptual accuracy across all 19 chapters, in original wording; Wikimedia Commons media fetched separately via oer-figures are recorded individually in PROVENANCE.json with their own per-file license and attribution, not under this blanket entry"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "verifiedAt": "2026-08-23",
+        "note": "Wikipedia text is CC BY-SA 4.0 (ShareAlike). Used strictly as use=reference (fact/coverage verification only, in 100% original wording), since adapting/reproducing its text would require this package's derivatives to also be CC BY-SA 4.0, which conflicts with the chosen CC BY 4.0 output license.",
+        "evidenceSnapshot": "metadata/evidence/wikipedia-general.html",
+        "evidenceSha256": "acae4bdd27d057b9a4dc3e76b5ec147f6cf2a09a9f6047b7e9bb72400dacbfd9",
+        "evidenceRetrieval": {
+          "captureMode": "local-file",
+          "claimedEvidenceUrl": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+          "localFileName": "wikipedia-general.html",
+          "retrievedAt": "2026-08-26T17:24:14.026Z",
+          "byteLength": 226179,
+          "contentType": "text/html",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-26T17:24:14.026Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-08-26T17:24:14.026Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/wikipedia-general.json",
+        "preflightReceiptSha256": "a9dc9490e336f2dad37956fa0beed9b33297f1fd6e14f875bfea1d12e75003b6"
+      },
+      "requiredAttribution": {
+        "textIncludes": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modificationNotice": "Used only as a fact-checking reference; no text adapted or reproduced from this source. Any individual Wikimedia Commons image reused is separately licensed/attributed in PROVENANCE.json.",
+        "placement": "README.md (Licensing -> Reference sources); not embedded per-deliverable, since no content is adapted from it"
+      }
+    }
+  ]
+}

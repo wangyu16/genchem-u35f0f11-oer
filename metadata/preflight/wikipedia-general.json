@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "sourceId": "wikipedia-general",
+  "sourceBindingSha256": "0dc934ebf125f7526f5030ab15abe1532ba24a3a3802f39642c88b176c574be4",
+  "policyId": null,
+  "evidence": {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+    "snapshot": "metadata/evidence/wikipedia-general.html",
+    "sha256": "acae4bdd27d057b9a4dc3e76b5ec147f6cf2a09a9f6047b7e9bb72400dacbfd9",
+    "retrieval": {
+      "captureMode": "local-file",
+      "claimedEvidenceUrl": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+      "localFileName": "wikipedia-general.html",
+      "retrievedAt": "2026-08-26T17:24:14.026Z",
+      "byteLength": 226179,
+      "contentType": "text/html",
+      "tool": {
+        "name": "coursewerk",
+        "version": "v0.11.0"
+      }
+    }
+  },
+  "operator": {
+    "type": "automation",
+    "name": "Claude (Coursewerk agent)"
+  },
+  "processUseReview": {
+    "schemaVersion": 1,
+    "scannedAt": "2026-08-26T17:24:14.026Z",
+    "status": "no-notice-detected",
+    "legalEffectDetermined": false,
+    "notices": []
+  },
+  "noticeReviewComplete": true,
+  "policyChecksPassed": true,
+  "status": "cleared",
+  "warnings": [],
+  "blockers": [],
+  "generatedAt": "2026-08-26T17:24:14.026Z"
+}

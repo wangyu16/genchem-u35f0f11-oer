@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "sourceId": "openstax-chemistry-2e",
+  "sourceBindingSha256": "be79ce4273118aecd33de5ada499ae04eaccf5f91cdaf88f16b964da838774bb",
+  "policyId": null,
+  "evidence": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/preface",
+    "snapshot": "metadata/evidence/openstax-chemistry-2e.txt",
+    "sha256": "64e7343a4bdfb0311cbd868183d9808bbbeb0aff750cc3dd4d83e2de4bfe8a10",
+    "retrieval": {
+      "captureMode": "local-file",
+      "claimedEvidenceUrl": "https://openstax.org/books/chemistry-2e/pages/preface",
+      "localFileName": "openstax-chemistry-2e.txt",
+      "retrievedAt": "2026-08-26T17:24:13.957Z",
+      "byteLength": 1915,
+      "contentType": "text/plain",
+      "tool": {
+        "name": "coursewerk",
+        "version": "v0.11.0"
+      }
+    }
+  },
+  "operator": {
+    "type": "automation",
+    "name": "Claude (Coursewerk agent)"
+  },
+  "processUseReview": {
+    "schemaVersion": 1,
+    "scannedAt": "2026-08-26T17:24:13.957Z",
+    "status": "no-notice-detected",
+    "legalEffectDetermined": false,
+    "notices": []
+  },
+  "noticeReviewComplete": true,
+  "policyChecksPassed": true,
+  "status": "cleared",
+  "warnings": [],
+  "blockers": [],
+  "generatedAt": "2026-08-26T17:24:13.957Z"
+}

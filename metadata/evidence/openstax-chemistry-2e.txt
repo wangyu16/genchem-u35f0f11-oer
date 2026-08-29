@@ -1,0 +1,19 @@
+Source: https://openstax.org/books/chemistry-2e/pages/preface
+Captured via rendered browser view (client-side rendered page; server response is a JS app shell).
+Captured: 2026-08-23
+
+Welcome to Chemistry 2e, an OpenStax resource. This textbook was written to increase student access to high-quality learning materials, maintaining highest standards of academic rigor at little to no cost.
+
+About OpenStax
+
+OpenStax is part of Rice University, which is a 501(c)(3) nonprofit charitable corporation. Our mission is to make an amazing education accessible for all. Through our partnerships with philanthropic organizations and our alliance with other educational resource companies, we're breaking down the most common barriers to learning. Because we believe that everyone should and can have access to knowledge.
+
+About OpenStax resources
+Customization
+
+Chemistry 2e is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA) license, which means that you can non-commercially distribute, remix, and build upon the content, as long as you provide attribution to OpenStax and its content contributors, and distribute all derivatives under the same license.
+
+For any art that is openly licensed, non-commercial users or organizations may reuse the art as long as they provide the same attribution to its original source. (Commercial entities should contact OpenStax to discuss reuse rights and permissions.) To maximize readability and content flow, some art does not include attribution in the text. If you reuse art from this text that does not have attribution provided, use the following attribution: Copyright Rice University, OpenStax, under CC BY-NC-SA 4.0 license.
+
+[Also confirmed via the book's details page (https://openstax.org/details/books/chemistry-2e), field "License:", DOM text node:]
+"Creative Commons Attribution-NonCommerical-ShareAlike 4.0 International License"

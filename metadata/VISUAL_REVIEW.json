@@ -1,0 +1,2300 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "reviewer": {
+    "type": "human",
+    "name": "Yu Wang"
+  },
+  "reviewedAt": "2026-08-26",
+  "inspectionMethod": "browser-visual-dom",
+  "attestation": "I reviewed the rendered carriers in a browser across all 19 chapters, covering study guides, practice sheets and slide decks. Figures render at readable size with no clipped captions or overlapping labels, math and chemical formulas render correctly, tabbed worked examples and practice questions open and close as intended, and slide content stays inside the frame. Supporting DOM sweep: reports/carrier_dom_sweep.md.",
+  "carriers": [
+    {
+      "source": "practice/acid-base-equilibria.md",
+      "carrier": "practice/acid-base-equilibria.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "62bb9b3efb3e8645abb87bfafb9ce1cb08a930d6c68ccd8cbea27ae0bca02880",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "ac27a56ff3473b046b0a5093dcca9cddb12183ae899175c9a9117c866b89543b"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/acids-and-bases.md",
+      "carrier": "practice/acids-and-bases.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "0762f18c77e1eebb1181de6401b861ae9141fafec55505725a796645665f67a0",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "59628a7cb9fb836cb4a5ddc67ca5edab85d2d7787360ab2ba2f8cb45308b9466"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/aqueous-reactions.md",
+      "carrier": "practice/aqueous-reactions.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "bc34ec423bbf6ea65398af11ce0d4a1f6601017b6d35dd0a09ea892063e479d7",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "7b938b83585ce78b520a189f73aa1e824dee86c707200dfac7cb74ad0223cabe"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/atoms-molecules-ions.md",
+      "carrier": "practice/atoms-molecules-ions.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "ccf364648c6ab2d6d76cb3aed98ba60e24684e7225505b86d2732ac06fcaa182",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "e0ba02aee359953fe232c550040c30d5fc0d4499a9475d0a009888131ef4d368"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/chemical-bonding.md",
+      "carrier": "practice/chemical-bonding.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "57e9781667a5f2f89f4a69c95667bd24986eac9c41f4a56f71368348b77f0df5",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "a6d88f30f63fcaee7569101dda13b6aa2ab68628773bf3a98fbb5f451c39e141"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/chemical-equilibrium.md",
+      "carrier": "practice/chemical-equilibrium.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "ce1d41d9faba1555ba29e6e84a66d6f46491714f4e83b8b45aec87c0899ca3dc",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "52c16beda2743a27f51911c7b775cec7d5555adf8200a22c318032913ab5dda4"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/chemical-kinetics.md",
+      "carrier": "practice/chemical-kinetics.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "b5bffa378a41eced686fe21836a72c040a29c12cf4fdd23e6267539ffc5cea50",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "7350533ad3b1976ec110cca67621b849a4bcdc0d60b8aeb98144568dda562efa"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/electrochemistry.md",
+      "carrier": "practice/electrochemistry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "8b69fbc581e81aab51ee076fd195e26c634f2aa830bba71056fb296dfa8f4e05",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "74c118797c0283244dec0a9858342ecc6816246e4e9646c00fcdb3daaed12125"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/gases.md",
+      "carrier": "practice/gases.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "23d0b8068e505a16e008b827532efeb8ff42dac7f70a722c1ef9a7f56b9a2551",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "1f2601e695c6ebe29670cbc482ad5583d48323b4217c445148cd1c06b6a46506"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/intermolecular-forces.md",
+      "carrier": "practice/intermolecular-forces.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "01fdf661de521bba1ae2fc0fd32d950b0a133d6faa27d268f24176e7301695f1",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "3c72754939f04f0a3889d249f4a282ad25e0b142b649677160276627bbc5d175"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/introduction.md",
+      "carrier": "practice/introduction.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "b83ef2c613d9825a6f965a551b1c4702423661d436da1a0a711c477c2aca22e3",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "d71185f24389c47364dbc0e5c46d62f919b8e526add68401bbb9374831c5c896"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/molecular-geometry.md",
+      "carrier": "practice/molecular-geometry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "08c430cde779f67472ec7df5a3baf4a527df63f5309a261e09d5d25969cf3c0f",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "383c6700e1555d88987dca70a8abc137f5878a56371e6cbdf39404e99198fb32"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/nuclear-chemistry.md",
+      "carrier": "practice/nuclear-chemistry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "4855ba101b64e970fd6d372aacc764139751f75fd1fb715123b7c72c33f529cb",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "c0cff94de84c0834d01f6e536976e5ab1cd0cb4185f7e0e773be7a8d8c2ba971"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/periodic-table.md",
+      "carrier": "practice/periodic-table.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "704ef774e64f64165a0d3c3ed3a16e734a364b1d8a1aa1070d7de17245ce6e27",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "52638f25f9ca8fcf72d5e933768b87228fc04578347cc261cbed7f370ac7aead"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/quantum-theory.md",
+      "carrier": "practice/quantum-theory.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "29e3adfb3b02c780f01c372f7e974a17ffea827b680762925c61fbbc757aea34",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "5b8913056a677a5c3c79209dec0cb19319008d8ff97db0e61626cd6feb2c8825"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/solutions.md",
+      "carrier": "practice/solutions.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "520117e8674e4070eb4d31134a2fb794164b0461a0f60131aa64bbe2f0712976",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "c5eae4dc4caf5b4cb418385091a36ca6b701d9e91e80d075dd25991121452d48"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/stoichiometry.md",
+      "carrier": "practice/stoichiometry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "a34bcbc594ab9b765aae7ca6cf261e3aebd8d22b7251456593542cc33dd07790",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "56e576c4cd5970e2959a3857fb734cb2a496f5c535e33d817fb7fc13f864176f"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/thermochemistry.md",
+      "carrier": "practice/thermochemistry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "00d5043f66a913787eabb71d400b9134c70c6894d3dad9cfab141f4db59e36bd",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "bdd285b354486e3cf25cfd8b8014a6646237a10253d17704f2c8e9a17502aed5"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/thermodynamics.md",
+      "carrier": "practice/thermodynamics.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "beb8c5cf601f5d50403fee7b9543b0bf96dd856e9cc330d774dbe159a943f7db",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "686414b93aa7afeb4be0530e38a08df8fba6221e69c868e72ed2bbdcdf611c07"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "slides/acid-base-equilibria.md",
+      "carrier": "slides/acid-base-equilibria.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "a793878d20c0ab92c06e51226a05b1d6d945d918f9c52a39367a7f1583e9c548",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "0afe99dad84206daceca3ff6f9168788fc7485df00bdbd4a7e5082527a17ceda"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/buffer_action.svg",
+          "path": "assets/buffer_action.svg",
+          "sha256": "673c80845cd52aa29552427014f25f174f3e1d6b89475ea907a0be3dba3b9ad7"
+        },
+        {
+          "reference": "../assets/common_ion_effect.svg",
+          "path": "assets/common_ion_effect.svg",
+          "sha256": "a815b3bce908d00f3be8d8ec406364f6db74d3b51431d9e7a5f346a6bf8b2192"
+        },
+        {
+          "reference": "../assets/complex_ion_formation.svg",
+          "path": "assets/complex_ion_formation.svg",
+          "sha256": "c9db7d3ab0980c2ecd9c5576ad6b826475bfae2e307b9516f8e2846e74e9d5ce"
+        },
+        {
+          "reference": "../assets/indicator_ranges.svg",
+          "path": "assets/indicator_ranges.svg",
+          "sha256": "74fd9e338b17d90613707a1306369a880125748452fae093d272159db6ae772a"
+        },
+        {
+          "reference": "../assets/silver_chloride_precipitate.jpg",
+          "path": "assets/silver_chloride_precipitate.jpg",
+          "sha256": "f336c43f176add98f7b9e14b31e813e1e9f19d213d064bb468195f3d39fe535d"
+        },
+        {
+          "reference": "../assets/titration_curves.svg",
+          "path": "assets/titration_curves.svg",
+          "sha256": "c4fa7adc5d85ca70a409f8b5686437ee7bd1900fc4b79ede3de37b5230023b6a"
+        },
+        {
+          "reference": "../assets/titration_endpoint.jpg",
+          "path": "assets/titration_endpoint.jpg",
+          "sha256": "da22f4fda5ff449d77412b6f877a4702133e4b796cf5d20b73fc6569dc623ff2"
+        }
+      ]
+    },
+    {
+      "source": "slides/acids-and-bases.md",
+      "carrier": "slides/acids-and-bases.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "d82b9e1f35f4f70540c1606d5f394689757be48b843c193935b84db92b35ce3c",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "a032deb69af53a5083a387be34027e1fe318eadd0b1ed4a13b4244dc4a02e189"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/conjugate_strength_ladder.svg",
+          "path": "assets/conjugate_strength_ladder.svg",
+          "sha256": "3329d8c555742580272a579746e49c42fa6e86840bcd2eecfd9be624bbc2d637"
+        },
+        {
+          "reference": "../assets/hydrohalic_acids_grid.svg",
+          "path": "assets/hydrohalic_acids_grid.svg",
+          "sha256": "1ba88325f248b6ecf8938f9850cb963ca7494f3c13e147daa4466483173f05a9"
+        },
+        {
+          "reference": "../assets/lewis_acid_base.svg",
+          "path": "assets/lewis_acid_base.svg",
+          "sha256": "612de2f2ac1a83be58428270b47909e9b3521f5e912566cf964188a00fb19444"
+        },
+        {
+          "reference": "../assets/litmus_paper_test.jpg",
+          "path": "assets/litmus_paper_test.jpg",
+          "sha256": "1b576b5ca54d13ad64ad50933e920bf1d10438f1ea02f52eae52c98b4a42606b"
+        },
+        {
+          "reference": "../assets/oxoacid_strength_trend.svg",
+          "path": "assets/oxoacid_strength_trend.svg",
+          "sha256": "e98642a1a09d4c6cfd7b9d47a7537a004a32eac886044443e92362ee9784910a"
+        },
+        {
+          "reference": "../assets/ph_scale.svg",
+          "path": "assets/ph_scale.svg",
+          "sha256": "15f97f97af76853a85dcd348ffb7b15f073d018cb2a7f4e40c6d84697d3c65d1"
+        },
+        {
+          "reference": "../assets/red_cabbage_indicator.jpg",
+          "path": "assets/red_cabbage_indicator.jpg",
+          "sha256": "35a6763b91f72bff3ab9cee1cfc02293e0c43659d8400a946bfd2a249bb0c634"
+        },
+        {
+          "reference": "../assets/strong_vs_weak_ionization.svg",
+          "path": "assets/strong_vs_weak_ionization.svg",
+          "sha256": "562d25bc2bb11564b499114cb90d4498c74e986b3abce6b07b4245cb4c4ec940"
+        }
+      ]
+    },
+    {
+      "source": "slides/aqueous-reactions.md",
+      "carrier": "slides/aqueous-reactions.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "41a18f2102b4b61ad354e8ce65000084ce798bfb84be1f72099fe64e92790eb3",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "a8efc7d21f6f7f739be988a61129d555a6a4c47d16d3c60dee5ba058d7ce2bb1"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/activity_series_ladder.svg",
+          "path": "assets/activity_series_ladder.svg",
+          "sha256": "a06d5f256bacd568f2093b1b6a1b0f4e0493a13cda0ded321a40bac619a029e1"
+        },
+        {
+          "reference": "../assets/dilution_same_moles.svg",
+          "path": "assets/dilution_same_moles.svg",
+          "sha256": "14bef5a1436f54af918d7c358e4f919889590f2c49b5340f36d77a4335beb173"
+        },
+        {
+          "reference": "../assets/displaced_copper.jpg",
+          "path": "assets/displaced_copper.jpg",
+          "sha256": "a9fffe510b979c1d6d77be4f81a4e91dfccbc89c09fcf335dd4d6e841f8c0253"
+        },
+        {
+          "reference": "../assets/electrolyte_conductivity.svg",
+          "path": "assets/electrolyte_conductivity.svg",
+          "sha256": "4cf872a2a707a41e8ca1b74d7ee73b8d2d91cf969317759d1847e50092f95353"
+        },
+        {
+          "reference": "../assets/electron_transfer_naf.svg",
+          "path": "assets/electron_transfer_naf.svg",
+          "sha256": "10564abc9ac9ab2094a545e0280af3a1224c81d3257da653e4dd4c0ab2b91acb"
+        },
+        {
+          "reference": "../assets/hydration_of_ions.svg",
+          "path": "assets/hydration_of_ions.svg",
+          "sha256": "df69f552e0e9dfd22f405c4f039e16a75ecb6d7a6483e240a357286e54772fed"
+        },
+        {
+          "reference": "../assets/oxidation_number_line.svg",
+          "path": "assets/oxidation_number_line.svg",
+          "sha256": "eb4ce1ef421b0cc3c51919db0c49ffac640fb106f3df413b0bd4d8e7304d57cf"
+        },
+        {
+          "reference": "../assets/precipitation_reaction.svg",
+          "path": "assets/precipitation_reaction.svg",
+          "sha256": "a586cc06af274ed1c388efeb0041f1d44a5a6fb829d9f251357be51a1d23b2e7"
+        },
+        {
+          "reference": "../assets/titration_setup.svg",
+          "path": "assets/titration_setup.svg",
+          "sha256": "99aa177fc21e45f77f741084c9268576af778a0690175ab0ea55045e54beb91f"
+        }
+      ]
+    },
+    {
+      "source": "slides/atoms-molecules-ions.md",
+      "carrier": "slides/atoms-molecules-ions.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "3add600292a3810c499e967a9f345b6a3d3074ef4bac191fc2c1d8e12412f9f6",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "ffd6811882558894b19360b5ed3e6839f249b93bfa761275adb5735aee9b2798"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/atom_structure.svg",
+          "path": "assets/atom_structure.svg",
+          "sha256": "91d26cb5ccc9657b812f202f38dcce0cc6a0d32d08610cef400345bfe5c87ca5"
+        },
+        {
+          "reference": "../assets/geiger_marsden_expectation_result.svg",
+          "path": "assets/geiger_marsden_expectation_result.svg",
+          "sha256": "1ee9e6b6bea060cfab7e05e0e69593c67e37b336bbf9c92879bbba0cad3b9114"
+        },
+        {
+          "reference": "../assets/ion_charges_by_group.svg",
+          "path": "assets/ion_charges_by_group.svg",
+          "sha256": "992a08becd75d21c9ac51d2684aad0a259dd7315965a0f981981352214a43451"
+        },
+        {
+          "reference": "../assets/ionic_formula_charge_balance.svg",
+          "path": "assets/ionic_formula_charge_balance.svg",
+          "sha256": "848747ff03c96ff51378476f1e54f34e5fd0c369046054a5c3db1da1a078ee3f"
+        },
+        {
+          "reference": "../assets/isotope_notation.svg",
+          "path": "assets/isotope_notation.svg",
+          "sha256": "904f516b048f9f71e9feb2d03b0f88a9ddc442ca0f35e32aa3344ee856306a8e"
+        },
+        {
+          "reference": "../assets/nacl_salt.jpg",
+          "path": "assets/nacl_salt.jpg",
+          "sha256": "60186831408f4fc146b3f5b005509dc19ac0ca2a1343866dcef12e49362645fe"
+        },
+        {
+          "reference": "../assets/naming_decision_tree.svg",
+          "path": "assets/naming_decision_tree.svg",
+          "sha256": "e1f0b6edc37d1e7ca57f432a034dee6be42f34048f3902fef25d5086f9fec4eb"
+        },
+        {
+          "reference": "../assets/periodic_table_overview.svg",
+          "path": "assets/periodic_table_overview.svg",
+          "sha256": "2878be28c4e98a0cecf338e202e12548b18df5099b03839f1108c019df36fd6b"
+        },
+        {
+          "reference": "../assets/radiation_types.svg",
+          "path": "assets/radiation_types.svg",
+          "sha256": "fc344f4fe357bbf95ddc2f6135556fad13e374baced09c0b2e85df467f8a35b5"
+        },
+        {
+          "reference": "../assets/subatomic_particle_masses.svg",
+          "path": "assets/subatomic_particle_masses.svg",
+          "sha256": "eca72c74f76449ef15e0e33ce8a183738649f42ee01caea451a05452f221d892"
+        }
+      ]
+    },
+    {
+      "source": "slides/chemical-bonding.md",
+      "carrier": "slides/chemical-bonding.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "4961c8830a0e231287cb0f7f689ddeaa1a596f5a1465563d964d376b1d27face",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "912f54270ef2a3bb2d01de9851912acd108fc794fa42ab8c3f6cc3927e3d5e6c"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/bond_enthalpy_cycle.svg",
+          "path": "assets/bond_enthalpy_cycle.svg",
+          "sha256": "e3aaf5bd597dca05ecf5c1e1f8f82add2e33748f79bb277b88469150c67f508b"
+        },
+        {
+          "reference": "../assets/bond_type_continuum.svg",
+          "path": "assets/bond_type_continuum.svg",
+          "sha256": "9ffe90095f21d77e7bf21555bd16b32cec7675f07e25462d1f6c59cac9dac93d"
+        },
+        {
+          "reference": "../assets/diamond_graphite.jpg",
+          "path": "assets/diamond_graphite.jpg",
+          "sha256": "da80a3233e520e3e3f09514810ef05fcd90a0821ed21be9ffe54c97143b5bb12"
+        },
+        {
+          "reference": "../assets/electronegativity_trend.svg",
+          "path": "assets/electronegativity_trend.svg",
+          "sha256": "8e860ee5c89de39d4223c706edf63881bb82eb77d1414440434e6bc0c3a91164"
+        },
+        {
+          "reference": "../assets/ionic_vs_covalent_bond.svg",
+          "path": "assets/ionic_vs_covalent_bond.svg",
+          "sha256": "d75c0d861c301e9a756e0e7c165b5affe4d147b13ecd6a3735f43fd287a5095a"
+        },
+        {
+          "reference": "../assets/lewis_and_resonance.svg",
+          "path": "assets/lewis_and_resonance.svg",
+          "sha256": "c11521914535d01f660807cb56c467e0ff69a9e8a8e34804904b30939a2c760e"
+        },
+        {
+          "reference": "../assets/lewis_dot_symbols.svg",
+          "path": "assets/lewis_dot_symbols.svg",
+          "sha256": "b5a756aafc9e4076a3899229b25d3ca451faeaf5016e9edf1dd27c42bc104cf8"
+        },
+        {
+          "reference": "../assets/lewis_structure_steps.svg",
+          "path": "assets/lewis_structure_steps.svg",
+          "sha256": "84a6c436dc9fc8d5b4c8b796c97c2596e6528fdcb218c7cf9dd58f36dfad0570"
+        },
+        {
+          "reference": "../assets/octet_exceptions.svg",
+          "path": "assets/octet_exceptions.svg",
+          "sha256": "90d13ef03915197f55b9c830959071c4e446af5f81adc058fc3f9f50cecee0c5"
+        }
+      ]
+    },
+    {
+      "source": "slides/chemical-equilibrium.md",
+      "carrier": "slides/chemical-equilibrium.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "b5a282178f3778a29c663abcfc739a44e35e3a4b12179922fb196f836f10a6cb",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "542d1411d6fc4ac9a48caa92ac04b528cba59dc1731e4fba509773de1f321bca"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/ammonia_plant.jpg",
+          "path": "assets/ammonia_plant.jpg",
+          "sha256": "6698a687a5be8a8669bc063559111d360ab5b1342d3f0bba69669635b7410d43"
+        },
+        {
+          "reference": "../assets/approach_to_equilibrium.svg",
+          "path": "assets/approach_to_equilibrium.svg",
+          "sha256": "8da1c5069e17941730aa5516000ed97e19c1cdeaf546fdf83b9d8b42946f54fc"
+        },
+        {
+          "reference": "../assets/k_magnitude_schematic.svg",
+          "path": "assets/k_magnitude_schematic.svg",
+          "sha256": "ede860d61e856a94ddaad043af2694988b7b6fbafc36d79f8fcbdc89fada76b2"
+        },
+        {
+          "reference": "../assets/le_chatelier_concentration_shift.svg",
+          "path": "assets/le_chatelier_concentration_shift.svg",
+          "sha256": "0d026daabeb565f519a0647f1d6903e75fd6be6281705a3c16cace3a0eb48e8b"
+        },
+        {
+          "reference": "../assets/le_chatelier_pressure.svg",
+          "path": "assets/le_chatelier_pressure.svg",
+          "sha256": "9c381b43bf768ba479c5bdc1aefa36ee51d38b24cf0bff594017632f2b58b0da"
+        },
+        {
+          "reference": "../assets/no2_n2o4_equilibrium.jpg",
+          "path": "assets/no2_n2o4_equilibrium.jpg",
+          "sha256": "f1f9e756730088ff2486d2c17f800265aa0ca491c315b69554803fd9fa3bc8eb"
+        },
+        {
+          "reference": "../assets/q_versus_k.svg",
+          "path": "assets/q_versus_k.svg",
+          "sha256": "649239272936fbb9f3a2ed360e318422421b4479dcef66e8b10ab4bcd8c6fd16"
+        },
+        {
+          "reference": "../assets/small_x_validity.svg",
+          "path": "assets/small_x_validity.svg",
+          "sha256": "b70236ad94f321029952b24b683ad4ff9b8d16acb6fca04f1b0f54e32381530a"
+        }
+      ]
+    },
+    {
+      "source": "slides/chemical-kinetics.md",
+      "carrier": "slides/chemical-kinetics.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "5f4eff859edaef14104943fe044b4b1157cb142015e089d05f5d35b21a1d8593",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "d20670a94b628e22236ac06b1429ec978464d9dbb1bffe43e201b77a4305bb73"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/arrhenius_plot.svg",
+          "path": "assets/arrhenius_plot.svg",
+          "sha256": "b3ce4651e9dd77e4898a8021ea99a1f259dd85184aab70f55f2f7a2a55cf3444"
+        },
+        {
+          "reference": "../assets/catalytic_converter.jpg",
+          "path": "assets/catalytic_converter.jpg",
+          "sha256": "fb6b09e2b680ad1764e1a2f4ec3deaa1018bd1a39f7eb3b05508e739ac304e85"
+        },
+        {
+          "reference": "../assets/catalyzed_vs_uncatalyzed.svg",
+          "path": "assets/catalyzed_vs_uncatalyzed.svg",
+          "sha256": "affd09735f76d04163a04e8fe6bc5a77a2c4fc9b8a80c4bb16c75fabe743712c"
+        },
+        {
+          "reference": "../assets/collision_theory.svg",
+          "path": "assets/collision_theory.svg",
+          "sha256": "7c303dba55a165e656ecf18ef0c276fb17f0edee24f8d1f61aee80f2708791a8"
+        },
+        {
+          "reference": "../assets/enzyme_lock_and_key.svg",
+          "path": "assets/enzyme_lock_and_key.svg",
+          "sha256": "2f3597b8d78a3580a650a060d405b352ea4fcfea53a6d031ce1d47afa9c48918"
+        },
+        {
+          "reference": "../assets/potential_energy_profile.svg",
+          "path": "assets/potential_energy_profile.svg",
+          "sha256": "a577a701f21a35a5a64cc42e8031d74fb52ce9e93e0e94cef4db2d643bd443ec"
+        },
+        {
+          "reference": "../assets/reaction_order_half_lives.svg",
+          "path": "assets/reaction_order_half_lives.svg",
+          "sha256": "5a7877b3bf10a51e343291c9de7ae60d81697f68e6b2d23d419676d97c326396"
+        },
+        {
+          "reference": "../assets/reaction_order_linearization.svg",
+          "path": "assets/reaction_order_linearization.svg",
+          "sha256": "4218b2f99db367547a89978bba2ba23ec1a485664466aa1f3809ee04164c8b9f"
+        }
+      ]
+    },
+    {
+      "source": "slides/electrochemistry.md",
+      "carrier": "slides/electrochemistry.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "375076478282e0fb040b56d015a4e00ba2683c52a272f9823705335f843d429a",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "2a79d8ea6d2451c53cf42422b274be41a16c3a347db25c536c6414de83c4d015"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/batteries.jpg",
+          "path": "assets/batteries.jpg",
+          "sha256": "6b4a8838dbc53184bf54541e8322bb7d15e8124d88c49858744f7189c76b9fb9"
+        },
+        {
+          "reference": "../assets/galvanic_cell_diagram.svg",
+          "path": "assets/galvanic_cell_diagram.svg",
+          "sha256": "1909302e6f5bc2b4828dafea7371f9670662f0262100ec2e0838385fb2b01ffb"
+        },
+        {
+          "reference": "../assets/galvanic_vs_electrolytic.svg",
+          "path": "assets/galvanic_vs_electrolytic.svg",
+          "sha256": "b84b29cd9a1ed48cc7a84793605a050a7386b5bcd49686e97b4078d91da22cbc"
+        },
+        {
+          "reference": "../assets/nernst_concentration_cell.svg",
+          "path": "assets/nernst_concentration_cell.svg",
+          "sha256": "aa11566ecb32e31dcde6996760b819fdb26afc1551b73fa664068abb63cfa51d"
+        },
+        {
+          "reference": "../assets/redox_electron_transfer.svg",
+          "path": "assets/redox_electron_transfer.svg",
+          "sha256": "e7e70c67a5004155a541476f2845052cf08254a52df058f32559a3c03aeb3b1a"
+        },
+        {
+          "reference": "../assets/reduction_potential_series.svg",
+          "path": "assets/reduction_potential_series.svg",
+          "sha256": "0e5d68f002a57c7983d9df7ed03f72454e2f14c5b81b375de5a59cfb3341a347"
+        },
+        {
+          "reference": "../assets/rust_corrosion.jpg",
+          "path": "assets/rust_corrosion.jpg",
+          "sha256": "90f4a80344b14c0e4ee8999360cba1d4b8cfddc3e062aff573578cbb2b48b79c"
+        }
+      ]
+    },
+    {
+      "source": "slides/gases.md",
+      "carrier": "slides/gases.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "10bcc9967d4e5e413ad8dc8131e5f916287a35ba4c090be134ac91ce060d93c2",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "7b55307ad4de3f82a7dd9c2a8160027a632b3bbc03136f65dbaad8e8291faf8b"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/gas_collected_over_water.svg",
+          "path": "assets/gas_collected_over_water.svg",
+          "sha256": "1e7bb65e5c10006292536896c144dbece3aef27ae8223e9080a77cc37dc84730"
+        },
+        {
+          "reference": "../assets/gas_laws_panels.svg",
+          "path": "assets/gas_laws_panels.svg",
+          "sha256": "4d6c8c6c09a4ce8934f8716c2a193b100a38be41d284a18002807cfd2d8bb0f8"
+        },
+        {
+          "reference": "../assets/gas_stoichiometry_road_map.svg",
+          "path": "assets/gas_stoichiometry_road_map.svg",
+          "sha256": "6973d8188b40c26b021b66ad20bec2b58a21c8cb45eb2e719e326eca032a7220"
+        },
+        {
+          "reference": "../assets/grahams_law_effusion.svg",
+          "path": "assets/grahams_law_effusion.svg",
+          "sha256": "3269011b5803f885cb3076799d3a63bf60ebc696f04d05a71453a99ea4a25e1a"
+        },
+        {
+          "reference": "../assets/hot_air_balloon.jpg",
+          "path": "assets/hot_air_balloon.jpg",
+          "sha256": "513a5601d80d8076e105310658df87bd93eafcee00ed255734afc13fa49340bb"
+        },
+        {
+          "reference": "../assets/kmt_explains_gas_laws.svg",
+          "path": "assets/kmt_explains_gas_laws.svg",
+          "sha256": "9d90ede3a26821915c66663c9a22fd1782e3c3a23b65c8528870308ad6855cba"
+        },
+        {
+          "reference": "../assets/molecular_speed_distribution.svg",
+          "path": "assets/molecular_speed_distribution.svg",
+          "sha256": "8101f086e18558e3a0124f5e7a215fccb1200ba2a1dc5f9d27f95930cc09f7f8"
+        },
+        {
+          "reference": "../assets/pressure_and_barometer.svg",
+          "path": "assets/pressure_and_barometer.svg",
+          "sha256": "761ed6a58c2b78b4d78c185e8dbb3d43f45d68f7983ca47542fbdfc21154d908"
+        },
+        {
+          "reference": "../assets/real_gas_deviation.svg",
+          "path": "assets/real_gas_deviation.svg",
+          "sha256": "6542ed9934484ea5b6ec138c82e3481ff4b889dc4b2d1a45572159efedc482b7"
+        }
+      ]
+    },
+    {
+      "source": "slides/intermolecular-forces.md",
+      "carrier": "slides/intermolecular-forces.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "ca4b83a029a0bf97fab090396a01820cdce04dd8b202594906cdbd8ad32e7bb9",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "c0544edf7150098297b8f9d5016baf07fff6f0e1d1f5c00331b8acd182561d1b"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/cubic_unit_cells.svg",
+          "path": "assets/cubic_unit_cells.svg",
+          "sha256": "4e427dd54a87719930584900e54fa7e4844d42d835cc5a87139682e77c29d892"
+        },
+        {
+          "reference": "../assets/hydride_boiling_points.svg",
+          "path": "assets/hydride_boiling_points.svg",
+          "sha256": "80191f2a9d5c2bcc9444959c430c852dfc812abd5eedc1eb9c5411fd98563822"
+        },
+        {
+          "reference": "../assets/nacl_ionic_lattice.png",
+          "path": "assets/nacl_ionic_lattice.png",
+          "sha256": "f3e2e11f22adb4649aa79a0b52bffb7b7d8a417ecdae769a496439560292b1bb"
+        },
+        {
+          "reference": "../assets/polar_nonpolar_molecules.svg",
+          "path": "assets/polar_nonpolar_molecules.svg",
+          "sha256": "5e8ec0c698e2ee5f059563d18759cd1621c7af557a9316020ef42305a9bf9f38"
+        },
+        {
+          "reference": "../assets/quartz_crystal.jpg",
+          "path": "assets/quartz_crystal.jpg",
+          "sha256": "95d22a69f05ff8fe9793cfdcf01f85b75446054d3cd26924e2f5594ed7d1e79b"
+        },
+        {
+          "reference": "../assets/vapor_pressure_diethyl_ether.svg",
+          "path": "assets/vapor_pressure_diethyl_ether.svg",
+          "sha256": "e54936029ea95c26b16770020f4100753dd68d25ca2c0938579c7e4394574b56"
+        },
+        {
+          "reference": "../assets/water_phase_diagram.svg",
+          "path": "assets/water_phase_diagram.svg",
+          "sha256": "1d5cfa702aac411508e234d89da1ad4365e883eb02a20f89e46f00d2ae5ef5fc"
+        },
+        {
+          "reference": "../assets/water_strider_surface_tension.jpg",
+          "path": "assets/water_strider_surface_tension.jpg",
+          "sha256": "e34d20a69e574a4e4b41322fd7ef72d4e13a8fcef124a7ca580ce893413ff863"
+        }
+      ]
+    },
+    {
+      "source": "slides/introduction.md",
+      "carrier": "slides/introduction.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "6caaafd91e25cacc822b89e8373010ead1ffe4390c73c741309a04c812f5953b",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "b26d1f1ad8ea77eca29c13a4ec3681f674277fcebebb7ce8597dba31560e6eba"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/accuracy_vs_precision.svg",
+          "path": "assets/accuracy_vs_precision.svg",
+          "sha256": "d290ebcdc546ad83fc2308d4f0c2f35962591be0866d0ad3ce95c91403546ebe"
+        },
+        {
+          "reference": "../assets/dimensional_analysis_cancel.svg",
+          "path": "assets/dimensional_analysis_cancel.svg",
+          "sha256": "ed9220ed81bb1e0aea1e81f346dca37726892de84bee6408cc3cfd3fd77fe020"
+        },
+        {
+          "reference": "../assets/electronic_balance.jpg",
+          "path": "assets/electronic_balance.jpg",
+          "sha256": "4033a978f7e680fedc7b5ba55ceaaa4fb2bf9401b0292cc5c1d9e089392027a4"
+        },
+        {
+          "reference": "../assets/graduated_cylinder_meniscus.svg",
+          "path": "assets/graduated_cylinder_meniscus.svg",
+          "sha256": "ede937b6995f8004beada5d336551a695552896e4afbef137ee1f608cde3767c"
+        },
+        {
+          "reference": "../assets/lab_balance.jpg",
+          "path": "assets/lab_balance.jpg",
+          "sha256": "cc33b0eb964338de2f010db91451107e58f9d01bb0baa6766552a7e29a591beb"
+        },
+        {
+          "reference": "../assets/matter_classification_tree.svg",
+          "path": "assets/matter_classification_tree.svg",
+          "sha256": "07b80bdb74bbffadb2411e8e61fd1bba642c5a60cf77b1bfb098f62fa0dc8c99"
+        },
+        {
+          "reference": "../assets/si_prefix_ladder.svg",
+          "path": "assets/si_prefix_ladder.svg",
+          "sha256": "a5b8b5856bff1aea4ecf296e0fcc68b1ff04963fa41da70a97bff616434d9147"
+        },
+        {
+          "reference": "../assets/states_of_matter.svg",
+          "path": "assets/states_of_matter.svg",
+          "sha256": "076dab074824ae2902ee9d70bd5b2d8972585322a5c8baffc96c3c931ce97b0f"
+        }
+      ]
+    },
+    {
+      "source": "slides/molecular-geometry.md",
+      "carrier": "slides/molecular-geometry.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "5b9d3c50e6771a6bc585862864cc142ac077f3a5d598e44db68b08d4d85b5ca5",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "27760142fc45d1226b5fb5653237bd13f789f774456fa29a624a3c63ce7ceaf9"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/acetylene_model.jpg",
+          "path": "assets/acetylene_model.jpg",
+          "sha256": "d2a3e411aa0ee06a68d2d21131315d33d20c5cfe1026680b90bb761f00d0dbb0"
+        },
+        {
+          "reference": "../assets/dipole_cancellation.svg",
+          "path": "assets/dipole_cancellation.svg",
+          "sha256": "64ad8d8ad516f8c7d618d22fe5972ed9ef914065ae57461490d954bceb43e949"
+        },
+        {
+          "reference": "../assets/sigma_pi_bonds.svg",
+          "path": "assets/sigma_pi_bonds.svg",
+          "sha256": "ebe4e9af6e7e9e65bb5831544ff9879244a6d0796ce10a3c82c3be72fa97d32b"
+        },
+        {
+          "reference": "../assets/sp3_promotion_mixing.svg",
+          "path": "assets/sp3_promotion_mixing.svg",
+          "sha256": "d461a45105e1c7232b16b427cee652f3114377de53200eccf55b0a60b98126a7"
+        },
+        {
+          "reference": "../assets/vb_potential_energy.svg",
+          "path": "assets/vb_potential_energy.svg",
+          "sha256": "55f00e6c980692992207fa5cf058c6c98bada4c80de98d7f995d535163b61fd4"
+        },
+        {
+          "reference": "../assets/vsepr_no_lone_pairs.svg",
+          "path": "assets/vsepr_no_lone_pairs.svg",
+          "sha256": "e545719bb343d71ca70c3c01b04796ee295f45ec125b1413c009fbe955d6444a"
+        },
+        {
+          "reference": "../assets/vsepr_procedure.svg",
+          "path": "assets/vsepr_procedure.svg",
+          "sha256": "ee4f4e9179d4d288141197e1bf19e19e35462c3b60cf834b3dca736cf63b0162"
+        },
+        {
+          "reference": "../assets/vsepr_with_lone_pairs.svg",
+          "path": "assets/vsepr_with_lone_pairs.svg",
+          "sha256": "a0b4c4d331d2a03b932ba8170c9e963e94f3794ad6fabe6579439e116d47ee71"
+        }
+      ]
+    },
+    {
+      "source": "slides/nuclear-chemistry.md",
+      "carrier": "slides/nuclear-chemistry.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "dbb21114d2cb8d5e294989adc0c897bd7f7955c1083ae23c4db23b855b51a0a9",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "cf7c5065e39bc7056459d18bf34362b4f0a77aa256381a25b1c4656ef6b238f4"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/band_of_stability.svg",
+          "path": "assets/band_of_stability.svg",
+          "sha256": "bc149fe080ab57bb34518b00d95655af63a97c46d40b8bd7e1c673ae949aa61d"
+        },
+        {
+          "reference": "../assets/binding_energy_curve.svg",
+          "path": "assets/binding_energy_curve.svg",
+          "sha256": "41fe1af2b5574cae4673437606dc2fe44d4b28ab2e24cc608f70c2bf8d1e0504"
+        },
+        {
+          "reference": "../assets/carbon14_decay.svg",
+          "path": "assets/carbon14_decay.svg",
+          "sha256": "cf025fd2f2e28944ede4c568406aa0cc9ed87126c390eb763d8d0c1b5c7b0d45"
+        },
+        {
+          "reference": "../assets/decay_modes_nz.svg",
+          "path": "assets/decay_modes_nz.svg",
+          "sha256": "f1dfb9a289135d0ff08e6bb4dfb82cf74302aec9592ae866a52be722003c5787"
+        },
+        {
+          "reference": "../assets/fission_chain_reaction.svg",
+          "path": "assets/fission_chain_reaction.svg",
+          "sha256": "5b569fbd32b5da0410194f271aca5f54e4b1c198d8b55be57e0d9828d35c582c"
+        },
+        {
+          "reference": "../assets/nuclear_power_plant.jpg",
+          "path": "assets/nuclear_power_plant.jpg",
+          "sha256": "41165bc16a063a43a147cd9d87aebd7568a63772a14aeb00a2c71d03d090be7b"
+        },
+        {
+          "reference": "../assets/the_sun.jpg",
+          "path": "assets/the_sun.jpg",
+          "sha256": "5aef0e89e7b542dda395e671e787d8ebdd92701e6b90292bce9f31c796e5a369"
+        }
+      ]
+    },
+    {
+      "source": "slides/periodic-table.md",
+      "carrier": "slides/periodic-table.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "abdd2544c43849b84f24d319e630dd939926d4c873481ddfafca17e855e30b24",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "2326d97452d89c530ba00cc225a763c8c8161b15d3262c44b7d82414cc017029"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/effective_nuclear_charge.svg",
+          "path": "assets/effective_nuclear_charge.svg",
+          "sha256": "1b55224e8d6552baba7f3e417ece273a0e2f0cfc56800304ec2a8b1d7594a9df"
+        },
+        {
+          "reference": "../assets/element_category_map.svg",
+          "path": "assets/element_category_map.svg",
+          "sha256": "2b04a5d9a581284819756fda1f0f5661aeebe951dc3d820fb3d277cb4608c218"
+        },
+        {
+          "reference": "../assets/ionization_energy_trend.svg",
+          "path": "assets/ionization_energy_trend.svg",
+          "sha256": "14b75d54e33eaf08e80a7d02eb4c74c4f6188f95bc4f89c6575eb06dc2c4b303"
+        },
+        {
+          "reference": "../assets/isoelectronic_radius_series.svg",
+          "path": "assets/isoelectronic_radius_series.svg",
+          "sha256": "f8831aec47fcc9ce3740ba9f77ffa3c5d7ed456d3f361e0c0f3b73a6ebea2e24"
+        },
+        {
+          "reference": "../assets/oxide_character_period3.svg",
+          "path": "assets/oxide_character_period3.svg",
+          "sha256": "23a9ef0356dbc049476154d6761fc152b9c2a5abeac686f1f31264fd4dbb7364"
+        },
+        {
+          "reference": "../assets/periodic_trend_map.svg",
+          "path": "assets/periodic_trend_map.svg",
+          "sha256": "d5b4f09ea71485d912b5b65c9a6e113ef8ce5cc23dc764c610fde98689e392f7"
+        },
+        {
+          "reference": "../assets/sodium_water.png",
+          "path": "assets/sodium_water.png",
+          "sha256": "9dc92ad6de5f219a1f10efffafb445ceb9fbb99bce5da99c7431399d86990f7a"
+        },
+        {
+          "reference": "../assets/successive_ionization_energies.svg",
+          "path": "assets/successive_ionization_energies.svg",
+          "sha256": "caa91a1de27a8d36fac54b4f84ec62f0c288e68c7f94ff5ff98f7e6fe9b6cf75"
+        }
+      ]
+    },
+    {
+      "source": "slides/quantum-theory.md",
+      "carrier": "slides/quantum-theory.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "dfabccb1bb6d1d055ab48d95048fae9efedc5569a5049b3f110d7590eac58804",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "d0e20c1f5e10f955cdd7db872462ba1f7b5878f6e6e6f87ee610066ed8fbdd03"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/aufbau_diagonal_rule.svg",
+          "path": "assets/aufbau_diagonal_rule.svg",
+          "sha256": "567f8e95af5c7d71a8056344b134b8137bc2b554008251ee7ceb71823e4f3aa5"
+        },
+        {
+          "reference": "../assets/bohr_energy_levels.svg",
+          "path": "assets/bohr_energy_levels.svg",
+          "sha256": "268f7e9b52b1bafb5756f4e24e87403e14f5848b15be66ffd1cab4c9b8bbe49b"
+        },
+        {
+          "reference": "../assets/em_spectrum_ladder.svg",
+          "path": "assets/em_spectrum_ladder.svg",
+          "sha256": "4004fae4ee1df63ee029442b07028c708913bd19d24ba53d4adf890423b17f30"
+        },
+        {
+          "reference": "../assets/hydrogen_lamp.jpg",
+          "path": "assets/hydrogen_lamp.jpg",
+          "sha256": "c0e5087c13bce9cd921e66a4ffc6d3d0d61601884d76edfd4c64af72694e0c30"
+        },
+        {
+          "reference": "../assets/orbit_vs_orbital.svg",
+          "path": "assets/orbit_vs_orbital.svg",
+          "sha256": "1d13a745e7fe794aa4b7ffa743f6733578cd565a28046437b2f59499d67693d8"
+        },
+        {
+          "reference": "../assets/orbital_filling_h_to_ne.svg",
+          "path": "assets/orbital_filling_h_to_ne.svg",
+          "sha256": "d0b9dc9f6a3f9f0322397f15fed350568429ea294cff3e6817fb62b2012e2690"
+        },
+        {
+          "reference": "../assets/orbital_shapes.svg",
+          "path": "assets/orbital_shapes.svg",
+          "sha256": "ab435e6ef205a4f47974678bb694e09bd7c1295175a5be59a9c7216bf7d3dc57"
+        },
+        {
+          "reference": "../assets/photoelectric_effect.svg",
+          "path": "assets/photoelectric_effect.svg",
+          "sha256": "720895d77a3dfcca406bcf694fc214246157048345fede673f77224725ac2f60"
+        },
+        {
+          "reference": "../assets/standing_wave_orbit.svg",
+          "path": "assets/standing_wave_orbit.svg",
+          "sha256": "e414799dcc85764786493bf284c9e5986aa15998aa9f2a465c0eb9b50a383b91"
+        }
+      ]
+    },
+    {
+      "source": "slides/solutions.md",
+      "carrier": "slides/solutions.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "14b6af0eecf5e3dd0264afb78a98a35d8395ca91cc9b5875b2e5ba53fcd60387",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "fb62643b8701b1447d12c84f254cbc2159b26a20a3c5e6504289449af95c6860"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/freezing_point_depression.svg",
+          "path": "assets/freezing_point_depression.svg",
+          "sha256": "a497372fddf88230a3759a062b1dd0a13ce1814efdecc1472d3508fe4a606863"
+        },
+        {
+          "reference": "../assets/like_dissolves_like.svg",
+          "path": "assets/like_dissolves_like.svg",
+          "sha256": "42432d755d932eac9e5144c44fbf0429e4949b060991f0e18b9e01a35880b01a"
+        },
+        {
+          "reference": "../assets/osmosis_semipermeable.svg",
+          "path": "assets/osmosis_semipermeable.svg",
+          "sha256": "127c926c0c758f646aa13778a30e5658202c84c413c5e8eccb6fc7da024681bc"
+        },
+        {
+          "reference": "../assets/raoults_law.svg",
+          "path": "assets/raoults_law.svg",
+          "sha256": "5fc4582bed32ead84316b1752bce29a99e9d2f142787b74df93977ca33596341"
+        },
+        {
+          "reference": "../assets/rock_salt_deicing.jpg",
+          "path": "assets/rock_salt_deicing.jpg",
+          "sha256": "b424163f10ddf5601d57e79aa80a77fa7a0fe247c9d5ea81de6d2f8199eee76c"
+        },
+        {
+          "reference": "../assets/solubility_temperature_pressure.svg",
+          "path": "assets/solubility_temperature_pressure.svg",
+          "sha256": "88c4244cee06b9e38b6a75f4ea49675e3e01579455b840b2c9349bddbfa36d2f"
+        },
+        {
+          "reference": "../assets/solution_energetics.svg",
+          "path": "assets/solution_energetics.svg",
+          "sha256": "9a733d333f1e3137e938668f0dca9044bdca49cc705ac51d354d5307d75ff3a6"
+        },
+        {
+          "reference": "../assets/sugar_crystals.jpg",
+          "path": "assets/sugar_crystals.jpg",
+          "sha256": "7719401140f4b6791c4ae4e9c8f4b0be331ebbc639d7c695d43c69d891823abe"
+        }
+      ]
+    },
+    {
+      "source": "slides/stoichiometry.md",
+      "carrier": "slides/stoichiometry.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "f480602b67221ed06efed7c494be978a337c21c90086e6b40134508d59e56644",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "a08a43e0647107d26125a29e04cc3dcc267717d2b8205e46b425c10932e2f225"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/balancing_atom_tally.svg",
+          "path": "assets/balancing_atom_tally.svg",
+          "sha256": "9428fc699ee1d68f2f7b09d4ccdf3bc783de1d7548d534537f65426d7d47fc67"
+        },
+        {
+          "reference": "../assets/combustion_analysis.svg",
+          "path": "assets/combustion_analysis.svg",
+          "sha256": "1afdc87d53e0f6d25804b8a6b001c1668a4c60a47d7bb8217e824eb43078ccd3"
+        },
+        {
+          "reference": "../assets/how_big_is_a_mole.svg",
+          "path": "assets/how_big_is_a_mole.svg",
+          "sha256": "8b81f8034b2c0e673d13449e240a1c45650756ea3882cb7923a552c86538abd4"
+        },
+        {
+          "reference": "../assets/limiting_reagent_bar.svg",
+          "path": "assets/limiting_reagent_bar.svg",
+          "sha256": "3c776c138613e699d85dedd5b36dceaabb19abce0eb92c7c174fac1dcc7fd2b1"
+        },
+        {
+          "reference": "../assets/limiting_reagent_concept.svg",
+          "path": "assets/limiting_reagent_concept.svg",
+          "sha256": "9ccd5b07ca64416e76b00697db4f035a018d57c58b51fc5cd94651605a463be8"
+        },
+        {
+          "reference": "../assets/magnesium_burning.jpg",
+          "path": "assets/magnesium_burning.jpg",
+          "sha256": "dbeceeb4f8768374cedb266c6d530ee60b5eedfd256e94fb2504ad56ff87465e"
+        },
+        {
+          "reference": "../assets/mole_conversion_triangle.svg",
+          "path": "assets/mole_conversion_triangle.svg",
+          "sha256": "290b3c9584e9cf568399511b73e38ff19974e34119557138419c60088e64c0cc"
+        },
+        {
+          "reference": "../assets/percent_composition_water.svg",
+          "path": "assets/percent_composition_water.svg",
+          "sha256": "1d40a6b7c8d446f6de7a7f88b19153cef1a6033d7b099e0703c391537a5e7b04"
+        },
+        {
+          "reference": "../assets/stoichiometry_road_map.svg",
+          "path": "assets/stoichiometry_road_map.svg",
+          "sha256": "6fb12b76d62e2818f9e71a4797b1d9ccc8dd940fc296e8429c4c426014c68042"
+        },
+        {
+          "reference": "../assets/theoretical_vs_actual_yield.svg",
+          "path": "assets/theoretical_vs_actual_yield.svg",
+          "sha256": "dc604e3796ec60ea6ae6f8628440194487b940486eaccd4bb90c47649975def1"
+        }
+      ]
+    },
+    {
+      "source": "slides/thermochemistry.md",
+      "carrier": "slides/thermochemistry.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "611c3e2845234bc99f7ee21eb802918839c98ae458dc131cf204b46c2bbd1f6e",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "56345f0aa9e72e242df6ccc0e5e3fceff69c0b7f0f789685b42882418bd3e621"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/bomb_calorimeter_photo.jpg",
+          "path": "assets/bomb_calorimeter_photo.jpg",
+          "sha256": "23605c730676ace5c97bc0b9448d7fcd4030ad8b004e236ead3738f2350e3173"
+        },
+        {
+          "reference": "../assets/bomb_calorimeter.svg",
+          "path": "assets/bomb_calorimeter.svg",
+          "sha256": "d72da41d7a9d5189371f95f164fbf17fc7f51fac7ecf3277cb8ee12465cc6eed"
+        },
+        {
+          "reference": "../assets/exo_endo_diagram.svg",
+          "path": "assets/exo_endo_diagram.svg",
+          "sha256": "631fad0805c0a9da013f36369df028d31e4a014436e82a71454a0c7297cb7248"
+        },
+        {
+          "reference": "../assets/formation_enthalpy_reference.svg",
+          "path": "assets/formation_enthalpy_reference.svg",
+          "sha256": "48950319308a6e10917e74e395beb11f43334fed49a993cbe13cf307d58d81b7"
+        },
+        {
+          "reference": "../assets/hess_law_cycle.svg",
+          "path": "assets/hess_law_cycle.svg",
+          "sha256": "c244b2c011770aea876f63383d78d8f3c7c8de642e455b33cddeb1d9fd0e9047"
+        },
+        {
+          "reference": "../assets/sign_conventions_q_w.svg",
+          "path": "assets/sign_conventions_q_w.svg",
+          "sha256": "2cdcd89ef7d5e3adbd2b2fc934a632db0afac03a875c4d8318cb19f23da6f6dc"
+        },
+        {
+          "reference": "../assets/specific_heat_comparison.svg",
+          "path": "assets/specific_heat_comparison.svg",
+          "sha256": "4ab884ce685c468f5f4ef2192210592eac9c5565dedba0c20db92aeb10fa15db"
+        },
+        {
+          "reference": "../assets/system_and_surroundings.svg",
+          "path": "assets/system_and_surroundings.svg",
+          "sha256": "9851b65801ecb0ac5139d04ad0eb4e0a4f7b83905268872e66477ca7cfcd527f"
+        },
+        {
+          "reference": "../assets/two_calorimeters.svg",
+          "path": "assets/two_calorimeters.svg",
+          "sha256": "e08c95654930603622353bc57b653ee84658e7440dd78bc67539eea6b83aeec3"
+        }
+      ]
+    },
+    {
+      "source": "slides/thermodynamics.md",
+      "carrier": "slides/thermodynamics.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "5178c82c835de21dbf506089ae561cd2ceb067e8d8a46c5bb73dc30c3ff8fe8b",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "47e442e3aa15cdda71d0187457a9b101cd23ffc0b82c370b8acc9f6b7f157097"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/diamond.jpg",
+          "path": "assets/diamond.jpg",
+          "sha256": "6fa338604704c2d994796a5c6bcda62dbee7d0d2ee313742c3aa7da5553c3bce"
+        },
+        {
+          "reference": "../assets/entropy_trends.svg",
+          "path": "assets/entropy_trends.svg",
+          "sha256": "037a64de3ba17498d8cc0858e082787ca1016e42f55cd6a56d6c6c47b52167b5"
+        },
+        {
+          "reference": "../assets/free_energy_vs_reaction_progress.svg",
+          "path": "assets/free_energy_vs_reaction_progress.svg",
+          "sha256": "9ea6fe0bd3a86f330e8702151795be209ab063bb59e3acf5b5207a44063ad71a"
+        },
+        {
+          "reference": "../assets/gibbs_temperature_crossover.svg",
+          "path": "assets/gibbs_temperature_crossover.svg",
+          "sha256": "ab2ce515ed07c660e4a82650c566e1cf328f681d0d41f05811b79043268cbac4"
+        },
+        {
+          "reference": "../assets/ice_melting.jpg",
+          "path": "assets/ice_melting.jpg",
+          "sha256": "07faf0af318484c92692845da061474bf96f44440290ff159a0756d22bbc60fd"
+        },
+        {
+          "reference": "../assets/microstates_distribution.svg",
+          "path": "assets/microstates_distribution.svg",
+          "sha256": "125ee87d19403b45ed2e21e06dd999775178e6272472e7f90978931a9b248ba1"
+        },
+        {
+          "reference": "../assets/spontaneity_quadrants.svg",
+          "path": "assets/spontaneity_quadrants.svg",
+          "sha256": "27548d9475581bf4b752c8262b1b1be23295e103ffef31cd0ec3cc44d413d200"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/acid-base-equilibria.md",
+      "carrier": "study-guide/acid-base-equilibria.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "7fbf26ca96575f245dd0ae52148165d1ed9ea700102a60372a59a56f672687fa",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "5717c4311f78beba999c87844016368b32f462e8d562f35765be4ac3eeea5070"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/buffer_action.svg",
+          "path": "assets/buffer_action.svg",
+          "sha256": "673c80845cd52aa29552427014f25f174f3e1d6b89475ea907a0be3dba3b9ad7"
+        },
+        {
+          "reference": "../assets/common_ion_effect.svg",
+          "path": "assets/common_ion_effect.svg",
+          "sha256": "a815b3bce908d00f3be8d8ec406364f6db74d3b51431d9e7a5f346a6bf8b2192"
+        },
+        {
+          "reference": "../assets/complex_ion_formation.svg",
+          "path": "assets/complex_ion_formation.svg",
+          "sha256": "c9db7d3ab0980c2ecd9c5576ad6b826475bfae2e307b9516f8e2846e74e9d5ce"
+        },
+        {
+          "reference": "../assets/indicator_ranges.svg",
+          "path": "assets/indicator_ranges.svg",
+          "sha256": "74fd9e338b17d90613707a1306369a880125748452fae093d272159db6ae772a"
+        },
+        {
+          "reference": "../assets/silver_chloride_precipitate.jpg",
+          "path": "assets/silver_chloride_precipitate.jpg",
+          "sha256": "f336c43f176add98f7b9e14b31e813e1e9f19d213d064bb468195f3d39fe535d"
+        },
+        {
+          "reference": "../assets/titration_curves.svg",
+          "path": "assets/titration_curves.svg",
+          "sha256": "c4fa7adc5d85ca70a409f8b5686437ee7bd1900fc4b79ede3de37b5230023b6a"
+        },
+        {
+          "reference": "../assets/titration_endpoint.jpg",
+          "path": "assets/titration_endpoint.jpg",
+          "sha256": "da22f4fda5ff449d77412b6f877a4702133e4b796cf5d20b73fc6569dc623ff2"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/acids-and-bases.md",
+      "carrier": "study-guide/acids-and-bases.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "12dd654e6ec87ea067e7feebc5a9b7b91ca70bc1936b4eaa61a1352eaa12f0fe",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "1d86e07ec9be3553346653c534dae9e4265280c73b8de1be2dec45ed0a7dbacf"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/conjugate_strength_ladder.svg",
+          "path": "assets/conjugate_strength_ladder.svg",
+          "sha256": "3329d8c555742580272a579746e49c42fa6e86840bcd2eecfd9be624bbc2d637"
+        },
+        {
+          "reference": "../assets/hydrohalic_acids_grid.svg",
+          "path": "assets/hydrohalic_acids_grid.svg",
+          "sha256": "1ba88325f248b6ecf8938f9850cb963ca7494f3c13e147daa4466483173f05a9"
+        },
+        {
+          "reference": "../assets/lewis_acid_base.svg",
+          "path": "assets/lewis_acid_base.svg",
+          "sha256": "612de2f2ac1a83be58428270b47909e9b3521f5e912566cf964188a00fb19444"
+        },
+        {
+          "reference": "../assets/litmus_paper_test.jpg",
+          "path": "assets/litmus_paper_test.jpg",
+          "sha256": "1b576b5ca54d13ad64ad50933e920bf1d10438f1ea02f52eae52c98b4a42606b"
+        },
+        {
+          "reference": "../assets/oxoacid_strength_trend.svg",
+          "path": "assets/oxoacid_strength_trend.svg",
+          "sha256": "e98642a1a09d4c6cfd7b9d47a7537a004a32eac886044443e92362ee9784910a"
+        },
+        {
+          "reference": "../assets/ph_scale.svg",
+          "path": "assets/ph_scale.svg",
+          "sha256": "15f97f97af76853a85dcd348ffb7b15f073d018cb2a7f4e40c6d84697d3c65d1"
+        },
+        {
+          "reference": "../assets/red_cabbage_indicator.jpg",
+          "path": "assets/red_cabbage_indicator.jpg",
+          "sha256": "35a6763b91f72bff3ab9cee1cfc02293e0c43659d8400a946bfd2a249bb0c634"
+        },
+        {
+          "reference": "../assets/strong_vs_weak_ionization.svg",
+          "path": "assets/strong_vs_weak_ionization.svg",
+          "sha256": "562d25bc2bb11564b499114cb90d4498c74e986b3abce6b07b4245cb4c4ec940"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/aqueous-reactions.md",
+      "carrier": "study-guide/aqueous-reactions.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "556f7fbb25b42582cbb2d6891f36876072e94db70650c61c292103c08f84d7cb",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "0f74eb168eaf685d63555d170e9a200be9e03b0d61323c7fd6d2d463eb14186d"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/activity_series_ladder.svg",
+          "path": "assets/activity_series_ladder.svg",
+          "sha256": "a06d5f256bacd568f2093b1b6a1b0f4e0493a13cda0ded321a40bac619a029e1"
+        },
+        {
+          "reference": "../assets/dilution_same_moles.svg",
+          "path": "assets/dilution_same_moles.svg",
+          "sha256": "14bef5a1436f54af918d7c358e4f919889590f2c49b5340f36d77a4335beb173"
+        },
+        {
+          "reference": "../assets/displaced_copper.jpg",
+          "path": "assets/displaced_copper.jpg",
+          "sha256": "a9fffe510b979c1d6d77be4f81a4e91dfccbc89c09fcf335dd4d6e841f8c0253"
+        },
+        {
+          "reference": "../assets/electrolyte_conductivity.svg",
+          "path": "assets/electrolyte_conductivity.svg",
+          "sha256": "4cf872a2a707a41e8ca1b74d7ee73b8d2d91cf969317759d1847e50092f95353"
+        },
+        {
+          "reference": "../assets/electron_transfer_naf.svg",
+          "path": "assets/electron_transfer_naf.svg",
+          "sha256": "10564abc9ac9ab2094a545e0280af3a1224c81d3257da653e4dd4c0ab2b91acb"
+        },
+        {
+          "reference": "../assets/hydration_of_ions.svg",
+          "path": "assets/hydration_of_ions.svg",
+          "sha256": "df69f552e0e9dfd22f405c4f039e16a75ecb6d7a6483e240a357286e54772fed"
+        },
+        {
+          "reference": "../assets/oxidation_number_line.svg",
+          "path": "assets/oxidation_number_line.svg",
+          "sha256": "eb4ce1ef421b0cc3c51919db0c49ffac640fb106f3df413b0bd4d8e7304d57cf"
+        },
+        {
+          "reference": "../assets/precipitation_reaction.svg",
+          "path": "assets/precipitation_reaction.svg",
+          "sha256": "a586cc06af274ed1c388efeb0041f1d44a5a6fb829d9f251357be51a1d23b2e7"
+        },
+        {
+          "reference": "../assets/titration_setup.svg",
+          "path": "assets/titration_setup.svg",
+          "sha256": "99aa177fc21e45f77f741084c9268576af778a0690175ab0ea55045e54beb91f"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/atoms-molecules-ions.md",
+      "carrier": "study-guide/atoms-molecules-ions.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "2784b8f487c2b50e3f53433fa43bdddc069c2b851b8343be265ce9e5102dcde1",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "af2825ff9dc68d1f7b60602e604a0d143255c392a6594a35d8120200f61e2f9d"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/atom_structure.svg",
+          "path": "assets/atom_structure.svg",
+          "sha256": "91d26cb5ccc9657b812f202f38dcce0cc6a0d32d08610cef400345bfe5c87ca5"
+        },
+        {
+          "reference": "../assets/geiger_marsden_expectation_result.svg",
+          "path": "assets/geiger_marsden_expectation_result.svg",
+          "sha256": "1ee9e6b6bea060cfab7e05e0e69593c67e37b336bbf9c92879bbba0cad3b9114"
+        },
+        {
+          "reference": "../assets/ion_charges_by_group.svg",
+          "path": "assets/ion_charges_by_group.svg",
+          "sha256": "992a08becd75d21c9ac51d2684aad0a259dd7315965a0f981981352214a43451"
+        },
+        {
+          "reference": "../assets/ionic_formula_charge_balance.svg",
+          "path": "assets/ionic_formula_charge_balance.svg",
+          "sha256": "848747ff03c96ff51378476f1e54f34e5fd0c369046054a5c3db1da1a078ee3f"
+        },
+        {
+          "reference": "../assets/isotope_notation.svg",
+          "path": "assets/isotope_notation.svg",
+          "sha256": "904f516b048f9f71e9feb2d03b0f88a9ddc442ca0f35e32aa3344ee856306a8e"
+        },
+        {
+          "reference": "../assets/nacl_salt.jpg",
+          "path": "assets/nacl_salt.jpg",
+          "sha256": "60186831408f4fc146b3f5b005509dc19ac0ca2a1343866dcef12e49362645fe"
+        },
+        {
+          "reference": "../assets/naming_decision_tree.svg",
+          "path": "assets/naming_decision_tree.svg",
+          "sha256": "e1f0b6edc37d1e7ca57f432a034dee6be42f34048f3902fef25d5086f9fec4eb"
+        },
+        {
+          "reference": "../assets/periodic_table_overview.svg",
+          "path": "assets/periodic_table_overview.svg",
+          "sha256": "2878be28c4e98a0cecf338e202e12548b18df5099b03839f1108c019df36fd6b"
+        },
+        {
+          "reference": "../assets/radiation_types.svg",
+          "path": "assets/radiation_types.svg",
+          "sha256": "fc344f4fe357bbf95ddc2f6135556fad13e374baced09c0b2e85df467f8a35b5"
+        },
+        {
+          "reference": "../assets/subatomic_particle_masses.svg",
+          "path": "assets/subatomic_particle_masses.svg",
+          "sha256": "eca72c74f76449ef15e0e33ce8a183738649f42ee01caea451a05452f221d892"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/chemical-bonding.md",
+      "carrier": "study-guide/chemical-bonding.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "a25a16564b47623cacea88b773f42cfe29a9490fd1e799b9e52e2d2f8629a045",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "e88874e78daad9aad12cb502e182acf292eaa660dc370edac3508fd71490cc76"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/bond_enthalpy_cycle.svg",
+          "path": "assets/bond_enthalpy_cycle.svg",
+          "sha256": "e3aaf5bd597dca05ecf5c1e1f8f82add2e33748f79bb277b88469150c67f508b"
+        },
+        {
+          "reference": "../assets/bond_type_continuum.svg",
+          "path": "assets/bond_type_continuum.svg",
+          "sha256": "9ffe90095f21d77e7bf21555bd16b32cec7675f07e25462d1f6c59cac9dac93d"
+        },
+        {
+          "reference": "../assets/diamond_graphite.jpg",
+          "path": "assets/diamond_graphite.jpg",
+          "sha256": "da80a3233e520e3e3f09514810ef05fcd90a0821ed21be9ffe54c97143b5bb12"
+        },
+        {
+          "reference": "../assets/electronegativity_trend.svg",
+          "path": "assets/electronegativity_trend.svg",
+          "sha256": "8e860ee5c89de39d4223c706edf63881bb82eb77d1414440434e6bc0c3a91164"
+        },
+        {
+          "reference": "../assets/ionic_vs_covalent_bond.svg",
+          "path": "assets/ionic_vs_covalent_bond.svg",
+          "sha256": "d75c0d861c301e9a756e0e7c165b5affe4d147b13ecd6a3735f43fd287a5095a"
+        },
+        {
+          "reference": "../assets/lewis_and_resonance.svg",
+          "path": "assets/lewis_and_resonance.svg",
+          "sha256": "c11521914535d01f660807cb56c467e0ff69a9e8a8e34804904b30939a2c760e"
+        },
+        {
+          "reference": "../assets/lewis_dot_symbols.svg",
+          "path": "assets/lewis_dot_symbols.svg",
+          "sha256": "b5a756aafc9e4076a3899229b25d3ca451faeaf5016e9edf1dd27c42bc104cf8"
+        },
+        {
+          "reference": "../assets/lewis_structure_steps.svg",
+          "path": "assets/lewis_structure_steps.svg",
+          "sha256": "84a6c436dc9fc8d5b4c8b796c97c2596e6528fdcb218c7cf9dd58f36dfad0570"
+        },
+        {
+          "reference": "../assets/octet_exceptions.svg",
+          "path": "assets/octet_exceptions.svg",
+          "sha256": "90d13ef03915197f55b9c830959071c4e446af5f81adc058fc3f9f50cecee0c5"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/chemical-equilibrium.md",
+      "carrier": "study-guide/chemical-equilibrium.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "08a4269e202eb552de7f26a5172a288577070cffc70bf581d0b6cac2bec6e6a1",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "601b7595a37c1c864e1ccbb24b7b46f7fdfffd9b22eccacb2811a6c28dbd52f1"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/ammonia_plant.jpg",
+          "path": "assets/ammonia_plant.jpg",
+          "sha256": "6698a687a5be8a8669bc063559111d360ab5b1342d3f0bba69669635b7410d43"
+        },
+        {
+          "reference": "../assets/approach_to_equilibrium.svg",
+          "path": "assets/approach_to_equilibrium.svg",
+          "sha256": "8da1c5069e17941730aa5516000ed97e19c1cdeaf546fdf83b9d8b42946f54fc"
+        },
+        {
+          "reference": "../assets/k_magnitude_schematic.svg",
+          "path": "assets/k_magnitude_schematic.svg",
+          "sha256": "ede860d61e856a94ddaad043af2694988b7b6fbafc36d79f8fcbdc89fada76b2"
+        },
+        {
+          "reference": "../assets/le_chatelier_concentration_shift.svg",
+          "path": "assets/le_chatelier_concentration_shift.svg",
+          "sha256": "0d026daabeb565f519a0647f1d6903e75fd6be6281705a3c16cace3a0eb48e8b"
+        },
+        {
+          "reference": "../assets/le_chatelier_pressure.svg",
+          "path": "assets/le_chatelier_pressure.svg",
+          "sha256": "9c381b43bf768ba479c5bdc1aefa36ee51d38b24cf0bff594017632f2b58b0da"
+        },
+        {
+          "reference": "../assets/no2_n2o4_equilibrium.jpg",
+          "path": "assets/no2_n2o4_equilibrium.jpg",
+          "sha256": "f1f9e756730088ff2486d2c17f800265aa0ca491c315b69554803fd9fa3bc8eb"
+        },
+        {
+          "reference": "../assets/q_versus_k.svg",
+          "path": "assets/q_versus_k.svg",
+          "sha256": "649239272936fbb9f3a2ed360e318422421b4479dcef66e8b10ab4bcd8c6fd16"
+        },
+        {
+          "reference": "../assets/small_x_validity.svg",
+          "path": "assets/small_x_validity.svg",
+          "sha256": "b70236ad94f321029952b24b683ad4ff9b8d16acb6fca04f1b0f54e32381530a"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/chemical-kinetics.md",
+      "carrier": "study-guide/chemical-kinetics.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "025bf979fcb8ec6c8bf95fb08de14a09789586968286bc3dbf68feb4562227fc",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "08646ab5ea4a7bd88e071dc95d34eda578d6aca745c9079aede95b8af1cd9d37"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/arrhenius_plot.svg",
+          "path": "assets/arrhenius_plot.svg",
+          "sha256": "b3ce4651e9dd77e4898a8021ea99a1f259dd85184aab70f55f2f7a2a55cf3444"
+        },
+        {
+          "reference": "../assets/catalytic_converter.jpg",
+          "path": "assets/catalytic_converter.jpg",
+          "sha256": "fb6b09e2b680ad1764e1a2f4ec3deaa1018bd1a39f7eb3b05508e739ac304e85"
+        },
+        {
+          "reference": "../assets/catalyzed_vs_uncatalyzed.svg",
+          "path": "assets/catalyzed_vs_uncatalyzed.svg",
+          "sha256": "affd09735f76d04163a04e8fe6bc5a77a2c4fc9b8a80c4bb16c75fabe743712c"
+        },
+        {
+          "reference": "../assets/collision_theory.svg",
+          "path": "assets/collision_theory.svg",
+          "sha256": "7c303dba55a165e656ecf18ef0c276fb17f0edee24f8d1f61aee80f2708791a8"
+        },
+        {
+          "reference": "../assets/enzyme_lock_and_key.svg",
+          "path": "assets/enzyme_lock_and_key.svg",
+          "sha256": "2f3597b8d78a3580a650a060d405b352ea4fcfea53a6d031ce1d47afa9c48918"
+        },
+        {
+          "reference": "../assets/potential_energy_profile.svg",
+          "path": "assets/potential_energy_profile.svg",
+          "sha256": "a577a701f21a35a5a64cc42e8031d74fb52ce9e93e0e94cef4db2d643bd443ec"
+        },
+        {
+          "reference": "../assets/reaction_order_half_lives.svg",
+          "path": "assets/reaction_order_half_lives.svg",
+          "sha256": "5a7877b3bf10a51e343291c9de7ae60d81697f68e6b2d23d419676d97c326396"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/electrochemistry.md",
+      "carrier": "study-guide/electrochemistry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "d0cce6fd1961adef9f8c2e5347838b7b205a52925a195caa0febb1de956c405d",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "be0a10c97b6e59c8c9a3078508b4094d0b3099cf049bc5d3b71654e1add271b1"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/batteries.jpg",
+          "path": "assets/batteries.jpg",
+          "sha256": "6b4a8838dbc53184bf54541e8322bb7d15e8124d88c49858744f7189c76b9fb9"
+        },
+        {
+          "reference": "../assets/galvanic_cell_diagram.svg",
+          "path": "assets/galvanic_cell_diagram.svg",
+          "sha256": "1909302e6f5bc2b4828dafea7371f9670662f0262100ec2e0838385fb2b01ffb"
+        },
+        {
+          "reference": "../assets/galvanic_vs_electrolytic.svg",
+          "path": "assets/galvanic_vs_electrolytic.svg",
+          "sha256": "b84b29cd9a1ed48cc7a84793605a050a7386b5bcd49686e97b4078d91da22cbc"
+        },
+        {
+          "reference": "../assets/nernst_concentration_cell.svg",
+          "path": "assets/nernst_concentration_cell.svg",
+          "sha256": "aa11566ecb32e31dcde6996760b819fdb26afc1551b73fa664068abb63cfa51d"
+        },
+        {
+          "reference": "../assets/redox_electron_transfer.svg",
+          "path": "assets/redox_electron_transfer.svg",
+          "sha256": "e7e70c67a5004155a541476f2845052cf08254a52df058f32559a3c03aeb3b1a"
+        },
+        {
+          "reference": "../assets/reduction_potential_series.svg",
+          "path": "assets/reduction_potential_series.svg",
+          "sha256": "0e5d68f002a57c7983d9df7ed03f72454e2f14c5b81b375de5a59cfb3341a347"
+        },
+        {
+          "reference": "../assets/rust_corrosion.jpg",
+          "path": "assets/rust_corrosion.jpg",
+          "sha256": "90f4a80344b14c0e4ee8999360cba1d4b8cfddc3e062aff573578cbb2b48b79c"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/gases.md",
+      "carrier": "study-guide/gases.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "06a0cc8edaf90e49f1f139d6d478fe78701b4b139aba2ed1c054ea19a96404af",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "5f7dc60ecc8fdef00f2175ba97991555f9a4365450ae0147b6dc24c583c95882"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/gas_collected_over_water.svg",
+          "path": "assets/gas_collected_over_water.svg",
+          "sha256": "1e7bb65e5c10006292536896c144dbece3aef27ae8223e9080a77cc37dc84730"
+        },
+        {
+          "reference": "../assets/gas_laws_panels.svg",
+          "path": "assets/gas_laws_panels.svg",
+          "sha256": "4d6c8c6c09a4ce8934f8716c2a193b100a38be41d284a18002807cfd2d8bb0f8"
+        },
+        {
+          "reference": "../assets/gas_stoichiometry_road_map.svg",
+          "path": "assets/gas_stoichiometry_road_map.svg",
+          "sha256": "6973d8188b40c26b021b66ad20bec2b58a21c8cb45eb2e719e326eca032a7220"
+        },
+        {
+          "reference": "../assets/grahams_law_effusion.svg",
+          "path": "assets/grahams_law_effusion.svg",
+          "sha256": "3269011b5803f885cb3076799d3a63bf60ebc696f04d05a71453a99ea4a25e1a"
+        },
+        {
+          "reference": "../assets/hot_air_balloon.jpg",
+          "path": "assets/hot_air_balloon.jpg",
+          "sha256": "513a5601d80d8076e105310658df87bd93eafcee00ed255734afc13fa49340bb"
+        },
+        {
+          "reference": "../assets/kmt_explains_gas_laws.svg",
+          "path": "assets/kmt_explains_gas_laws.svg",
+          "sha256": "9d90ede3a26821915c66663c9a22fd1782e3c3a23b65c8528870308ad6855cba"
+        },
+        {
+          "reference": "../assets/molecular_speed_distribution.svg",
+          "path": "assets/molecular_speed_distribution.svg",
+          "sha256": "8101f086e18558e3a0124f5e7a215fccb1200ba2a1dc5f9d27f95930cc09f7f8"
+        },
+        {
+          "reference": "../assets/pressure_and_barometer.svg",
+          "path": "assets/pressure_and_barometer.svg",
+          "sha256": "761ed6a58c2b78b4d78c185e8dbb3d43f45d68f7983ca47542fbdfc21154d908"
+        },
+        {
+          "reference": "../assets/real_gas_deviation.svg",
+          "path": "assets/real_gas_deviation.svg",
+          "sha256": "6542ed9934484ea5b6ec138c82e3481ff4b889dc4b2d1a45572159efedc482b7"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/intermolecular-forces.md",
+      "carrier": "study-guide/intermolecular-forces.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "d44f9bc3d584fdf7a1695da29d423fb9f7487cd1b71216be16209431f2d54635",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "c28732ac1067ee9887900772d12c8fec4c11e698af130e6865a3c1639b428810"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/cubic_unit_cells.svg",
+          "path": "assets/cubic_unit_cells.svg",
+          "sha256": "4e427dd54a87719930584900e54fa7e4844d42d835cc5a87139682e77c29d892"
+        },
+        {
+          "reference": "../assets/hydride_boiling_points.svg",
+          "path": "assets/hydride_boiling_points.svg",
+          "sha256": "80191f2a9d5c2bcc9444959c430c852dfc812abd5eedc1eb9c5411fd98563822"
+        },
+        {
+          "reference": "../assets/nacl_ionic_lattice.png",
+          "path": "assets/nacl_ionic_lattice.png",
+          "sha256": "f3e2e11f22adb4649aa79a0b52bffb7b7d8a417ecdae769a496439560292b1bb"
+        },
+        {
+          "reference": "../assets/polar_nonpolar_molecules.svg",
+          "path": "assets/polar_nonpolar_molecules.svg",
+          "sha256": "5e8ec0c698e2ee5f059563d18759cd1621c7af557a9316020ef42305a9bf9f38"
+        },
+        {
+          "reference": "../assets/quartz_crystal.jpg",
+          "path": "assets/quartz_crystal.jpg",
+          "sha256": "95d22a69f05ff8fe9793cfdcf01f85b75446054d3cd26924e2f5594ed7d1e79b"
+        },
+        {
+          "reference": "../assets/vapor_pressure_diethyl_ether.svg",
+          "path": "assets/vapor_pressure_diethyl_ether.svg",
+          "sha256": "e54936029ea95c26b16770020f4100753dd68d25ca2c0938579c7e4394574b56"
+        },
+        {
+          "reference": "../assets/water_phase_diagram.svg",
+          "path": "assets/water_phase_diagram.svg",
+          "sha256": "1d5cfa702aac411508e234d89da1ad4365e883eb02a20f89e46f00d2ae5ef5fc"
+        },
+        {
+          "reference": "../assets/water_strider_surface_tension.jpg",
+          "path": "assets/water_strider_surface_tension.jpg",
+          "sha256": "e34d20a69e574a4e4b41322fd7ef72d4e13a8fcef124a7ca580ce893413ff863"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/introduction.md",
+      "carrier": "study-guide/introduction.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "6e7e590092f3ee85529ab225191687e75614319d53907b923c0cfb94295ceb6d",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "dc46f281b7ca5de2633c555ecc0b7fb91f590b85111fcf2bd9e3a63e66417b1a"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/accuracy_vs_precision.svg",
+          "path": "assets/accuracy_vs_precision.svg",
+          "sha256": "d290ebcdc546ad83fc2308d4f0c2f35962591be0866d0ad3ce95c91403546ebe"
+        },
+        {
+          "reference": "../assets/dimensional_analysis_cancel.svg",
+          "path": "assets/dimensional_analysis_cancel.svg",
+          "sha256": "ed9220ed81bb1e0aea1e81f346dca37726892de84bee6408cc3cfd3fd77fe020"
+        },
+        {
+          "reference": "../assets/electronic_balance.jpg",
+          "path": "assets/electronic_balance.jpg",
+          "sha256": "4033a978f7e680fedc7b5ba55ceaaa4fb2bf9401b0292cc5c1d9e089392027a4"
+        },
+        {
+          "reference": "../assets/graduated_cylinder_meniscus.svg",
+          "path": "assets/graduated_cylinder_meniscus.svg",
+          "sha256": "ede937b6995f8004beada5d336551a695552896e4afbef137ee1f608cde3767c"
+        },
+        {
+          "reference": "../assets/lab_balance.jpg",
+          "path": "assets/lab_balance.jpg",
+          "sha256": "cc33b0eb964338de2f010db91451107e58f9d01bb0baa6766552a7e29a591beb"
+        },
+        {
+          "reference": "../assets/matter_classification_tree.svg",
+          "path": "assets/matter_classification_tree.svg",
+          "sha256": "07b80bdb74bbffadb2411e8e61fd1bba642c5a60cf77b1bfb098f62fa0dc8c99"
+        },
+        {
+          "reference": "../assets/si_prefix_ladder.svg",
+          "path": "assets/si_prefix_ladder.svg",
+          "sha256": "a5b8b5856bff1aea4ecf296e0fcc68b1ff04963fa41da70a97bff616434d9147"
+        },
+        {
+          "reference": "../assets/states_of_matter.svg",
+          "path": "assets/states_of_matter.svg",
+          "sha256": "076dab074824ae2902ee9d70bd5b2d8972585322a5c8baffc96c3c931ce97b0f"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/molecular-geometry.md",
+      "carrier": "study-guide/molecular-geometry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "61cf7bb8d563c6b20afa6502a989b56601fc3df48a8b7a39aa9cc19cf02e1cde",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "22c966a4e3d00181eb5cc1f6b7ee6b13a30ccae67d967720a1de9aedd3a3b006"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/acetylene_model.jpg",
+          "path": "assets/acetylene_model.jpg",
+          "sha256": "d2a3e411aa0ee06a68d2d21131315d33d20c5cfe1026680b90bb761f00d0dbb0"
+        },
+        {
+          "reference": "../assets/dipole_cancellation.svg",
+          "path": "assets/dipole_cancellation.svg",
+          "sha256": "64ad8d8ad516f8c7d618d22fe5972ed9ef914065ae57461490d954bceb43e949"
+        },
+        {
+          "reference": "../assets/sigma_pi_bonds.svg",
+          "path": "assets/sigma_pi_bonds.svg",
+          "sha256": "ebe4e9af6e7e9e65bb5831544ff9879244a6d0796ce10a3c82c3be72fa97d32b"
+        },
+        {
+          "reference": "../assets/sp3_promotion_mixing.svg",
+          "path": "assets/sp3_promotion_mixing.svg",
+          "sha256": "d461a45105e1c7232b16b427cee652f3114377de53200eccf55b0a60b98126a7"
+        },
+        {
+          "reference": "../assets/vb_potential_energy.svg",
+          "path": "assets/vb_potential_energy.svg",
+          "sha256": "55f00e6c980692992207fa5cf058c6c98bada4c80de98d7f995d535163b61fd4"
+        },
+        {
+          "reference": "../assets/vsepr_no_lone_pairs.svg",
+          "path": "assets/vsepr_no_lone_pairs.svg",
+          "sha256": "e545719bb343d71ca70c3c01b04796ee295f45ec125b1413c009fbe955d6444a"
+        },
+        {
+          "reference": "../assets/vsepr_procedure.svg",
+          "path": "assets/vsepr_procedure.svg",
+          "sha256": "ee4f4e9179d4d288141197e1bf19e19e35462c3b60cf834b3dca736cf63b0162"
+        },
+        {
+          "reference": "../assets/vsepr_with_lone_pairs.svg",
+          "path": "assets/vsepr_with_lone_pairs.svg",
+          "sha256": "a0b4c4d331d2a03b932ba8170c9e963e94f3794ad6fabe6579439e116d47ee71"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/nuclear-chemistry.md",
+      "carrier": "study-guide/nuclear-chemistry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "79590fb1a5f75e1354c45adaa61e3dbb9a0f11befcc83a14a6b9ccfc56fbfc2a",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "774938587e009c21fc512f6b3640aa19046997116d1586a7e662074cf8c245ae"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/band_of_stability.svg",
+          "path": "assets/band_of_stability.svg",
+          "sha256": "bc149fe080ab57bb34518b00d95655af63a97c46d40b8bd7e1c673ae949aa61d"
+        },
+        {
+          "reference": "../assets/binding_energy_curve.svg",
+          "path": "assets/binding_energy_curve.svg",
+          "sha256": "41fe1af2b5574cae4673437606dc2fe44d4b28ab2e24cc608f70c2bf8d1e0504"
+        },
+        {
+          "reference": "../assets/carbon14_decay.svg",
+          "path": "assets/carbon14_decay.svg",
+          "sha256": "cf025fd2f2e28944ede4c568406aa0cc9ed87126c390eb763d8d0c1b5c7b0d45"
+        },
+        {
+          "reference": "../assets/decay_modes_nz.svg",
+          "path": "assets/decay_modes_nz.svg",
+          "sha256": "f1dfb9a289135d0ff08e6bb4dfb82cf74302aec9592ae866a52be722003c5787"
+        },
+        {
+          "reference": "../assets/fission_chain_reaction.svg",
+          "path": "assets/fission_chain_reaction.svg",
+          "sha256": "5b569fbd32b5da0410194f271aca5f54e4b1c198d8b55be57e0d9828d35c582c"
+        },
+        {
+          "reference": "../assets/nuclear_power_plant.jpg",
+          "path": "assets/nuclear_power_plant.jpg",
+          "sha256": "41165bc16a063a43a147cd9d87aebd7568a63772a14aeb00a2c71d03d090be7b"
+        },
+        {
+          "reference": "../assets/the_sun.jpg",
+          "path": "assets/the_sun.jpg",
+          "sha256": "5aef0e89e7b542dda395e671e787d8ebdd92701e6b90292bce9f31c796e5a369"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/periodic-table.md",
+      "carrier": "study-guide/periodic-table.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "9186ff870e25ead5b0c9a0032f4b1957d3d2816cad212f587a8c68ccd0109843",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "12a89b2145b0dba62336f5932799db6fb7144c04fc36487ef3157c7cbb4cdf39"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/effective_nuclear_charge.svg",
+          "path": "assets/effective_nuclear_charge.svg",
+          "sha256": "1b55224e8d6552baba7f3e417ece273a0e2f0cfc56800304ec2a8b1d7594a9df"
+        },
+        {
+          "reference": "../assets/element_category_map.svg",
+          "path": "assets/element_category_map.svg",
+          "sha256": "2b04a5d9a581284819756fda1f0f5661aeebe951dc3d820fb3d277cb4608c218"
+        },
+        {
+          "reference": "../assets/ionization_energy_trend.svg",
+          "path": "assets/ionization_energy_trend.svg",
+          "sha256": "14b75d54e33eaf08e80a7d02eb4c74c4f6188f95bc4f89c6575eb06dc2c4b303"
+        },
+        {
+          "reference": "../assets/isoelectronic_radius_series.svg",
+          "path": "assets/isoelectronic_radius_series.svg",
+          "sha256": "f8831aec47fcc9ce3740ba9f77ffa3c5d7ed456d3f361e0c0f3b73a6ebea2e24"
+        },
+        {
+          "reference": "../assets/oxide_character_period3.svg",
+          "path": "assets/oxide_character_period3.svg",
+          "sha256": "23a9ef0356dbc049476154d6761fc152b9c2a5abeac686f1f31264fd4dbb7364"
+        },
+        {
+          "reference": "../assets/periodic_trend_map.svg",
+          "path": "assets/periodic_trend_map.svg",
+          "sha256": "d5b4f09ea71485d912b5b65c9a6e113ef8ce5cc23dc764c610fde98689e392f7"
+        },
+        {
+          "reference": "../assets/sodium_water.png",
+          "path": "assets/sodium_water.png",
+          "sha256": "9dc92ad6de5f219a1f10efffafb445ceb9fbb99bce5da99c7431399d86990f7a"
+        },
+        {
+          "reference": "../assets/successive_ionization_energies.svg",
+          "path": "assets/successive_ionization_energies.svg",
+          "sha256": "caa91a1de27a8d36fac54b4f84ec62f0c288e68c7f94ff5ff98f7e6fe9b6cf75"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/quantum-theory.md",
+      "carrier": "study-guide/quantum-theory.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "7562f827066420e37edc03b7bd3890ced96752483674b78f7f130d9a90cc7e2c",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "e4267df88c6b37534389cb73ab056b88e3eb6cdbbcca0bffb62b6af6864f1455"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/aufbau_diagonal_rule.svg",
+          "path": "assets/aufbau_diagonal_rule.svg",
+          "sha256": "567f8e95af5c7d71a8056344b134b8137bc2b554008251ee7ceb71823e4f3aa5"
+        },
+        {
+          "reference": "../assets/bohr_energy_levels.svg",
+          "path": "assets/bohr_energy_levels.svg",
+          "sha256": "268f7e9b52b1bafb5756f4e24e87403e14f5848b15be66ffd1cab4c9b8bbe49b"
+        },
+        {
+          "reference": "../assets/em_spectrum_ladder.svg",
+          "path": "assets/em_spectrum_ladder.svg",
+          "sha256": "4004fae4ee1df63ee029442b07028c708913bd19d24ba53d4adf890423b17f30"
+        },
+        {
+          "reference": "../assets/hydrogen_lamp.jpg",
+          "path": "assets/hydrogen_lamp.jpg",
+          "sha256": "c0e5087c13bce9cd921e66a4ffc6d3d0d61601884d76edfd4c64af72694e0c30"
+        },
+        {
+          "reference": "../assets/orbit_vs_orbital.svg",
+          "path": "assets/orbit_vs_orbital.svg",
+          "sha256": "1d13a745e7fe794aa4b7ffa743f6733578cd565a28046437b2f59499d67693d8"
+        },
+        {
+          "reference": "../assets/orbital_filling_h_to_ne.svg",
+          "path": "assets/orbital_filling_h_to_ne.svg",
+          "sha256": "d0b9dc9f6a3f9f0322397f15fed350568429ea294cff3e6817fb62b2012e2690"
+        },
+        {
+          "reference": "../assets/orbital_shapes.svg",
+          "path": "assets/orbital_shapes.svg",
+          "sha256": "ab435e6ef205a4f47974678bb694e09bd7c1295175a5be59a9c7216bf7d3dc57"
+        },
+        {
+          "reference": "../assets/photoelectric_effect.svg",
+          "path": "assets/photoelectric_effect.svg",
+          "sha256": "720895d77a3dfcca406bcf694fc214246157048345fede673f77224725ac2f60"
+        },
+        {
+          "reference": "../assets/standing_wave_orbit.svg",
+          "path": "assets/standing_wave_orbit.svg",
+          "sha256": "e414799dcc85764786493bf284c9e5986aa15998aa9f2a465c0eb9b50a383b91"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/solutions.md",
+      "carrier": "study-guide/solutions.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "4076cc25a313956d96c13981fa8ea61c830ee927f0b8e1b1646e768cf32be2a9",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "6ddeb9d75ef75b282a56ab3cb38723ea402436b3eda31b5889d31856fcc187fa"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/freezing_point_depression.svg",
+          "path": "assets/freezing_point_depression.svg",
+          "sha256": "a497372fddf88230a3759a062b1dd0a13ce1814efdecc1472d3508fe4a606863"
+        },
+        {
+          "reference": "../assets/like_dissolves_like.svg",
+          "path": "assets/like_dissolves_like.svg",
+          "sha256": "42432d755d932eac9e5144c44fbf0429e4949b060991f0e18b9e01a35880b01a"
+        },
+        {
+          "reference": "../assets/osmosis_semipermeable.svg",
+          "path": "assets/osmosis_semipermeable.svg",
+          "sha256": "127c926c0c758f646aa13778a30e5658202c84c413c5e8eccb6fc7da024681bc"
+        },
+        {
+          "reference": "../assets/raoults_law.svg",
+          "path": "assets/raoults_law.svg",
+          "sha256": "5fc4582bed32ead84316b1752bce29a99e9d2f142787b74df93977ca33596341"
+        },
+        {
+          "reference": "../assets/rock_salt_deicing.jpg",
+          "path": "assets/rock_salt_deicing.jpg",
+          "sha256": "b424163f10ddf5601d57e79aa80a77fa7a0fe247c9d5ea81de6d2f8199eee76c"
+        },
+        {
+          "reference": "../assets/solubility_temperature_pressure.svg",
+          "path": "assets/solubility_temperature_pressure.svg",
+          "sha256": "88c4244cee06b9e38b6a75f4ea49675e3e01579455b840b2c9349bddbfa36d2f"
+        },
+        {
+          "reference": "../assets/solution_energetics.svg",
+          "path": "assets/solution_energetics.svg",
+          "sha256": "9a733d333f1e3137e938668f0dca9044bdca49cc705ac51d354d5307d75ff3a6"
+        },
+        {
+          "reference": "../assets/sugar_crystals.jpg",
+          "path": "assets/sugar_crystals.jpg",
+          "sha256": "7719401140f4b6791c4ae4e9c8f4b0be331ebbc639d7c695d43c69d891823abe"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/stoichiometry.md",
+      "carrier": "study-guide/stoichiometry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "7a79a03adcabdb7a6fefd090ffbe9d7d8eb6087c2b0400e0a8454d42a886eaf3",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "78e379b11d65ebbe032d195cfbe9a583450271eda8a72948b2a0d22715757748"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/balancing_atom_tally.svg",
+          "path": "assets/balancing_atom_tally.svg",
+          "sha256": "9428fc699ee1d68f2f7b09d4ccdf3bc783de1d7548d534537f65426d7d47fc67"
+        },
+        {
+          "reference": "../assets/combustion_analysis.svg",
+          "path": "assets/combustion_analysis.svg",
+          "sha256": "1afdc87d53e0f6d25804b8a6b001c1668a4c60a47d7bb8217e824eb43078ccd3"
+        },
+        {
+          "reference": "../assets/how_big_is_a_mole.svg",
+          "path": "assets/how_big_is_a_mole.svg",
+          "sha256": "8b81f8034b2c0e673d13449e240a1c45650756ea3882cb7923a552c86538abd4"
+        },
+        {
+          "reference": "../assets/limiting_reagent_bar.svg",
+          "path": "assets/limiting_reagent_bar.svg",
+          "sha256": "3c776c138613e699d85dedd5b36dceaabb19abce0eb92c7c174fac1dcc7fd2b1"
+        },
+        {
+          "reference": "../assets/limiting_reagent_concept.svg",
+          "path": "assets/limiting_reagent_concept.svg",
+          "sha256": "9ccd5b07ca64416e76b00697db4f035a018d57c58b51fc5cd94651605a463be8"
+        },
+        {
+          "reference": "../assets/magnesium_burning.jpg",
+          "path": "assets/magnesium_burning.jpg",
+          "sha256": "dbeceeb4f8768374cedb266c6d530ee60b5eedfd256e94fb2504ad56ff87465e"
+        },
+        {
+          "reference": "../assets/mole_conversion_triangle.svg",
+          "path": "assets/mole_conversion_triangle.svg",
+          "sha256": "290b3c9584e9cf568399511b73e38ff19974e34119557138419c60088e64c0cc"
+        },
+        {
+          "reference": "../assets/percent_composition_water.svg",
+          "path": "assets/percent_composition_water.svg",
+          "sha256": "1d40a6b7c8d446f6de7a7f88b19153cef1a6033d7b099e0703c391537a5e7b04"
+        },
+        {
+          "reference": "../assets/stoichiometry_road_map.svg",
+          "path": "assets/stoichiometry_road_map.svg",
+          "sha256": "6fb12b76d62e2818f9e71a4797b1d9ccc8dd940fc296e8429c4c426014c68042"
+        },
+        {
+          "reference": "../assets/theoretical_vs_actual_yield.svg",
+          "path": "assets/theoretical_vs_actual_yield.svg",
+          "sha256": "dc604e3796ec60ea6ae6f8628440194487b940486eaccd4bb90c47649975def1"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/thermochemistry.md",
+      "carrier": "study-guide/thermochemistry.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "260434c8360c82bba40226652e9ff1e43e6058880f931ae8d72a475269ebdcf5",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "6f4f20be48bd25df7331db8384312b8d6511fe5395dc728daab7bc8da054bad1"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/bomb_calorimeter_photo.jpg",
+          "path": "assets/bomb_calorimeter_photo.jpg",
+          "sha256": "23605c730676ace5c97bc0b9448d7fcd4030ad8b004e236ead3738f2350e3173"
+        },
+        {
+          "reference": "../assets/bomb_calorimeter.svg",
+          "path": "assets/bomb_calorimeter.svg",
+          "sha256": "d72da41d7a9d5189371f95f164fbf17fc7f51fac7ecf3277cb8ee12465cc6eed"
+        },
+        {
+          "reference": "../assets/exo_endo_diagram.svg",
+          "path": "assets/exo_endo_diagram.svg",
+          "sha256": "631fad0805c0a9da013f36369df028d31e4a014436e82a71454a0c7297cb7248"
+        },
+        {
+          "reference": "../assets/formation_enthalpy_reference.svg",
+          "path": "assets/formation_enthalpy_reference.svg",
+          "sha256": "48950319308a6e10917e74e395beb11f43334fed49a993cbe13cf307d58d81b7"
+        },
+        {
+          "reference": "../assets/hess_law_cycle.svg",
+          "path": "assets/hess_law_cycle.svg",
+          "sha256": "c244b2c011770aea876f63383d78d8f3c7c8de642e455b33cddeb1d9fd0e9047"
+        },
+        {
+          "reference": "../assets/sign_conventions_q_w.svg",
+          "path": "assets/sign_conventions_q_w.svg",
+          "sha256": "2cdcd89ef7d5e3adbd2b2fc934a632db0afac03a875c4d8318cb19f23da6f6dc"
+        },
+        {
+          "reference": "../assets/specific_heat_comparison.svg",
+          "path": "assets/specific_heat_comparison.svg",
+          "sha256": "4ab884ce685c468f5f4ef2192210592eac9c5565dedba0c20db92aeb10fa15db"
+        },
+        {
+          "reference": "../assets/system_and_surroundings.svg",
+          "path": "assets/system_and_surroundings.svg",
+          "sha256": "9851b65801ecb0ac5139d04ad0eb4e0a4f7b83905268872e66477ca7cfcd527f"
+        },
+        {
+          "reference": "../assets/two_calorimeters.svg",
+          "path": "assets/two_calorimeters.svg",
+          "sha256": "e08c95654930603622353bc57b653ee84658e7440dd78bc67539eea6b83aeec3"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/thermodynamics.md",
+      "carrier": "study-guide/thermodynamics.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "8bd16b7117b527dc4d4ce8ea6479e21e6205a35a082ad53e97b9a61bc8ad54ba",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "c0a0ffd27c03705d0d5f624387163795997f57ae908faa7036d81b7a72be97d4"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/diamond.jpg",
+          "path": "assets/diamond.jpg",
+          "sha256": "6fa338604704c2d994796a5c6bcda62dbee7d0d2ee313742c3aa7da5553c3bce"
+        },
+        {
+          "reference": "../assets/entropy_trends.svg",
+          "path": "assets/entropy_trends.svg",
+          "sha256": "037a64de3ba17498d8cc0858e082787ca1016e42f55cd6a56d6c6c47b52167b5"
+        },
+        {
+          "reference": "../assets/free_energy_vs_reaction_progress.svg",
+          "path": "assets/free_energy_vs_reaction_progress.svg",
+          "sha256": "9ea6fe0bd3a86f330e8702151795be209ab063bb59e3acf5b5207a44063ad71a"
+        },
+        {
+          "reference": "../assets/gibbs_temperature_crossover.svg",
+          "path": "assets/gibbs_temperature_crossover.svg",
+          "sha256": "ab2ce515ed07c660e4a82650c566e1cf328f681d0d41f05811b79043268cbac4"
+        },
+        {
+          "reference": "../assets/ice_melting.jpg",
+          "path": "assets/ice_melting.jpg",
+          "sha256": "07faf0af318484c92692845da061474bf96f44440290ff159a0756d22bbc60fd"
+        },
+        {
+          "reference": "../assets/microstates_distribution.svg",
+          "path": "assets/microstates_distribution.svg",
+          "sha256": "125ee87d19403b45ed2e21e06dd999775178e6272472e7f90978931a9b248ba1"
+        },
+        {
+          "reference": "../assets/spontaneity_quadrants.svg",
+          "path": "assets/spontaneity_quadrants.svg",
+          "sha256": "27548d9475581bf4b752c8262b1b1be23295e103ffef31cd0ec3cc44d413d200"
+        }
+      ]
+    }
+  ]
+}
