@@ -1,14 +1,36 @@
 {
   "schemaVersion": 2,
   "packageId": "pkg-genchem-u35f0f11",
-  "title": "GenChem",
-  "description": "",
-  "keywords": [],
+  "title": "General Chemistry",
+  "description": "A complete introductory general chemistry course spanning a two-semester sequence, from measurement and atomic structure through stoichiometry, gases, thermochemistry, quantum theory, periodic trends, bonding and molecular geometry, intermolecular forces, solutions, kinetics, equilibrium, acid-base and solubility equilibria, thermodynamics, electrochemistry, and nuclear chemistry. Each chapter includes a concept map, study guide, slide deck, assessment guide, and practice questions.",
+  "keywords": [
+    "chemistry",
+    "general chemistry",
+    "stoichiometry",
+    "gases",
+    "thermochemistry",
+    "quantum theory",
+    "periodic table",
+    "chemical bonding",
+    "molecular geometry",
+    "intermolecular forces",
+    "solutions",
+    "kinetics",
+    "equilibrium",
+    "acid-base",
+    "thermodynamics",
+    "electrochemistry",
+    "nuclear chemistry"
+  ],
   "discipline": "chemistry",
-  "courseContext": {},
+  "courseContext": {
+    "courseName": "General Chemistry",
+    "level": "introductory undergraduate",
+    "instructor": "Yu Wang",
+    "courseNumber": "",
+    "department": "Chemistry"
+  },
   "license": "CC-BY-4.0",
-  "unitTerm": "chapter",
-  "createdAt": "2026-08-26T18:41:10.733Z",
   "publicRepo": {
     "owner": "wangyu16",
     "name": "genchem-u35f0f11-oer"
@@ -16,5 +38,85 @@
   "privateRepo": {
     "owner": "wangyu16",
     "name": "genchem-u35f0f11-private"
-  }
+  },
+  "chapters": [
+    {
+      "slug": "introduction",
+      "title": "Introduction to Chemistry"
+    },
+    {
+      "slug": "atoms-molecules-ions",
+      "title": "Atoms, Molecules, and Ions"
+    },
+    {
+      "slug": "stoichiometry",
+      "title": "Stoichiometry"
+    },
+    {
+      "slug": "aqueous-reactions",
+      "title": "Reactions in Aqueous Solutions"
+    },
+    {
+      "slug": "gases",
+      "title": "Gases"
+    },
+    {
+      "slug": "thermochemistry",
+      "title": "Thermochemistry"
+    },
+    {
+      "slug": "quantum-theory",
+      "title": "Quantum Theory and the Electronic Structure of Atoms"
+    },
+    {
+      "slug": "periodic-table",
+      "title": "Periodic Relationships Among the Elements"
+    },
+    {
+      "slug": "chemical-bonding",
+      "title": "Chemical Bonding: Basic Concepts"
+    },
+    {
+      "slug": "molecular-geometry",
+      "title": "Molecular Geometry and Bonding Theories"
+    },
+    {
+      "slug": "intermolecular-forces",
+      "title": "Intermolecular Forces, Liquids, and Solids"
+    },
+    {
+      "slug": "solutions",
+      "title": "Physical Properties of Solutions"
+    },
+    {
+      "slug": "chemical-kinetics",
+      "title": "Chemical Kinetics"
+    },
+    {
+      "slug": "chemical-equilibrium",
+      "title": "Chemical Equilibrium"
+    },
+    {
+      "slug": "acids-and-bases",
+      "title": "Acids and Bases"
+    },
+    {
+      "slug": "acid-base-equilibria",
+      "title": "Acid-Base Equilibria and Solubility Equilibria"
+    },
+    {
+      "slug": "thermodynamics",
+      "title": "Entropy, Free Energy, and Equilibrium"
+    },
+    {
+      "slug": "electrochemistry",
+      "title": "Electrochemistry"
+    },
+    {
+      "slug": "nuclear-chemistry",
+      "title": "Nuclear Chemistry"
+    }
+  ],
+  "unitTerm": "chapter",
+  "createdAt": "2026-08-23T00:00:00Z"
 }
