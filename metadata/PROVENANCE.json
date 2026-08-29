@@ -1,0 +1,3823 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "polar-nonpolar-molecules",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/polar_nonpolar_molecules.svg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "Polar vs. nonpolar example molecules (RDKit structures)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with RDKit; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "hydride-boiling-points",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/hydride_boiling_points.svg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "Boiling points of main-group hydrides (hydrogen-bonding anomaly)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib from verified literature boiling points; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "water-phase-diagram",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/water_phase_diagram.svg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "Phase diagram of water (schematic, key points to scale)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; boundary curves are schematic, anchored at real triple point (0.01 degC, 0.00604 atm), normal melting/boiling points, and critical point (374 degC, 218 atm); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "vapor-pressure-diethyl-ether",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/vapor_pressure_diethyl_ether.svg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "Vapor pressure of diethyl ether vs. temperature (Clausius-Clapeyron equation)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the Clausius-Clapeyron equation and the worked example's given data point (400 mmHg at 27 degC, dHvap = 26.0 kJ/mol); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "cubic-unit-cells",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/cubic_unit_cells.svg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "The three cubic unit cells: simple cubic, body-centered cubic, face-centered cubic",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "water-strider-surface-tension",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/water_strider_surface_tension.jpg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "A water strider stands on the water because of its light weight and the surface tension of the water",
+      "creator": "NPS Photo (U.S. National Park Service)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_water_strider_stands_on_the_water_because_of_its_light_weight_and_the_surface_tension_of_the_water._(3116c804-0240-4b9a-b937-70fc7c2b156e).jpg",
+      "license": "public-domain",
+      "attribution": "NPS Photo, via Wikimedia Commons (public domain, U.S. government work).",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:A_water_strider_stands_on_the_water_because_of_its_light_weight_and_the_surface_tension_of_the_water._(3116c804-0240-4b9a-b937-70fc7c2b156e).jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-water-strider-surface-tension.html",
+        "evidenceSha256": "244369a692934c64b53b7f60abdb5b493d06577e75c23854365a386fc5efba66",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:A_water_strider_stands_on_the_water_because_of_its_light_weight_and_the_surface_tension_of_the_water._(3116c804-0240-4b9a-b937-70fc7c2b156e).jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:A_water_strider_stands_on_the_water_because_of_its_light_weight_and_the_surface_tension_of_the_water._(3116c804-0240-4b9a-b937-70fc7c2b156e).jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T01:25:05.235Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 96612,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T01:25:05.235Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "nacl-ionic-lattice",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/nacl_ionic_lattice.png",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "Sodium chloride ionic lattice (3D ball-and-stick model)",
+      "creator": "Benjah-bmm27",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lattice-enthalpy-NaCl-3D-ionic.png",
+      "license": "public-domain",
+      "attribution": "Benjah-bmm27, via Wikimedia Commons (released into the public domain by the creator).",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Lattice-enthalpy-NaCl-3D-ionic.png",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-nacl-ionic-lattice.html",
+        "evidenceSha256": "ab7211ba73fe17974243156e38bde8b3a323a6df9b4ccf76c9780917b2206a7d",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Lattice-enthalpy-NaCl-3D-ionic.png",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Lattice-enthalpy-NaCl-3D-ionic.png",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T01:25:06.061Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 93893,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T01:25:06.061Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "quartz-crystal-photo",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/quartz_crystal.jpg",
+      "usedIn": [
+        "study-guide/intermolecular-forces.md",
+        "slides/intermolecular-forces.md"
+      ],
+      "title": "Quartz crystal specimen (covalent-network solid, SiO2)",
+      "creator": "Masha Milshina",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grape_quartz_04.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "Masha Milshina, via Wikimedia Commons, CC BY 4.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Grape_quartz_04.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-quartz-crystal-photo.html",
+        "evidenceSha256": "ddce2c6c99aeffac7d59beb4f8b4398eb9f104613db1517e3d257f66fea73f25",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Grape_quartz_04.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Grape_quartz_04.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T01:25:06.790Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 101506,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T01:25:06.790Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "like-dissolves-like",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/like_dissolves_like.svg",
+      "usedIn": [
+        "study-guide/solutions.md",
+        "slides/solutions.md"
+      ],
+      "title": "Like dissolves like: polar and nonpolar solvents and solutes (RDKit structures)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with RDKit; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "freezing-point-depression",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/freezing_point_depression.svg",
+      "usedIn": [
+        "study-guide/solutions.md",
+        "slides/solutions.md"
+      ],
+      "title": "Freezing-point depression vs. molality for solutes with different van't Hoff factors",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the real Kf of water (1.86 degC/m); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "raoults-law",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/raoults_law.svg",
+      "usedIn": [
+        "slides/solutions.md",
+        "study-guide/solutions.md"
+      ],
+      "title": "Raoult's law: vapor-pressure lowering vs. solvent mole fraction",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own worked-example data (water, 25 degC, P0 = 23.7 torr); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "rock-salt-deicing",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/rock_salt_deicing.jpg",
+      "usedIn": [
+        "study-guide/solutions.md",
+        "slides/solutions.md"
+      ],
+      "title": "Highway rock salt (used for freezing-point-depression de-icing)",
+      "creator": "James St. John",
+      "sourceUrl": "https://www.flickr.com/photos/47445767@N05/37382600501",
+      "license": "CC-BY-2.0",
+      "attribution": "James St. John, via Flickr (Openverse), CC BY 2.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://www.flickr.com/photos/47445767@N05/37382600501",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-rock-salt-deicing.html",
+        "evidenceSha256": "d5a4545b767d58a7637fb26a1e267bafc90f408b47a2ed1d635b4445b48af02d",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://www.flickr.com/photos/47445767@N05/37382600501",
+          "finalUrl": "https://www.flickr.com/photos/47445767@N05/37382600501",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T14:47:46.653Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=utf-8",
+          "byteLength": 528064,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T14:47:46.653Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "sugar-crystals",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/sugar_crystals.jpg",
+      "usedIn": [
+        "slides/solutions.md",
+        "study-guide/solutions.md"
+      ],
+      "title": "Crystallized sugar grown from a saturated solution",
+      "creator": "Zaereth",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crystallized_sugar,_multiple_crystals_and_a_single_crystal_grown_from_seed.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Zaereth, via Wikimedia Commons, CC BY-SA 4.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Crystallized_sugar,_multiple_crystals_and_a_single_crystal_grown_from_seed.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-sugar-crystals.html",
+        "evidenceSha256": "849e6fa941f84690729b1be6d5ab3e1b45ebd8c26569d2889686f8b6c20bffe4",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Crystallized_sugar,_multiple_crystals_and_a_single_crystal_grown_from_seed.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Crystallized_sugar,_multiple_crystals_and_a_single_crystal_grown_from_seed.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T14:47:27.163Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 116817,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T14:47:27.163Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "reaction-order-linearization",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/reaction_order_linearization.svg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Determining reaction order graphically: [A], ln[A], and 1/[A] vs. time",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own first-order worked-example data (cyclobutane decomposition); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "arrhenius-plot",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/arrhenius_plot.svg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Arrhenius plot (ln k vs. 1/T) for acetaldehyde decomposition",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own two real data points (703 K/865 K); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "potential-energy-profile",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/potential_energy_profile.svg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Potential-energy profile for a two-step reaction mechanism",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; energy values are schematic/illustrative (relative ordering matches the worked example's conclusion that step 1 is rate-determining), not exact experimental data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "catalytic-converter",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/catalytic_converter.jpg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Interior of a catalytic converter, showing the honeycomb structure",
+      "creator": "Cyrogigabyte",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg",
+      "license": "CC0-1.0",
+      "attribution": "Cyrogigabyte, via Wikimedia Commons, CC0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-catalytic-converter.html",
+        "evidenceSha256": "72775f9f0dfcb13128f9d04a23c3ab235bce15a13bccac6d33045eec18b55453",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T15:14:16.959Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 120553,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T15:14:16.959Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "enzyme-lock-and-key",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/enzyme_lock_and_key.svg",
+      "usedIn": [
+        "slides/chemical-kinetics.md",
+        "study-guide/chemical-kinetics.md"
+      ],
+      "title": "Lock-and-key mechanism of enzyme catalysis",
+      "creator": "domdomegg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lock_and_key_enzyme_mechanism.svg",
+      "license": "CC-BY-4.0",
+      "attribution": "domdomegg, via Wikimedia Commons, CC BY 4.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Lock_and_key_enzyme_mechanism.svg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-enzyme-lock-and-key.html",
+        "evidenceSha256": "405267d124135c6c49219bd7f52a992770df58183d1ea21ee0820808f0253902",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Lock_and_key_enzyme_mechanism.svg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Lock_and_key_enzyme_mechanism.svg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T15:14:17.905Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 86189,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T15:14:17.905Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "approach-to-equilibrium",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/approach_to_equilibrium.svg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "Reaching dynamic equilibrium: concentration and rate vs. time for A <=> B",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib from the analytic solution of A <=> B with kf = 0.20 s^-1 and kr = 0.05 s^-1 — the same rate constants as the chapter's own worked example, so K = kf/kr = 4.0; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "le-chatelier-concentration-shift",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/le_chatelier_concentration_shift.svg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "Le Chatelier's principle: concentrations before and after adding reactant A",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; schematic/illustrative concentrations chosen to demonstrate partial-offset behavior, not from a specific experimental dataset; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "k-magnitude-schematic",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/k_magnitude_schematic.svg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "What K's magnitude means: schematic product/reactant composition for K >> 1 and K << 1",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; schematic composition only, not a precise K-to-mole-fraction conversion (which also depends on stoichiometry and total moles); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "no2-n2o4-equilibrium",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/no2_n2o4_equilibrium.jpg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "Sealed tubes of NO2/N2O4 gas at three temperatures, showing the equilibrium shift toward brown NO2 as temperature increases",
+      "creator": "Gedep",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NO2_N2O4_evenwicht.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Gedep, via Wikimedia Commons, CC BY-SA 4.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:NO2_N2O4_evenwicht.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-no2-n2o4-equilibrium.html",
+        "evidenceSha256": "0b913bfcd7c1100370779f4038fb237d6db4968370bd095d42cbcbdbc90bee1b",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:NO2_N2O4_evenwicht.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:NO2_N2O4_evenwicht.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T16:17:53.178Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 116897,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T16:17:53.178Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "ammonia-plant",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/ammonia_plant.jpg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "Industrial ammonia (Haber-Bosch) synthesis plant",
+      "creator": "DeltaSquad833",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ThyssenKrupp_Ammonia_&_Urea_Plant.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "DeltaSquad833, via Wikimedia Commons, CC BY-SA 4.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:ThyssenKrupp_Ammonia_&_Urea_Plant.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-ammonia-plant.html",
+        "evidenceSha256": "e0c2b7ce3bb3c918c1168133c29f032a16c0184585aeb9b8cf50a93e9417c548",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:ThyssenKrupp_Ammonia_&_Urea_Plant.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:ThyssenKrupp_Ammonia_&_Urea_Plant.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T16:17:53.607Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 115895,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T16:17:53.607Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "ph-scale",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/ph_scale.svg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "The pH scale with common substances",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; approximate, commonly cited pH values for real substances (actual values vary with concentration/brand); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "hydrohalic-acids-grid",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/hydrohalic_acids_grid.svg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Hydrohalic acids: HF, HCl, HBr, HI (RDKit structures)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with RDKit; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "oxoacid-strength-trend",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/oxoacid_strength_trend.svg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Oxoacid strength (pKa1) vs. oxygen count for chlorine oxoacids",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; approximate, commonly cited literature pKa1 values; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "litmus-paper-test",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/litmus_paper_test.jpg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Litmus paper strips showing the acid-base color change (blue to red)",
+      "creator": "Chemicalinterest",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litmus_paper.JPG",
+      "license": "public-domain",
+      "attribution": "Chemicalinterest, via Wikimedia Commons (public domain). Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Litmus_paper.JPG",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-litmus-paper-test.html",
+        "evidenceSha256": "f43057d8806e332a84b1a1d611a178eb3d54aaf6ec6aa3d06de8140c10d78ee7",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Litmus_paper.JPG",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Litmus_paper.JPG",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T16:55:37.255Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 123220,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T16:55:37.255Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "red-cabbage-indicator",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/red_cabbage_indicator.jpg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Red cabbage (anthocyanin) natural pH indicator across a range of test tubes",
+      "creator": "KennyMex",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Extracto_de_col_morada,_indicador_ácido_base.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "KennyMex, via Wikimedia Commons, CC BY-SA 4.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Extracto_de_col_morada,_indicador_ácido_base.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-red-cabbage-indicator.html",
+        "evidenceSha256": "e231a6946011f61c990a0e7f32b4f8a963cfe39a750c9b45531b0b0e70aa6f6d",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Extracto_de_col_morada,_indicador_ácido_base.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Extracto_de_col_morada,_indicador_%C3%A1cido_base.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T16:55:37.913Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 110057,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T16:55:37.913Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "titration-curves",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/titration_curves.svg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "Titration curves: strong acid/strong base vs. weak acid/strong base",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; pH computed from real equilibrium chemistry (Ka=1.8e-5 for acetic acid) matching the study guide's own worked-example volumes/concentrations; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "indicator-ranges",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/indicator_ranges.svg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "Acid-base indicator color-change pH ranges",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; approximate, commonly cited literature color-change ranges; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "complex-ion-formation",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/complex_ion_formation.svg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "Complex-ion formation schematic: Ag+ + 2NH3 -> [Ag(NH3)2]+",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; schematic illustration, not a literal Lewis structure; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "titration-endpoint",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/titration_endpoint.jpg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "Faint pink phenolphthalein color at a titration endpoint",
+      "creator": "Kengksn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Faint_pink_color_of_Phenolphthalein.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Kengksn, via Wikimedia Commons, CC BY-SA 4.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Faint_pink_color_of_Phenolphthalein.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-titration-endpoint.html",
+        "evidenceSha256": "b22f8a2711ec957bb65356403c40e2f133396eb48976120c097ce71ad288b3bd",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Faint_pink_color_of_Phenolphthalein.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Faint_pink_color_of_Phenolphthalein.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T17:22:45.450Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 103397,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T17:22:45.450Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "silver-chloride-precipitate",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/silver_chloride_precipitate.jpg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "White silver chloride (AgCl) precipitate forming in a test tube",
+      "creator": "Luisbrudna",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silver_chloride_(AgCl).jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Luisbrudna, via Wikimedia Commons, CC BY-SA 4.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Silver_chloride_(AgCl).jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-silver-chloride-precipitate.html",
+        "evidenceSha256": "37719feb47563d74fb9fa54d65ef729711a81013c9256b30962a3d9b4b3d7e97",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Silver_chloride_(AgCl).jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Silver_chloride_(AgCl).jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T17:22:46.071Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 106404,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T17:22:46.071Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "microstates-distribution",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/microstates_distribution.svg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "Microstates: distributing 4 particles between 2 boxes (5 distributions, 16 total microstates)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; illustrates the study guide's own worked description (2^4=16 microstates); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "free-energy-vs-reaction-progress",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/free_energy_vs_reaction_progress.svg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "Free energy vs. reaction progress (schematic), minimum at equilibrium",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; schematic illustration of the G-vs-progress relationship, not a specific reaction's real data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "gibbs-temperature-crossover",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/gibbs_temperature_crossover.svg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "ΔG° vs. temperature for CaCO3(s) <=> CaO(s) + CO2(g), crossing zero at 1108 K",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own real worked-example data (deltaH=177.8 kJ/mol, deltaS=160.5 J/K mol); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ice-melting",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/ice_melting.jpg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "Ice partially melted on a wooden table",
+      "creator": "Rebecca Partington",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melting_-_Flickr_-_Trinity.jpg",
+      "license": "CC-BY-SA-2.0",
+      "attribution": "Rebecca Partington from Seattle, Washington, USA, via Wikimedia Commons, CC BY-SA 2.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Melting_-_Flickr_-_Trinity.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-ice-melting.html",
+        "evidenceSha256": "81e72c278ff40f9872b056555f045b4225f08fa3caadc741187a11a8df83b6fb",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Melting_-_Flickr_-_Trinity.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Melting_-_Flickr_-_Trinity.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T22:18:59.334Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 125913,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T22:18:59.334Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "diamond",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/diamond.jpg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "A cut diamond, a perfect crystalline solid used as the chapter's third-law example",
+      "creator": "Steve Jurvetson",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apollo_synthetic_diamond.jpg",
+      "license": "CC-BY-2.0",
+      "attribution": "Steve Jurvetson, via Wikimedia Commons, CC BY 2.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Apollo_synthetic_diamond.jpg",
+        "verifiedAt": "2026-08-24",
+        "evidenceSnapshot": "metadata/evidence/media-diamond.html",
+        "evidenceSha256": "75933f9f71c5ef8085cccff800deb9e44a7fe9d48b690a8155a0a810cb33d07d",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Apollo_synthetic_diamond.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Apollo_synthetic_diamond.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-24T22:19:00.387Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 138624,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-24T22:19:00.387Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "galvanic-cell-diagram",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/galvanic_cell_diagram.svg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "Galvanic cell schematic: Zn/Cu cell with salt bridge and electron flow",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; illustrates the study guide's own Zn/Cu worked example; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "reduction-potential-series",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/reduction_potential_series.svg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "Standard reduction potentials for selected half-reactions",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using real, commonly tabulated standard reduction potentials; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "nernst-concentration-cell",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/nernst_concentration_cell.svg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "E vs. Q for a Zn2+/Zn concentration cell (n=2)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the Nernst equation and the study guide's own real worked-example data point (0.10 M / 0.50 M -> E=0.0207 V); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "rust-corrosion",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/rust_corrosion.jpg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "Rust (iron oxide corrosion) on a metal surface",
+      "creator": "Georges Grondin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rust_on_metal.jpg",
+      "license": "public-domain",
+      "attribution": "Georges Grondin, via Wikimedia Commons (public domain). Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Rust_on_metal.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-rust-corrosion.html",
+        "evidenceSha256": "a5287a72882c95e5e5fa48336738ade5497c5439cc15b676d81708307db2ddaa",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Rust_on_metal.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Rust_on_metal.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T00:35:34.363Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 74656,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T00:35:34.363Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "batteries",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/batteries.jpg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "AA batteries, close-up of the terminal ends",
+      "creator": "ajay_suresh",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AA_Batteries_(51825378856).jpg",
+      "license": "CC-BY-2.0",
+      "attribution": "ajay_suresh, via Wikimedia Commons, CC BY 2.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:AA_Batteries_(51825378856).jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-batteries.html",
+        "evidenceSha256": "8b594de90b3d5e974ff0bcc2442a02f988bdd352a0757939b177040c8abce612",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:AA_Batteries_(51825378856).jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:AA_Batteries_(51825378856).jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T00:37:49.717Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 127410,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T00:37:49.717Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "band-of-stability",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/band_of_stability.svg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "The band of stability: N vs Z for representative real stable nuclides",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using real Z/N values for a representative set of stable nuclides; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "binding-energy-curve",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/binding_energy_curve.svg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "Binding energy per nucleon vs. mass number, showing the Fe-56 peak and fission/fusion directions",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using real binding-energy-per-nucleon values, two of which (F-19, Fe-56) match the study guide's own worked examples; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "carbon14-decay",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/carbon14_decay.svg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "Radiocarbon (C-14) first-order decay curve with the Dead Sea Scrolls data point",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the real C-14 half-life (5730 y) and the study guide's own Dead Sea Scrolls worked-example data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "nuclear-power-plant",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/nuclear_power_plant.jpg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "Cooling towers of the Cofrentes nuclear power plant, Spain",
+      "creator": "Roberto Uderio (retouched by AlMare)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cofrentes_nuclear_power_plant_cooling_towers_retouched.jpg",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Roberto Uderio (retouched by AlMare), via Wikimedia Commons, CC BY-SA 3.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Cofrentes_nuclear_power_plant_cooling_towers_retouched.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-nuclear-power-plant.html",
+        "evidenceSha256": "b28d4f9c776289b07d5a5d75041798e5de6c55ccc998a5de5958e002c1a79837",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Cofrentes_nuclear_power_plant_cooling_towers_retouched.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Cofrentes_nuclear_power_plant_cooling_towers_retouched.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T02:01:28.558Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 101552,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T02:01:28.558Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "the-sun",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/the_sun.jpg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "The Sun, imaged by NASA's Solar Dynamics Observatory",
+      "creator": "NASA/SDO (AIA)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg",
+      "license": "public-domain",
+      "attribution": "NASA/SDO (AIA), via Wikimedia Commons (public domain, U.S. government work). Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-the-sun.html",
+        "evidenceSha256": "65bea765f264e97f439f5acf5d514520f490b82d611aa4abca2ce2a2f9c62d2e",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T02:02:41.184Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 182405,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T02:02:41.184Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "states-of-matter",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/states_of_matter.svg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Particle arrangement in solids, liquids, and gases",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib to schematically show relative particle spacing/order in the three states of matter; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "graduated-cylinder-meniscus",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/graduated_cylinder_meniscus.svg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Reading a graduated cylinder at the bottom of the meniscus, with an estimated digit",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib to illustrate significant-figure estimation when reading a liquid meniscus; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "si-prefix-ladder",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/si_prefix_ladder.svg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "The SI prefix ladder from pico- to tera-, plotted by power of ten",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib to visualize SI prefixes as powers of ten relative to the base unit; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "lab-balance",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/lab_balance.jpg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Two-pan analytical balance used to measure mass",
+      "creator": "Drugs Rehab Center Parus - Moscow (Wikimedia Commons user Rebcenter-moscow)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Analytical_balance_scales.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Drugs Rehab Center Parus - Moscow, via Wikimedia Commons, CC BY-SA 4.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Analytical_balance_scales.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-lab-balance.html",
+        "evidenceSha256": "dcb569f4880f37acf767b5586690073dbe3355e164eb221b4a57ca590d60c4ab",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Analytical_balance_scales.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Analytical_balance_scales.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T03:33:44.015Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 121251,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T03:33:44.015Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "atom-structure",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/atom_structure.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Schematic atom showing the nucleus (protons and neutrons) and electron shells",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic (not to scale); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "subatomic-particle-masses",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/subatomic_particle_masses.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Bar chart comparing the masses of the electron, proton, and neutron on a log scale",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own subatomic-particle mass data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "nacl-salt",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/nacl_salt.jpg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Macro photo of sodium chloride (table salt) crystals",
+      "creator": "Kruczy89 (Wikimedia Commons user)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chlorek_sodu_NaCl_Salt.jpg",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Kruczy89, via Wikimedia Commons, CC BY-SA 3.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Chlorek_sodu_NaCl_Salt.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-nacl-salt.html",
+        "evidenceSha256": "aa79c84f465e809d0ae45609256e465bf7ca0f1b4ddcecbd506c3b25689a0cf3",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Chlorek_sodu_NaCl_Salt.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Chlorek_sodu_NaCl_Salt.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T03:46:59.146Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 110791,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T03:46:59.146Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "mole-conversion-triangle",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/mole_conversion_triangle.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Diagram of mole conversions between mass, moles, and particle count",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "combustion-analysis",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/combustion_analysis.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Schematic of a combustion analysis apparatus for determining empirical formula",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "limiting-reagent-bar",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/limiting_reagent_bar.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Bar chart identifying the limiting reagent in the NH3 + CO2 -> urea reaction",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own worked-example data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "magnesium-burning",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/magnesium_burning.jpg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Magnesium ribbon burning in air, producing white magnesium oxide",
+      "creator": "Capt. John Yossarian (Wikimedia Commons contributor)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnesium_ribbon_burning.jpg",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Capt. John Yossarian, via Wikimedia Commons, CC BY-SA 3.0 (dual-licensed with GFDL 1.2+). Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Magnesium_ribbon_burning.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-magnesium-burning.html",
+        "evidenceSha256": "4d8679057c33e76a2a62715c2cc672a2ddabd0e38f20a5ac6246ca7a9948c077",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Magnesium_ribbon_burning.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Magnesium_ribbon_burning.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T04:02:43.225Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 98402,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T04:02:43.225Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "precipitation-reaction",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/precipitation_reaction.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Schematic of a precipitation reaction forming AgCl(s) from Ag+ and Cl-",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "electron-transfer-naf",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/electron_transfer_naf.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Diagram of electron transfer from Na to F during a redox reaction",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic (replaces a hotlinked source GIF, which is never permitted); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "activity-series-ladder",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/activity_series_ladder.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Activity series of metals, color-coded by reactivity tier",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own activity-series table; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "displaced-copper",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/displaced_copper.jpg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Iron wire displacing copper from a copper chloride solution",
+      "creator": "2x910 (Wikimedia Commons contributor)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Displaced_copper_crystal.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "2x910, via Wikimedia Commons, CC BY-SA 4.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Displaced_copper_crystal.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-displaced-copper.html",
+        "evidenceSha256": "e4aba39d5c25452269dccea4780819bac29385f417603c57bab0b62cb3e7044b",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Displaced_copper_crystal.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Displaced_copper_crystal.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T04:16:17.969Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 117230,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T04:16:17.969Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "gas-laws-panels",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/gas_laws_panels.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Three-panel chart of Boyle's, Charles's, and Avogadro's gas laws",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "grahams-law-effusion",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/grahams_law_effusion.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Bar chart of relative effusion rates for 5 gases, illustrating Graham's law",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using real molar masses; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "real-gas-deviation",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/real_gas_deviation.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Schematic compressibility-factor chart showing real-gas deviation from ideal behavior",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "hot-air-balloon",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/hot_air_balloon.jpg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "View from inside an inflating hot air balloon, heated air expanding the envelope",
+      "creator": "Ville Miettinen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_an_inflating_hot_air_balloon.jpg",
+      "license": "CC-BY-2.0",
+      "attribution": "Ville Miettinen, via Wikimedia Commons (originally Flickr), CC BY 2.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Inside_an_inflating_hot_air_balloon.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-hot-air-balloon.html",
+        "evidenceSha256": "595b2cc89a7f87eb96a89663f6ef7b0164d87654d67b76dce4f8c36880411f96",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Inside_an_inflating_hot_air_balloon.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Inside_an_inflating_hot_air_balloon.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T04:27:55.465Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 125087,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T04:27:55.465Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "exo-endo-diagram",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/exo_endo_diagram.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Energy diagrams contrasting exothermic and endothermic processes",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "bomb-calorimeter-schematic",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/bomb_calorimeter.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Schematic cutaway diagram of a bomb calorimeter",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "hess-law-cycle",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/hess_law_cycle.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Hess's Law cycle diagram for the two-step formation of FeCl3",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own worked-example data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "bomb-calorimeter-photo",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/bomb_calorimeter_photo.jpg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "A real bomb calorimeter with its steel sample bomb",
+      "creator": "Harbor1 (Wikimedia Commons contributor)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bombenkalorimeter_mit_bombe.jpg",
+      "license": "CC-BY-3.0",
+      "attribution": "Harbor1, via Wikimedia Commons, CC BY 3.0 (dual-licensed with GFDL 1.2+).",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Bombenkalorimeter_mit_bombe.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-bomb-calorimeter-photo.html",
+        "evidenceSha256": "8748829413bda6813e6546050ac0faa393be0f8b3314b534ac26be5096982856",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Bombenkalorimeter_mit_bombe.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Bombenkalorimeter_mit_bombe.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T04:42:08.872Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 107994,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T04:42:08.872Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "em-spectrum-ladder",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/em_spectrum_ladder.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "The electromagnetic spectrum ordered by wavelength",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "bohr-energy-levels",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/bohr_energy_levels.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "Hydrogen energy-level diagram showing an n=5 to n=2 emission transition",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using the study guide's own worked-example data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "orbital-shapes",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/orbital_shapes.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "Simplified 2D cross-sections of s, p, and d orbital shapes",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "hydrogen-lamp",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/hydrogen_lamp.jpg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "A glowing hydrogen gas discharge lamp",
+      "creator": "UCL Mathematical & Physical Sciences (Pavlos Apostolidis)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_Lamp_(24856071897).jpg",
+      "license": "CC-BY-2.0",
+      "attribution": "UCL Mathematical & Physical Sciences, via Wikimedia Commons (originally Flickr), CC BY 2.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_Lamp_(24856071897).jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-hydrogen-lamp.html",
+        "evidenceSha256": "7f3723e662d8d2ef0e34dbe6ef797f60cd4d53f0e2e33185c21ea407f14d502c",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_Lamp_(24856071897).jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_Lamp_(24856071897).jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T04:56:20.894Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 109826,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T04:56:20.894Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "element-category-map",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/element_category_map.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Simplified periodic-table-shaped map of element categories by subshell",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "isoelectronic-radius-series",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/isoelectronic_radius_series.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Bar chart of ionic/atomic radii for the classic 10-electron isoelectronic series",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using standard tabulated ionic radii, matching the study guide's own isoelectronic-series example; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ionization-energy-trend",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/ionization_energy_trend.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Line chart of first ionization energy across Period 2, showing the Be-B and N-O dips",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using real tabulated ionization-energy values; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "sodium-water",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/sodium_water.png",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "High-speed photo of sodium metal reacting violently with water",
+      "creator": "Tavoromann (original photo); Tony Mach (cropped derivative)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sodium_and_Water.png",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Tavoromann / Tony Mach, via Wikimedia Commons, CC BY-SA 3.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Sodium_and_Water.png",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-sodium-water.html",
+        "evidenceSha256": "1eb93b2fb015f6e33dd7db48d42ddbb345ef6b0d433904b24b143bed31c20e3b",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Sodium_and_Water.png",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Sodium_and_Water.png",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T05:09:27.406Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 84220,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T05:09:27.406Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "ionic-vs-covalent-bond",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/ionic_vs_covalent_bond.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Schematic contrasting ionic electron transfer with covalent electron sharing",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "lewis-and-resonance",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/lewis_and_resonance.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Lewis structures for NH3, CH4, N2, and the two resonance structures of ozone",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic (replaces multiple hotlinked source images); released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "electronegativity-trend",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/electronegativity_trend.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Line chart of Pauling electronegativity across Periods 2 and 3",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib using real Pauling electronegativity values; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "diamond-graphite",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/diamond_graphite.jpg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Diamond and graphite samples with their respective covalent network crystal structures",
+      "creator": "Itub; derivative by Materialscientist",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamond_and_graphite2.jpg",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Itub / Materialscientist, via Wikimedia Commons, CC BY-SA 3.0 (dual-licensed with GFDL 1.2+).",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Diamond_and_graphite2.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-diamond-graphite.html",
+        "evidenceSha256": "0390e5c6ba1e9b6816b2f04fb5302396a7712f95f344f4ab92151f789d7b586a",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Diamond_and_graphite2.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Diamond_and_graphite2.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T05:22:41.425Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 121679,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T05:22:41.425Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "vsepr-no-lone-pairs",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/vsepr_no_lone_pairs.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "The five basic VSEPR shapes with no lone pairs on the central atom",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "vsepr-with-lone-pairs",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/vsepr_with_lone_pairs.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "VSEPR shapes where the central atom has one or more lone pairs",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "sigma-pi-bonds",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/sigma_pi_bonds.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "Schematic contrasting sigma (end-to-end) and pi (sideways) orbital overlap",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "acetylene-model",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/acetylene_model.jpg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "A physical ball-and-stick model of acetylene (C2H2), showing its linear geometry",
+      "creator": "Bin im Garten (Wikimedia Commons contributor)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acetylene_8162.JPG",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Bin im Garten, via Wikimedia Commons, CC BY-SA 3.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Acetylene_8162.JPG",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-acetylene-model.html",
+        "evidenceSha256": "5c834867abbac41a09b80efec4a3458e1fe1704829cccfec19ac0508c01d90fb",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Acetylene_8162.JPG",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Acetylene_8162.JPG",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T05:43:34.987Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 116026,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T05:43:34.987Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "electronic-balance",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/electronic_balance.jpg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Electronic analytical balance with draft shield, displaying a mass to four decimal places",
+      "creator": "Manishbookmyuniversity (Wikimedia Commons contributor)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Analytical_Weighing_Balance_UP_Scales.jpg",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Manishbookmyuniversity, via Wikimedia Commons, CC BY-SA 4.0. Resized from the original for web use.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Analytical_Weighing_Balance_UP_Scales.jpg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-electronic-balance.html",
+        "evidenceSha256": "4d752563d23ccf5fa817636217737398cf6ff76cf42d5667ff30b7a6738ed665",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Analytical_Weighing_Balance_UP_Scales.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Analytical_Weighing_Balance_UP_Scales.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T13:40:17.805Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 97441,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T13:40:17.805Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "geiger-marsden-expectation-result",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/geiger_marsden_expectation_result.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Geiger-Marsden experiment: the Thomson plum-pudding prediction compared with the actual Rutherford result",
+      "creator": "Kurzon",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geiger-Marsden_experiment_expectation_and_result.svg",
+      "license": "CC-BY-3.0",
+      "attribution": "Kurzon, via Wikimedia Commons, CC BY 3.0.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Geiger-Marsden_experiment_expectation_and_result.svg",
+        "verifiedAt": "2026-08-25",
+        "evidenceSnapshot": "metadata/evidence/media-geiger-marsden-expectation-result.html",
+        "evidenceSha256": "5cdbf4723c5dc6c1a13a36979693e83fc7dcec5a56359d014bb9f9c9404b2443",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Geiger-Marsden_experiment_expectation_and_result.svg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Geiger-Marsden_experiment_expectation_and_result.svg",
+          "redirectChain": [],
+          "retrievedAt": "2026-08-25T14:32:03.164Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 131297,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Claude (Coursewerk agent)"
+          },
+          "capturedAt": "2026-08-25T14:32:03.164Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "matter-classification-tree",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/matter_classification_tree.svg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Decision tree for classifying matter into element, compound, homogeneous or heterogeneous mixture",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "accuracy-vs-precision",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/accuracy_vs_precision.svg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Four dartboards contrasting accuracy and precision as independent qualities",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "dimensional-analysis-cancel",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/dimensional_analysis_cancel.svg",
+      "usedIn": [
+        "study-guide/introduction.md",
+        "slides/introduction.md"
+      ],
+      "title": "Unit-cancellation diagram for a single-factor dimensional-analysis conversion",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "periodic-table-overview",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/periodic_table_overview.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Periodic table showing periods, groups, metal/metalloid/nonmetal categories, and the four named families",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "isotope-notation",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/isotope_notation.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Isotope notation: mass number and atomic number labeled, with the three isotopes of carbon",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ion-charges-by-group",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/ion_charges_by_group.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Predictable monatomic ion charges for the main-group elements, by group number",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ionic-formula-charge-balance",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/ionic_formula_charge_balance.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Building an ionic formula by balancing charge, contrasting a case needing no reduction with one that does",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "naming-decision-tree",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/naming_decision_tree.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Decision tree for choosing between acid, ionic and molecular naming systems",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "radiation-types",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/radiation_types.svg",
+      "usedIn": [
+        "study-guide/atoms-molecules-ions.md",
+        "slides/atoms-molecules-ions.md"
+      ],
+      "title": "Comparison of alpha, beta and gamma emission: composition, charge, mass and penetrating power",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "stoichiometry-road-map",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/stoichiometry_road_map.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "The stoichiometry road map: mass A to moles A to moles B to mass B",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "how-big-is-a-mole",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/how_big_is_a_mole.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Scale comparisons giving a sense of the size of Avogadro's number",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "percent-composition-water",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/percent_composition_water.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Percent composition of water shown as a mass bar, contrasting mass fraction with atom count",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "balancing-atom-tally",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/balancing_atom_tally.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Atom tallies for an unbalanced and a balanced combustion equation",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "limiting-reagent-concept",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/limiting_reagent_concept.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Nuts-and-bolts analogy for limiting reagent and excess reagent",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "theoretical-vs-actual-yield",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/theoretical_vs_actual_yield.svg",
+      "usedIn": [
+        "study-guide/stoichiometry.md",
+        "slides/stoichiometry.md"
+      ],
+      "title": "Theoretical yield compared with actual yield as proportional bars, giving percent yield",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "electrolyte-conductivity",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/electrolyte_conductivity.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Strong, weak and nonelectrolyte solutions compared by conductivity and by particle picture",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "hydration-of-ions",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/hydration_of_ions.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "An ionic lattice dissolving, with oriented water molecules hydrating the freed ions",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "oxidation-number-line",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/oxidation_number_line.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Oxidation number as a number line, with a worked assignment for sulfur in sulfate",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "dilution-same-moles",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/dilution_same_moles.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Dilution shown as the same solute particles spread through a larger volume",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "titration-setup",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/titration_setup.svg",
+      "usedIn": [
+        "study-guide/aqueous-reactions.md",
+        "slides/aqueous-reactions.md"
+      ],
+      "title": "Titration apparatus with the indicator stages and the equivalence-point definition",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "pressure-and-barometer",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/pressure_and_barometer.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Pressure as force per area, and a mercury barometer measuring atmospheric pressure",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "kmt-explains-gas-laws",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/kmt_explains_gas_laws.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Molecular pictures showing how kinetic molecular theory accounts for each gas law",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "molecular-speed-distribution",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/molecular_speed_distribution.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Maxwell-Boltzmann speed distributions by molar mass and by temperature, with root-mean-square speeds marked",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "gas-stoichiometry-road-map",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/gas_stoichiometry_road_map.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Gas stoichiometry road map: mass of A to moles to volume of a gaseous product",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "gas-collected-over-water",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/gas_collected_over_water.svg",
+      "usedIn": [
+        "study-guide/gases.md",
+        "slides/gases.md"
+      ],
+      "title": "Collecting a gas over water, and the water-vapor correction to its partial pressure",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "system-and-surroundings",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/system_and_surroundings.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "System and surroundings, and the open, closed and isolated system types compared by what crosses the boundary",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "sign-conventions-q-w",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/sign_conventions_q_w.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Sign conventions for heat and work, taken from the system's point of view",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "specific-heat-comparison",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/specific_heat_comparison.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Specific heat capacities of common substances compared, with water far above the rest",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "two-calorimeters",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/two_calorimeters.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Constant-pressure and constant-volume calorimeters compared, and which quantity each measures",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "formation-enthalpy-reference",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/formation_enthalpy_reference.svg",
+      "usedIn": [
+        "study-guide/thermochemistry.md",
+        "slides/thermochemistry.md"
+      ],
+      "title": "Standard formation enthalpies shown as heights above and below the elements' zero reference level",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "orbit-vs-orbital",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/orbit_vs_orbital.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "A Bohr orbit contrasted with a quantum-mechanical orbital drawn as a probability cloud",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "photoelectric-effect",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/photoelectric_effect.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "The photoelectric effect: threshold frequency, and kinetic energy plotted against frequency",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "aufbau-diagonal-rule",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/aufbau_diagonal_rule.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "The diagonal (Madelung) rule for the order in which atomic subshells fill",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "orbital-filling-h-to-ne",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/orbital_filling_h_to_ne.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "Orbital-box diagrams for hydrogen through neon, showing the Pauli principle and Hund's rule",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "standing-wave-orbit",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/standing_wave_orbit.svg",
+      "usedIn": [
+        "study-guide/quantum-theory.md",
+        "slides/quantum-theory.md"
+      ],
+      "title": "Standing waves on a circular orbit, showing why only a whole number of wavelengths is allowed",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "periodic-trend-map",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/periodic_trend_map.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Periodic trends in atomic radius, ionization energy and electron affinity shown as arrows on a schematic table",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "effective-nuclear-charge",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/effective_nuclear_charge.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Shielding and effective nuclear charge compared for lithium, carbon and fluorine",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "successive-ionization-energies",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/successive_ionization_energies.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Successive ionization energies of sodium, magnesium and aluminum, showing the jump at the noble-gas core",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "oxide-character-period3",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/oxide_character_period3.svg",
+      "usedIn": [
+        "study-guide/periodic-table.md",
+        "slides/periodic-table.md"
+      ],
+      "title": "Acid-base and structural character of the period 3 oxides, from basic through amphoteric to acidic",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "lewis-dot-symbols",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/lewis_dot_symbols.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Lewis dot symbols for the period 2 elements, one dot per valence electron",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "bond-type-continuum",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/bond_type_continuum.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Bond type as a continuum in electronegativity difference, from nonpolar covalent through polar covalent to ionic",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "lewis-structure-steps",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/lewis_structure_steps.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "The four-step Lewis structure procedure worked through for carbon dioxide",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "octet-exceptions",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/octet_exceptions.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "The three categories of octet-rule exception: incomplete octet, odd-electron molecule, expanded octet",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "bond-enthalpy-cycle",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/bond_enthalpy_cycle.svg",
+      "usedIn": [
+        "study-guide/chemical-bonding.md",
+        "slides/chemical-bonding.md"
+      ],
+      "title": "Energy diagram showing why reaction enthalpy equals bonds broken minus bonds formed",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "dipole-cancellation",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/dipole_cancellation.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "Bond dipoles added as vectors for CO2, H2O, BF3 and NH3, showing when they cancel",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "sp3-promotion-mixing",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/sp3_promotion_mixing.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "Carbon's orbital occupancy through promotion and sp3 hybridization",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "vb-potential-energy",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/vb_potential_energy.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "Potential energy against internuclear distance for H2, with the bond length and bond enthalpy marked",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "vsepr-procedure",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/vsepr_procedure.svg",
+      "usedIn": [
+        "study-guide/molecular-geometry.md",
+        "slides/molecular-geometry.md"
+      ],
+      "title": "The four-step VSEPR procedure from Lewis structure to molecular shape",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch12_solution_energetics",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/solution_energetics.svg",
+      "usedIn": [
+        "study-guide/solutions.md",
+        "slides/solutions.md"
+      ],
+      "title": "Energy accounting for solution formation: waterfall diagrams for an exothermic and an endothermic dissolving",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch12_solubility_temperature_pressure",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/solubility_temperature_pressure.svg",
+      "usedIn": [
+        "study-guide/solutions.md",
+        "slides/solutions.md"
+      ],
+      "title": "Solubility versus temperature for three solids and two gases, and versus pressure for a gas (Henry's law)",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch12_osmosis_semipermeable",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/osmosis_semipermeable.svg",
+      "usedIn": [
+        "study-guide/solutions.md",
+        "slides/solutions.md"
+      ],
+      "title": "Osmosis across a semipermeable membrane, before and at equilibrium, showing the height difference that defines osmotic pressure",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch13_catalyzed_vs_uncatalyzed",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/catalyzed_vs_uncatalyzed.svg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Potential-energy profiles for the same reaction with and without a catalyst, showing both forward and reverse barriers falling while the enthalpy change is unaffected",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch13_reaction_order_half_lives",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/reaction_order_half_lives.svg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Concentration versus time for zero-, first- and second-order reactions from the same starting concentration, with successive half-lives marked",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch13_collision_theory",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/collision_theory.svg",
+      "usedIn": [
+        "study-guide/chemical-kinetics.md",
+        "slides/chemical-kinetics.md"
+      ],
+      "title": "Collision theory: energy distributions at two temperatures against the activation-energy threshold, and a productive versus unproductive collision orientation",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch14_q_versus_k",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/q_versus_k.svg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "A logarithmic number line placing the reaction quotient relative to the equilibrium constant, with the shift direction for each region",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch14_small_x_validity",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/small_x_validity.svg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "How much reactant actually reacts as a function of the equilibrium constant, and the error incurred by the small-x approximation",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch14_le_chatelier_pressure",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/le_chatelier_pressure.svg",
+      "usedIn": [
+        "study-guide/chemical-equilibrium.md",
+        "slides/chemical-equilibrium.md"
+      ],
+      "title": "Particle-level view of compressing an ammonia-synthesis equilibrium, showing the shift toward the side with fewer gas molecules",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch15_lewis_acid_base",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/lewis_acid_base.svg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Three Lewis acid-base reactions drawn as an electron pair moving from a lone pair on the donor to an empty orbital on the acceptor",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch15_strong_vs_weak_ionization",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/strong_vs_weak_ionization.svg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Particle-level comparison of equally concentrated strong and weak acid solutions, showing complete versus partial ionization",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch15_conjugate_strength_ladder",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/conjugate_strength_ladder.svg",
+      "usedIn": [
+        "study-guide/acids-and-bases.md",
+        "slides/acids-and-bases.md"
+      ],
+      "title": "Ladder of acids paired with their conjugate bases, showing the inverse strength relationship and water's leveling limits",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch16_buffer_action",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/buffer_action.svg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "Why a buffer resists pH change, and a computed pH curve showing the buffer holding and then failing once its capacity is exceeded",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib from exact equilibrium calculations; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch16_common_ion_effect",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/common_ion_effect.svg",
+      "usedIn": [
+        "study-guide/acid-base-equilibria.md",
+        "slides/acid-base-equilibria.md"
+      ],
+      "title": "Molar solubility of silver chloride as a function of added chloride concentration, showing common-ion suppression over four orders of magnitude",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib from exact equilibrium calculations; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch17_spontaneity_quadrants",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/spontaneity_quadrants.svg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "The four sign combinations of enthalpy and entropy change, showing which are decided outright and which depend on temperature",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; entropy values are commonly cited standard thermodynamic data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch17_entropy_trends",
+      "type": "image",
+      "mediaKind": "chart",
+      "localPath": "assets/entropy_trends.svg",
+      "usedIn": [
+        "study-guide/thermodynamics.md",
+        "slides/thermodynamics.md"
+      ],
+      "title": "Standard molar entropies of thirteen substances grouped by phase, showing the gas > liquid > solid trend and the effect of molecular complexity",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; entropy values are commonly cited standard thermodynamic data; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch18_redox_electron_transfer",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/redox_electron_transfer.svg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "A single electron transfer from sodium to fluorine, labeled as simultaneous oxidation and reduction, with the four agent terms untangled",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch18_galvanic_vs_electrolytic",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/galvanic_vs_electrolytic.svg",
+      "usedIn": [
+        "study-guide/electrochemistry.md",
+        "slides/electrochemistry.md"
+      ],
+      "title": "Side-by-side comparison of a galvanic and an electrolytic cell, showing the energy conversion direction and the need for an external power supply",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch19_decay_modes_nz",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/decay_modes_nz.svg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "How each radioactive decay mode moves a nuclide on the neutron-proton chart, and which mode a nuclide chooses based on its position relative to the band of stability",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "ch19_fission_chain_reaction",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/fission_chain_reaction.svg",
+      "usedIn": [
+        "study-guide/nuclear-chemistry.md",
+        "slides/nuclear-chemistry.md"
+      ],
+      "title": "The branching structure of a fission chain reaction, and the difference between a subcritical and a critical sample",
+      "creator": "Yu Wang, University of Louisiana at Lafayette",
+      "sourceUrl": null,
+      "license": "CC-BY-4.0",
+      "attribution": "Self-generated with matplotlib; released under this package's CC BY 4.0 license.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    }
+  ]
+}
