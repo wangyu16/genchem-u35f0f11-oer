@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html lang="en" data-chrome="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gases</title>
+<meta name="generator" content="orz-mdhtml">
+<meta name="author" content="Yu Wang">
+<meta name="description" content="A complete introductory general chemistry course spanning a two-semester sequence, from measurement and atomic structure through stoichiometry, gases, thermochemistry, quantum theory, periodic trends, bonding and molecular geometry, intermolecular forces, solutions, kinetics, equilibrium, acid-base and solubility equilibria, thermodynamics, electrochemistry, and nuclear chemistry. Each chapter includes a concept map, study guide, slide deck, assessment guide, and practice questions.">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<meta name="dcterms.license" content="CC-BY-4.0">
+<link rel="canonical" href="https://github.com/wangyu16/genchem-u35f0f11-oer">
+<script type="application/orz-meta+json" id="orz-meta">
+{
+  "title": "Gases",
+  "author": "Yu Wang",
+  "description": "A complete introductory general chemistry course spanning a two-semester sequence, from measurement and atomic structure through stoichiometry, gases, thermochemistry, quantum theory, periodic trends, bonding and molecular geometry, intermolecular forces, solutions, kinetics, equilibrium, acid-base and solubility equilibria, thermodynamics, electrochemistry, and nuclear chemistry. Each chapter includes a concept map, study guide, slide deck, assessment guide, and practice questions.",
+  "source": "https://github.com/wangyu16/genchem-u35f0f11-oer",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}
+</script>
+<style>
+  :root {
+    --orz-split: 44%;
+  }
+  [data-chrome="light"] {
+    --c-bg: #ffffff; --c-fg: #1f2328; --c-muted: #6b7280;
+    --c-border: #e6e8eb; --c-hover: #f2f4f6; --c-active: #e8eef7;
+    --c-accent: #2f6feb; --c-shadow: 0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.10);
+    --c-fab-bg: rgba(255,255,255,.92); --c-fab-fg: #374151;
+  }
+  [data-chrome="dark"] {
+    --c-bg: #1b1d21; --c-fg: #e6e8eb; --c-muted: #9aa1ab;
+    --c-border: #2c3036; --c-hover: #24272c; --c-active: #2b3340;
+    --c-accent: #5b8cff; --c-shadow: 0 1px 2px rgba(0,0,0,.4), 0 2px 8px rgba(0,0,0,.35);
+    --c-fab-bg: rgba(33,36,41,.92); --c-fab-fg: #cbd2da;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--c-bg); color: var(--c-fg);
+    height: 100vh; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+
+  /* ---- editor panel: dark chrome, slides in from the left ---- */
+  #orz-panel {
+    position: fixed; left: 0; top: 0; bottom: 0; width: var(--orz-split); z-index: 40;
+    display: flex; flex-direction: column;
+    background: #1f2228; border-right: 1px solid #333; box-shadow: 2px 0 16px rgba(0,0,0,.25);
+    transform: translateX(calc(-100% - 24px)); transition: transform .22s ease;
+    -webkit-user-select: none; user-select: none;
+  }
+  [data-mode="edit"] #orz-panel { transform: translateX(0); }
+  #orz-toolbar {
+    display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+    padding: 7px 10px; background: #23262c; border-bottom: 1px solid #34383f;
+  }
+  #orz-toolbar .ic {
+    width: 32px; height: 30px; display: inline-flex; align-items: center; justify-content: center;
+    background: transparent; border: 0; border-radius: 7px; color: #c2c8d0; cursor: pointer;
+    transition: background .12s, color .12s;
+  }
+  #orz-toolbar .ic:hover { background: #383d45; color: #fff; }
+  #orz-toolbar .ic svg { width: 17px; height: 17px; display: block; }
+  #orz-toolbar .ic[aria-pressed="true"] { color: #3b82f6; }
+  #orz-toolbar .ic[aria-pressed="false"] { opacity: .5; }
+  #orz-toolbar .ic.primary { background: #3b82f6; color: #fff; }
+  #orz-toolbar .ic.primary:hover { background: #2f6fe0; color: #fff; }
+  #orz-toolbar .orz-sep { width: 1px; height: 20px; background: #3c414a; margin: 0 5px; }
+  #orz-toolbar .orz-spacer { flex: 1; }
+  #orz-brand { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #cdd3df; padding: 2px 7px; border-radius: 7px; }
+  #orz-brand:hover { color: #fff; background: #383d45; }
+  #orz-brand .orz-logo svg { height: 22px; width: auto; display: block; }
+  #orz-brand .orz-brand-name { font: 700 13px/1 system-ui, sans-serif; letter-spacing: .01em; }
+  #orz-brand .orz-gh { display: inline-flex; opacity: .55; }
+  #orz-brand:hover .orz-gh { opacity: 1; }
+  #orz-brand .orz-gh svg { width: 15px; height: 15px; display: block; }
+  /* close tab — a small handle on the editor's right edge that slides it away */
+  #orz-close {
+    position: absolute; top: 50%; right: -19px; transform: translateY(-50%);
+    width: 19px; height: 48px; z-index: 46; padding: 0;
+    display: inline-flex; align-items: center; justify-content: center;
+    border: 0; border-radius: 0 8px 8px 0; background: #23262c; color: #c2c8d0;
+    cursor: pointer; box-shadow: 2px 0 8px rgba(0,0,0,.18);
+  }
+  #orz-close:hover { background: #383d45; color: #fff; }
+  #orz-close svg { width: 15px; height: 15px; display: block; }
+  select.theme-pick {
+    height: 30px; padding: 0 26px 0 10px; border: 1px solid #454b55; border-radius: 7px;
+    background: #34383f no-repeat right 8px center; color: #e6e8ec;
+    font: 500 12.5px/1 system-ui, sans-serif; cursor: pointer; max-width: 42%;
+    -webkit-appearance: none; appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23aab2bd' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  }
+
+  /* ---- preview: fixed full-window wrapper; shifts right in edit mode ---- */
+  #orz-preview { position: fixed; inset: 0; left: 0; transition: left .22s ease; }
+  [data-mode="edit"] #orz-preview { left: calc(var(--orz-split) + 6px); }
+  #orz-frame { width: 100%; height: 100%; border: 0; background: #fff; display: block; }
+
+  /* draggable divider between editor and preview */
+  #orz-divider { display: none; }
+  [data-mode="edit"] #orz-divider { display: block; position: fixed; top: 0; bottom: 0;
+    left: var(--orz-split); width: 6px; z-index: 45; cursor: col-resize; background: #34383f; }
+  #orz-divider:hover, #orz-divider.dragging { background: #3b82f6; }
+
+  /* pencil FAB (opens the editor); bottom-left, where the editor slides in from */
+  #orz-edit-fab {
+    position: fixed; left: 22px; bottom: 18px; z-index: 30;
+    width: 42px; height: 42px; border: 0; border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: var(--c-accent); color: #fff; cursor: pointer;
+    box-shadow: var(--c-shadow); opacity: .92;
+  }
+  #orz-edit-fab svg { width: 19px; height: 19px; display: block; }
+  #orz-edit-fab:hover { opacity: 1; transform: scale(1.06); }
+  #orz-edit-fab::after { content: ""; position: absolute; top: 1px; right: 1px;
+    width: 11px; height: 11px; border-radius: 50%; background: #e5534b;
+    border: 2px solid var(--c-bg); opacity: 0; transition: opacity .15s; }
+  html[data-dirty="1"] #orz-edit-fab::after { opacity: 1; }
+  [data-mode="edit"] #orz-edit-fab { display: none; }
+
+  /* CodeMirror fills the editor area below the toolbar */
+  #orz-editor { flex: 1; min-height: 0; overflow: hidden; background: #1f2228; }
+  #orz-editor .CodeMirror { height: 100%; font-family: "SF Mono", "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; font-size: 13.5px; line-height: 1.6; }
+  #orz-textarea { width: 100%; height: 100%; box-sizing: border-box; border: 0; padding: 14px;
+    resize: none; outline: none; font: 13.5px/1.6 ui-monospace, Menlo, Consolas, monospace;
+    background: #1f2228; color: #e6e8eb; }
+  #orz-foot { flex: 0 0 auto; height: 24px; display: flex; align-items: center; justify-content: center;
+    font: 11.5px/1 system-ui, sans-serif; color: #8b93a0; background: #23262c; border-top: 1px solid #34383f; gap: 4px; }
+  #orz-foot a { color: #9aa3b2; text-decoration: none; }
+  #orz-foot a:hover { color: #fff; text-decoration: underline; }
+
+  /* banner buttons (update / served-note) */
+  .text-btn { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 11px;
+    border: 1px solid var(--c-border); border-radius: 8px; background: var(--c-bg); color: var(--c-fg);
+    cursor: pointer; font: inherit; font-weight: 500; }
+  .text-btn:hover { background: var(--c-hover); }
+  .text-btn.primary { background: var(--c-accent); border-color: var(--c-accent); color: #fff; }
+  .text-btn.primary:hover { filter: brightness(1.06); }
+
+  /* toast */
+  #orz-toast {
+    position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%) translateY(8px);
+    background: #111418; color: #fff; padding: 8px 14px; border-radius: 9px; font-size: 13px;
+    opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; z-index: 50;
+  }
+  #orz-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  /* update banner */
+  #orz-update {
+    position: fixed; top: 10px; left: 50%; transform: translateX(-50%); z-index: 40;
+    display: none; align-items: center; gap: 12px;
+    padding: 8px 12px; border-radius: 10px; font-size: 13px;
+    background: var(--c-bg); color: var(--c-fg); border: 1px solid var(--c-border); box-shadow: var(--c-shadow);
+  }
+  #orz-update.show { display: flex; }
+
+  /* published-page (read-only) save notice */
+  #orz-served-note {
+    position: fixed; top: 10px; left: 50%; transform: translateX(-50%); z-index: 41;
+    display: none; align-items: center; gap: 12px; max-width: min(92vw, 560px);
+    padding: 10px 12px; border-radius: 10px; font-size: 13px; line-height: 1.4;
+    background: var(--c-bg); color: var(--c-fg); border: 1px solid var(--c-border); box-shadow: var(--c-shadow);
+  }
+  #orz-served-note.show { display: flex; }
+  #orz-served-note .note-text { flex: 1; }
+</style>
+</head>
+<body>
+<!-- ═══════════ orz · editing this file with an AI agent ═══════════
+  This is a self-contained, EDITABLE orz-mdhtml document (.md.html). The editable
+  source of truth is the orz-markdown in the embedded source island below
+  (kind: md, format: 1) — NOT the rendered HTML.
+
+  To edit it correctly, load the official orz-mdhtml agent skill first: it defines
+  the syntax and the IMMUTABLE {{attrs[#blk-...]}} block-ID rules, and guarantees a
+  byte-identical round-trip (extract source -> edit -> re-embed).
+    - Fetch the skill: https://cdn.jsdelivr.net/npm/orz-mdhtml/orz-mdhtml-skills/SKILL.md
+    - Install routes:  https://markdown.orz.how/agents.html
+
+  Rules: edit ONLY the embedded source; re-embed it in place; never add, remove,
+  reuse, or reformat a block-ID marker.
+═══════════════════════════════════════════════════════════════════ -->
+
+<div id="orz-preview"><iframe id="orz-frame" title="Preview"></iframe></div>
+<div id="orz-divider" title="Drag to resize"></div>
+<button id="orz-edit-fab" title="Edit this document" aria-label="Edit this document"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg></button>
+
+<div id="orz-panel">
+  <div id="orz-toolbar" role="toolbar" aria-label="Editor toolbar">
+    <a id="orz-brand" href="https://github.com/wangyu16/orz-mdhtml" target="_blank" rel="noopener noreferrer" title="orz-mdhtml on GitHub"><span class="orz-logo"><svg viewBox="-5 -5 180 100" xmlns="http://www.w3.org/2000/svg" class="orz-mark" aria-hidden="true"><defs><filter id="orzlogo-rough" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" /><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G" /></filter><path d="M 20,23 C 33,16 57,17 84,13 C 111,8 137,4 153,6 C 165,7 170,13 169,25 L 167,66 C 166,79 159,87 146,89 C 121,93 92,92 60,91 C 41,90 27,92 16,89 C 6,86 1,79 1,67 L 1,50 C 1,35 7,25 20,23 Z" id="orzlogo-seal" /><filter id="orzlogo-stone" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="2" seed="11" result="noise" /><feColorMatrix in="noise" type="saturate" values="0" result="mono" /><feComponentTransfer in="mono" result="grain"><feFuncA type="table" tableValues="0 0.16" /></feComponentTransfer></filter><mask id="orzlogo-mask"><use href="#orzlogo-seal" fill="white" /><path d="M37.81 80.31Q30.44 80.31 24.50 77Q18.56 73.69 15.25 67.75Q11.94 61.81 11.94 54.19L11.94 54.19Q11.94 41.69 21.13 35.56Q30.31 29.44 43.69 29.44L43.69 29.44Q49.81 29.44 55.13 32.44Q60.44 35.44 63.69 41.06Q66.94 46.69 66.94 54.06L66.94 54.06Q66.94 62.06 62.81 68Q58.69 73.94 52 77.13Q45.31 80.31 37.81 80.31L37.81 80.31ZM36.44 73.19Q48.06 73.19 54.06 67.94Q60.06 62.69 60.06 52.56L60.06 52.56Q60.06 45.69 55.38 40.69Q50.69 35.69 42.31 35.69L42.31 35.69Q36.69 35.69 30.94 37.81Q25.19 39.94 21.44 44.19Q17.69 48.44 17.69 54.44L17.69 54.44Q17.69 59.44 20.19 63.75Q22.69 68.06 27 70.63Q31.31 73.19 36.44 73.19L36.44 73.19ZM87.94 80.19Q82.81 70.19 79.88 56.69Q76.94 43.19 76.94 33.31L76.94 33.31Q76.94 29.44 78.69 28.31L78.69 28.31Q79.69 27.69 80.19 27.69L80.19 27.69Q81.06 27.69 81.50 29.06Q81.94 30.44 82.44 34.06L82.44 34.06L83.06 38.56Q84.44 31.81 88.38 27.88Q92.31 23.94 98.06 23.94L98.06 23.94Q104.44 23.94 107.56 26.38Q110.69 28.81 110.69 34.44L110.69 34.44Q104.44 31.44 99.31 31.44L99.31 31.44Q94.44 31.44 90.94 34.06Q87.44 36.69 86.06 41.81L86.06 41.81Q84.94 45.31 84.94 48.44L84.94 48.44Q84.94 51.81 85.88 54.75Q86.81 57.69 88.81 61.94L88.81 61.94Q90.69 66.31 91.75 69.44Q92.81 72.56 92.94 76.19L92.94 76.19Q92.94 78.31 91.44 79.25Q89.94 80.19 87.94 80.19L87.94 80.19ZM160.56 66.19Q163.06 68.06 163.06 70.19L163.06 70.19Q163.06 73.56 157.31 75.81Q151.56 78.06 144.31 79.13Q137.06 80.19 132.81 80.19L132.81 80.19Q128.06 80.19 123.75 78.63Q119.44 77.06 119.44 73.19L119.44 73.19Q119.44 69.44 123.63 63.44Q127.81 57.44 133.69 51.19L133.69 51.19L117.56 51.19Q116.31 51.19 116.31 48.94L116.31 48.94Q116.31 47.19 116.69 46.50Q117.06 45.81 117.69 45.69Q118.31 45.56 120.06 45.56L120.06 45.56L139.31 45.56Q143.94 39.69 146.38 35.50Q148.81 31.31 148.81 27.69L148.81 27.69Q148.81 24.06 146.31 21.19L146.31 21.19Q142.44 20.44 138.81 20.44L138.81 20.44Q131.94 20.44 127.19 22.75Q122.44 25.06 121.94 28.81L121.94 28.81Q119.06 28.81 118.13 27.81Q117.19 26.81 117.19 24.44L117.19 24.44Q117.19 21.94 119.75 19.63Q122.31 17.31 126.94 15.88Q131.56 14.44 137.31 14.44L137.31 14.44Q142.06 14.44 147.31 15.56L147.31 15.56Q150.56 16.19 152.81 19.69Q155.06 23.19 155.06 27.44L155.06 27.44Q155.06 31.19 152.75 35.31Q150.44 39.44 145.94 45.56L145.94 45.56L152.06 45.56Q156.81 45.56 158.38 46.06Q159.94 46.56 159.94 48.06L159.94 48.06Q159.94 49.31 159.13 50.19Q158.31 51.06 157.44 51.06L157.44 51.06L140.19 51.06Q134.06 57.94 130.81 63.25Q127.56 68.56 128.19 70.81L128.19 70.81Q128.69 73.19 135.94 74.06L135.94 74.06Q144.06 74.06 149.69 72.13Q155.31 70.19 160.56 66.19L160.56 66.19Z" fill="black" stroke="black" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /></mask></defs><g filter="url(#orzlogo-rough)"><use href="#orzlogo-seal" fill="#96d969" mask="url(#orzlogo-mask)" /><use href="#orzlogo-seal" fill="#6ea84d" opacity="0.28" filter="url(#orzlogo-stone)" mask="url(#orzlogo-mask)" /><use href="#orzlogo-seal" fill="none" stroke="#c8f7a5" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.42" mask="url(#orzlogo-mask)" /><use href="#orzlogo-seal" fill="none" stroke="#5f8f44" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.35" mask="url(#orzlogo-mask)" /></g></svg></span><span class="orz-brand-name">mdhtml</span><span class="orz-gh"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span></a>
+    <span class="orz-sep"></span>
+    <button class="ic primary" id="orz-save" title="Save (Cmd/Ctrl+S)" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg></button>
+    <button class="ic" id="orz-download" title="Download a copy" aria-label="Download a copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg></button>
+    <span class="orz-spacer"></span>
+    <button class="ic" id="orz-ai" title="AI assistant — improve the whole document" aria-label="AI assistant" style="display:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg></button>
+    <button class="ic" id="orz-sync" title="Sync scrolling" aria-label="Sync scrolling" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 0 1 0 10h-2"/><path d="M8 12h8"/></svg></button>
+    <select class="theme-pick" id="orz-theme" title="Theme" aria-label="Theme"><option value="light-neat-3">Orchard</option><option value="light-neat-1">Neat</option><option value="light-neat-2">Neat 2</option><option value="light-academic-1" selected>Academic</option><option value="light-academic-2">Academic 2</option><option value="beige-decent-1">Beige</option><option value="beige-decent-2">Beige 2</option><option value="light-playful-1">Playful</option><option value="light-playful-2">Playful 2</option><option value="dark-elegant-1">Dark Elegant</option><option value="dark-elegant-2">Dark Elegant 2</option><option value="dark-elegant-3">Nocturne</option></select>
+  </div>
+  <button id="orz-close" title="Close editor" aria-label="Close editor"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+  <div id="orz-editor"><textarea id="orz-textarea" spellcheck="false"></textarea></div>
+  <div id="orz-foot">© <a href="https://markdown.orz.how" target="_blank" rel="noopener noreferrer">orz-markdown</a></div>
+</div>
+
+<div id="orz-update">
+  <span class="upd-text"></span>
+  <button class="text-btn primary" id="orz-upd-apply">Update</button>
+  <button class="text-btn" id="orz-upd-dismiss">Dismiss</button>
+</div>
+
+<div id="orz-served-note">
+  <span class="note-text">This is a published page — your edits can't be saved back to the server. You can download a local copy to edit and save.</span>
+  <button class="text-btn primary" id="orz-served-download">Download copy</button>
+  <button class="text-btn" id="orz-served-dismiss">Dismiss</button>
+</div>
+<div id="orz-toast"></div>
+
+<!-- Embedded markdown source (single source of truth) -->
+<script type="text/markdown" id="orz-src">
+# Chapter 5: Gases
+
+:::info
+**Reference:** Yu Wang's General Chemistry Lecture Notes, Chapter 5 (CC BY 4.0)
+**Audience:** introductory undergraduate general chemistry, first semester
+**Package license:** CC BY 4.0
+**Note:** builds on Chapter 3's mole conversions; facts checked for accuracy against OpenStax *Chemistry 2e* and Wikipedia (used for reference only — no text or figures adapted from either). One arithmetic value in the source notes has been corrected — see §5.2.
+:::
+
+:::success
+**Chapter Learning Objectives**
+- Describe the physical characteristics of gases; define pressure and convert between its units.
+- Apply the ideal gas equation, and use it to find gas density or molar mass.
+- Apply Dalton's law of partial pressures, including the water-vapor correction.
+- State the kinetic molecular theory, use it to explain the gas laws, and apply Graham's law.
+- Explain when and why real gases deviate from ideal behavior.
+:::
+
+## Chapter Logic
+
+Gases are the easiest state of matter to describe quantitatively, and that is not an accident. ==A gas is mostly empty space, so its particles barely interact — which means one equation, $PV=nRT$, describes *every* gas, regardless of what it is made of.== Nothing else in chemistry is that forgiving. Liquids and solids each need their own treatment; all gases share one.
+
+This chapter earns that equation three times over. §5.2 assembles it from three experimental laws. §5.4 derives the same behavior from a picture of moving molecules, showing *why* it works. §5.5 then asks where the picture fails, and what it costs.
+
+{{mermaid
+graph TD
+  A["Pressure:<br/>what it is, how it is measured"] --> B["The gas laws:<br/>Boyle, Charles, Avogadro, PV=nRT"]
+  B --> C["Partial pressures:<br/>Dalton's law, mole fraction"]
+  B --> D["Kinetic molecular theory:<br/>why the gas laws hold"]
+  D --> E["Real gases:<br/>where the ideal model breaks"]
+  C --> D
+}}
+
+**Visual description:** A flowchart. Pressure leads into the gas laws and the ideal gas equation. That equation supports both partial pressures and the kinetic molecular theory, which explains why the laws hold at all — and the theory's assumptions then identify exactly where real gases depart from ideal behavior.
+
+## 5.1 General Concepts and Pressure{{attrs[#blk-ch05sec01]}}
+
+:::success
+**Learning Objectives**
+- Describe the general physical characteristics of gases.
+- Identify the elements that exist as gases at 25 °C and 1 atm.
+- Define pressure and explain how a barometer measures it.
+- {{sp[info] Objective 5.1a}} Convert between pressure units.
+:::
+
+### What makes a gas different
+
+All gases share four characteristics, and each one traces back to the same fact — the molecules are far apart and barely interact.
+
+- They **take the shape and volume of their container.** There is nothing holding them in any particular arrangement.
+- They are the **most compressible** state of matter. The space between molecules can be reduced; the molecules themselves cannot.
+- They **mix evenly and completely** when confined together. No gas excludes another.
+- They have **much lower densities** than liquids and solids — typically about a thousandfold lower, because the same molecules occupy vastly more space.
+
+At 25 °C and 1 atm, eleven elements are gases: the six noble gases (He, Ne, Ar, Kr, Xe, Rn), two halogens ($\ce{F2}$, $\ce{Cl2}$), plus $\ce{O2}$, $\ce{N2}$, and $\ce{H2}$. Every one of them is a nonmetal from the upper right of the periodic table, and all but the noble gases are diatomic — the connection Chapter 2 set up.
+
+### Pressure
+
+**Pressure** is force distributed over an area:
+
+$$P = \frac{F}{A}$$
+
+Force comes from Newton's second law, $F = ma$, and is measured in **newtons** ($\text{N} = \text{kg}\cdot\text{m/s}^2$). Pressure is therefore measured in newtons per square meter, which is the **pascal**: $1\ \text{Pa} = 1\ \text{N/m}^2$.
+
+![Pressure as force per area, and a mercury barometer](../assets/pressure_and_barometer.svg =820x)
+*Figure 5.1 — On the left, why area matters: the same force concentrated on a smaller area produces a higher pressure, which is the entire working principle of a thumbtack. On the right, how atmospheric pressure is measured. A tube of mercury is inverted into an open dish; the atmosphere presses on the exposed surface and holds the column up. The column's height is a direct measure of the pressure, which is why "millimeters of mercury" became a unit of pressure.*
+
+Figure 5.1 shows both halves of the idea. ==A gas exerts pressure because its molecules are constantly striking the container walls.== Each impact is tiny; there are enough of them that the total is steady and measurable.
+
+Four units are in common use, and you will meet all four:
+
+| Unit | Definition | Relation to 1 atm |
+|---|---|---|
+| pascal (Pa) | $\text{N/m}^2$, the SI unit | $1\ \text{atm} = 101325\ \text{Pa}$ |
+| atmosphere (atm) | roughly the pressure of air at sea level | — |
+| millimeter of mercury (mmHg) | the pressure of a 1 mm mercury column | $1\ \text{atm} = 760\ \text{mmHg}$ |
+| torr | identical to mmHg | $1\ \text{atm} = 760\ \text{torr}$ |
+
+:::: tabs
+::: tab Problem
+Convert a pressure of 489 mmHg to atm and to Pa.
+:::
+::: tab Solution
+Both are single-step conversions; write each factor so the unit you have cancels.
+
+$$489\,\text{mmHg}\times\frac{1\,\text{atm}}{760\,\text{mmHg}}=0.643\ \text{atm}$$
+$$489\,\text{mmHg}\times\frac{101325\,\text{Pa}}{760\,\text{mmHg}}=6.52\times10^4\ \text{Pa}$$
+
+Sanity check: 489 mmHg is less than 760, so the answer in atm must be less than 1. ✓
+:::
+::::
+
+:::: tabs
+::: tab Problem
+A gas cylinder reads 2.50 atm. Express this in torr and in kilopascals.
+:::
+::: tab Solution
+$$2.50\,\text{atm}\times\frac{760\,\text{torr}}{1\,\text{atm}}=1900\ \text{torr}$$
+$$2.50\,\text{atm}\times\frac{101325\,\text{Pa}}{1\,\text{atm}}\times\frac{1\,\text{kPa}}{1000\,\text{Pa}}=253\ \text{kPa}$$
+
+This problem runs the opposite way from the last one — from atm outward rather than inward — so every conversion factor is inverted. Decide which unit must cancel before writing anything.
+:::
+::::
+
+> **Where this goes next.** Pressure is one of four quantities that describe a gas sample; the others are volume, temperature, and amount. §5.2 establishes how they are related — and it turns out one equation covers all of them.
+
+## 5.2 The Gas Laws{{attrs[#blk-ch05sec02]}}
+
+:::success
+**Learning Objectives**
+- State Boyle's, Charles's, and Avogadro's laws.
+- {{sp[info] Objective 5.2a}} Apply the ideal gas equation $PV=nRT$, choosing the right value of $R$.
+- {{sp[info] Objective 5.2a}} Apply the combined gas law to a sample under changing conditions.
+- {{sp[info] Objective 5.2b}} Calculate the density or molar mass of a gas.
+- Carry out stoichiometry problems whose answer is a gas volume.
+:::
+
+### Three laws, one equation
+
+Three experimental relationships, each found by holding two quantities fixed and varying the others:
+
+| Law | Relationship | Held constant | In words |
+|---|---|---|---|
+| **Boyle's law** | $P \propto \dfrac{1}{V}$ | $n$, $T$ | squeeze it and the pressure rises |
+| **Charles's law** | $V \propto T$ | $n$, $P$ | heat it and it expands |
+| **Avogadro's law** | $V \propto n$ | $P$, $T$ | add gas and it takes more room |
+
+![Three-panel chart of Boyle's, Charles's, and Avogadro's gas laws](../assets/gas_laws_panels.svg =680x)
+*Figure 5.2 — Each individual gas law is a special case of $PV=nRT$ with two variables held constant; together they combine into the single ideal gas equation.*
+
+Figure 5.2 plots each of the three. Combining them gives $V \propto nT/P$, and inserting a proportionality constant $R$ turns the proportionality into an equation:
+
+$$PV = nRT$$
+
+==An **ideal gas** is the theoretical gas this equation describes exactly:== point particles with negligible volume, exerting no attractive or repulsive forces on one another, colliding perfectly elastically. No real gas is ideal, but at ordinary temperatures and pressures most are close enough that the difference does not matter. §5.5 says when it does.
+
+### The gas constant
+
+$R$ is one constant expressed in several unit systems, and choosing the wrong one is the most common error in this chapter:
+
+$$R = 0.0821\ \frac{\text{L}\cdot\text{atm}}{\text{K}\cdot\text{mol}} = 8.314\ \frac{\text{J}}{\text{K}\cdot\text{mol}} = 8.314\ \frac{\text{N}\cdot\text{m}}{\text{K}\cdot\text{mol}}$$
+
+{{sp[warning] Reminder}} Pick the value of $R$ whose units match the data you were given, then make every other quantity match it. Use 0.0821 with pressure in atm and volume in liters; use 8.314 with pressure in pascals and volume in cubic meters. And **temperature is always in kelvin**, in every version — this is the single most frequent mistake in gas-law problems.
+
+At **standard temperature and pressure (STP)** — 0 °C and 1 atm — one mole of an ideal gas occupies
+
+$$V = \frac{nRT}{P} = \frac{(1\,\text{mol})(0.082057)(273.15\,\text{K})}{1\,\text{atm}} = 22.41\ \text{L}$$
+
+:::warning
+**A corrected value, and a note on $R$.** The source lecture notes give this molar volume as 22.14 L. That is a digit transposition: recomputing from $V = RT/P$ gives **22.41 L**, the standard value, which is what this chapter uses throughout.
+
+Notice that this one calculation uses $R = 0.082057$ rather than the 0.0821 you will use everywhere else. That is not a slip. The molar volume is quoted to four significant figures, so $R$ must carry at least four: rounding $R$ to 0.0821 first and *then* multiplying gives $0.0821\times273.15 = 22.43$ L, which is wrong in the last digit. Round at the end, never in the middle — §1.3's rule, and this is where it bites.
+:::
+
+:::: tabs
+::: tab Problem
+Find the pressure of 1.92 mol of an ideal gas in a 4.50 L vessel at 25.6 °C. Work it twice — once in L·atm units and once in SI units — to check that the two agree.
+:::
+::: tab Solution
+**In L·atm units.** Convert the temperature first: $25.6 + 273.2 = 298.8$ K.
+
+$$P=\frac{nRT}{V}=\frac{1.92\,\text{mol}\times0.0821\,\frac{\text{L}\cdot\text{atm}}{\text{K}\cdot\text{mol}}\times298.8\,\text{K}}{4.50\,\text{L}}=10.5\ \text{atm}$$
+
+**In SI units.** Now $R = 8.314$, so the volume must be in cubic meters: $4.50\ \text{L} = 4.50\times10^{-3}\ \text{m}^3$.
+
+$$P=\frac{1.92\,\text{mol}\times8.314\,\frac{\text{N}\cdot\text{m}}{\text{K}\cdot\text{mol}}\times298.8\,\text{K}}{4.50\times10^{-3}\,\text{m}^3}=1.06\times10^6\ \text{N/m}^2=1.06\times10^6\ \text{Pa}$$
+
+**They agree:** $1.06\times10^6\ \text{Pa} \div 101325 = 10.5$ atm. ✓
+
+The two versions are the same physics in different clothing. What matters is that $R$, $P$, and $V$ all speak the same unit system.
+:::
+::::
+
+### The combined gas law
+
+Many problems describe *one sample of gas under two sets of conditions*. Since the amount of gas does not change, $n$ and $R$ are the same before and after, so $PV/T$ must be too:
+
+$$\frac{P_iV_i}{T_i} = \frac{P_fV_f}{T_f}$$
+
+This is not a new law. It is $PV = nRT$ written twice and divided, and it saves you from ever needing to know $n$.
+
+:::: tabs
+::: tab Problem
+An air bubble of volume 2.54 mL rises from the bottom of a lake, where the temperature is 6.42 °C and the pressure 4.56 atm, to the surface at 24.8 °C and 1.00 atm. Find its final volume.
+:::
+::: tab Solution
+The amount of gas in the bubble does not change as it rises, so use the combined form. Convert both temperatures to kelvin: $279.57$ K and $297.95$ K.
+
+$$V_f=\frac{P_iV_i}{T_i}\times\frac{T_f}{P_f}=\frac{4.56\,\text{atm}\times2.54\,\text{mL}}{279.57\,\text{K}}\times\frac{297.95\,\text{K}}{1.00\,\text{atm}}=12.3\ \text{mL}$$
+
+The bubble grew almost fivefold. Both changes push the same way — the pressure dropped by a factor of 4.56 (a large effect) and the temperature rose slightly (a small one) — which is why bubbles visibly expand as they rise.
+
+Notice that the volume stayed in milliliters throughout. Because $V$ appears on both sides as a ratio, any consistent unit works.
+:::
+::::
+
+:::: tabs
+::: tab Problem
+A sealed 2.00 L flask of gas at 20.0 °C and 1.00 atm is heated to 150.0 °C. What is the new pressure?
+:::
+::: tab Solution
+The flask is sealed and rigid, so both $n$ and $V$ are fixed and the combined law reduces to $P_i/T_i = P_f/T_f$.
+
+$$P_f = P_i\times\frac{T_f}{T_i} = 1.00\,\text{atm}\times\frac{423.15\,\text{K}}{293.15\,\text{K}} = 1.44\ \text{atm}$$
+
+{{sp[warning] Watch out}} Using Celsius here would give $1.00 \times 150.0/20.0 = 7.5$ atm — off by a factor of five. The ratio $T_f/T_i$ is only meaningful on an absolute scale, which is why kelvin is not optional.
+:::
+::::
+
+### Density and molar mass of a gas
+
+Since $n = m/\mathcal{M}$ (mass over molar mass), substituting into $PV = nRT$ gives
+
+$$PV = \frac{m}{\mathcal{M}}RT \quad\Longrightarrow\quad \frac{m}{V} = \frac{P\mathcal{M}}{RT}$$
+
+and since density is $d = m/V$:
+
+$$d = \frac{P\mathcal{M}}{RT} \qquad\text{or}\qquad \mathcal{M} = \frac{dRT}{P}$$
+
+This is genuinely useful: it means an unknown gas can be identified by weighing a known volume of it — and, as Figure 5.3 shows, it also explains how a balloon flies.
+
+![View from inside an inflating hot air balloon](../assets/hot_air_balloon.jpg =480x)
+*Figure 5.3 — $d = P\mathcal{M}/RT$ explains a hot air balloon. Heating the air inside lowers its density while the air outside stays cool and dense, and the difference lifts the balloon. Charles's law describes the expansion; the density relation explains why the expansion is useful.*
+
+:::: tabs
+::: tab Problem
+A gas has a density of 7.71 g/L at 36.0 °C and 2.88 atm. What is its molar mass?
+:::
+::: tab Solution
+$$\mathcal{M}=\frac{dRT}{P}=\frac{7.71\,\text{g/L}\times0.0821\,\frac{\text{L}\cdot\text{atm}}{\text{K}\cdot\text{mol}}\times309.2\,\text{K}}{2.88\,\text{atm}}=68.0\ \text{g/mol}$$
+
+Check the units: $\frac{(\text{g/L})(\text{L}\cdot\text{atm}/\text{K}\cdot\text{mol})(\text{K})}{\text{atm}} = \text{g/mol}$. ✓
+:::
+::::
+
+:::: tabs
+::: tab Problem
+What is the density of $\ce{CO2}$ (44.01 g/mol) at STP? Compare it with $\ce{N2}$ (28.02 g/mol), and say what that implies.
+:::
+::: tab Solution
+Use the equation in its density form, with STP meaning 273.15 K and 1 atm.
+
+$$d_{\ce{CO2}}=\frac{P\mathcal{M}}{RT}=\frac{1.00\,\text{atm}\times44.01\,\text{g/mol}}{0.0821\times273.15\,\text{K}}=1.96\ \text{g/L}$$
+$$d_{\ce{N2}}=\frac{1.00\times28.02}{0.0821\times273.15}=1.25\ \text{g/L}$$
+
+At the same temperature and pressure, density is directly proportional to molar mass — everything else in the expression is identical. $\ce{CO2}$ is $44.01/28.02 = 1.57$ times denser than nitrogen, which is why it pools in low-lying spaces and why a $\ce{CO2}$ fire extinguisher blankets a fire rather than dispersing.
+
+A shortcut worth noticing: at STP you could also divide the molar mass by 22.41 L/mol. $44.01/22.41 = 1.96$ g/L. ✓
+:::
+::::
+
+### Gas stoichiometry
+
+Chapter 3's road map ended at a mass because a balance is what you had. For a gas, a volume is what you can measure — and the ideal gas equation converts moles into exactly that, as Figure 5.4 sets out.
+
+![Gas stoichiometry road map, from mass of a reactant to volume of a gaseous product](../assets/gas_stoichiometry_road_map.svg =840x)
+*Figure 5.4 — Nothing about the first two steps changes. The given mass still becomes moles by molar mass, and moles of one substance still cross to moles of another through the coefficients of the balanced equation. All the ideal gas equation adds is a final step that expresses the answer as a volume.*
+
+:::: tabs
+::: tab Problem
+In the airbag reaction $\ce{2NaN3(s) -> 2Na(s) + 3N2(g)}$, what volume of $\ce{N2}$ is generated by 38.2 g of $\ce{NaN3}$ (65.02 g/mol) at 20.5 °C and 0.982 atm?
+:::
+::: tab Solution
+**Steps 1 and 2 — Chapter 3, unchanged.** Get to moles of the gas you want:
+
+$$38.2\,\text{g}\,\ce{NaN3}\times\frac{1\,\text{mol}\,\ce{NaN3}}{65.02\,\text{g}}\times\frac{3\,\text{mol}\,\ce{N2}}{2\,\text{mol}\,\ce{NaN3}}=0.881\ \text{mol}\,\ce{N2}$$
+
+**Step 3 — the new one.** Convert moles to a volume at the stated conditions ($T = 293.7$ K):
+
+$$V=\frac{nRT}{P}=\frac{0.881\,\text{mol}\times0.0821\times293.7\,\text{K}}{0.982\,\text{atm}}=21.6\ \text{L}$$
+
+Twenty-one liters from thirty-eight grams of solid, in milliseconds — which is exactly why sodium azide was used to inflate airbags.
+
+{{sp[warning] Reminder}} The conditions given in the problem (20.5 °C, 0.982 atm) are *not* STP, so the 22.41 L/mol shortcut does not apply here. Use it only when the problem actually says STP.
+:::
+::::
+
+> **Where this goes next.** Everything so far assumed one pure gas. Air is not one gas, and neither is anything you collect in a lab. §5.3 extends the same equation to mixtures.
+
+## 5.3 Partial Pressures{{attrs[#blk-ch05sec03]}}
+
+:::success
+**Learning Objectives**
+- {{sp[info] Objective 5.3a}} State Dalton's law of partial pressures.
+- {{sp[info] Objective 5.3a}} Calculate a mole fraction and use it to find a partial pressure.
+- {{sp[info] Objective 5.3b}} Correct for water vapor pressure when a gas is collected over water.
+:::
+
+### Dalton's law
+
+In a mixture, each gas behaves as if the others were not there. That is the content of §5.4's assumption that molecules do not interact, and it has an immediate consequence.
+
+The **partial pressure** of a component is the pressure it would exert alone in the same container at the same temperature:
+
+$$P_1 = \frac{n_1RT}{V}, \qquad P_2 = \frac{n_2RT}{V}, \qquad \dots$$
+
+Since $n = n_1 + n_2 + \dots$ and $R$, $T$, $V$ are shared, adding the partial pressures gives the total. This is **Dalton's law of partial pressures**:
+
+$$P_{\text{total}} = P_1 + P_2 + \dots$$
+
+### Mole fraction
+
+The **mole fraction** of a component is its share of the total moles:
+
+$$X_i = \frac{n_i}{n_{\text{total}}}$$
+
+Mole fractions have no units and always sum to 1. Combining the two ideas gives the relation you will use most:
+
+$$P_i = X_i P_{\text{total}}$$
+
+==A gas's share of the pressure equals its share of the molecules.== It makes no difference which gas it is — 20% of the molecules produce 20% of the pressure whether they are helium or radon.
+
+:::: tabs
+::: tab Problem
+A mixture of gases A, B, and C has a total pressure of 3.46 atm and contains 1.53 mol A, 1.64 mol B, and 2.64 mol C. Find all three partial pressures.
+:::
+::: tab Solution
+Total moles: $1.53 + 1.64 + 2.64 = 5.81$ mol.
+
+$$P_\ce{A}=3.46\,\text{atm}\times\frac{1.53}{5.81}=0.911\ \text{atm}$$
+$$P_\ce{B}=3.46\,\text{atm}\times\frac{1.64}{5.81}=0.977\ \text{atm}$$
+$$P_\ce{C}=3.46\,\text{atm}\times\frac{2.64}{5.81}=1.57\ \text{atm}$$
+
+**Check:** $0.911 + 0.977 + 1.57 = 3.46$ atm. ✓ The partial pressures must add to the total, and that check costs nothing.
+:::
+::::
+
+:::: tabs
+::: tab Problem
+Dry air is 78.1% $\ce{N2}$, 20.9% $\ce{O2}$, and 0.9% Ar by moles. What is the partial pressure of oxygen when the atmospheric pressure is 1.00 atm? What if you climb to an altitude where the pressure is 0.50 atm?
+:::
+::: tab Solution
+Percent by moles *is* the mole fraction (times 100), so $X_{\ce{O2}} = 0.209$.
+
+**At sea level:** $P_{\ce{O2}} = 0.209\times1.00\ \text{atm} = 0.209\ \text{atm}$.
+
+**At altitude:** $P_{\ce{O2}} = 0.209\times0.50\ \text{atm} = 0.105\ \text{atm}$.
+
+The *composition* of air does not change with altitude — it is still 20.9% oxygen. What changes is the total pressure, and therefore the partial pressure of oxygen. Your body responds to $P_{\ce{O2}}$, not to the percentage, which is why altitude sickness is possible in air that is chemically identical to air at sea level.
+:::
+::::
+
+### Collecting a gas over water
+
+A gas produced in a reaction is often collected by bubbling it into an inverted tube filled with water (Figure 5.5). It is a convenient method with one complication: water evaporates into the collected gas.
+
+![Collecting a gas over water, and the water-vapor correction](../assets/gas_collected_over_water.svg =800x)
+*Figure 5.5 — The tube never contains only the gas you made. Water evaporates into it until the water vapor reaches its equilibrium pressure at that temperature, so the total pressure — which is what a gauge or the barometer reports — is the sum of two partial pressures. Dalton's law makes the correction straightforward: subtract the tabulated water vapor pressure.*
+
+{{sp[warning] Reminder}} The vapor pressure of water depends only on the temperature, and is looked up in a table — it does not depend on how much gas you collected or how large the tube is.
+
+:::: tabs
+::: tab Problem
+153 mL of $\ce{H2}$ is collected over water at 23.7 °C. The atmospheric pressure is 758 mmHg and the vapor pressure of water at 23.7 °C is 22.4 mmHg. How many moles of $\ce{H2}$ were collected?
+:::
+::: tab Solution
+**Step 1 — correct the pressure.** The 758 mmHg is the total; the hydrogen accounts for the rest after water vapor:
+
+$$P_{\ce{H2}}=758-22.4=736\ \text{mmHg}=736\times\frac{1\,\text{atm}}{760\,\text{mmHg}}=0.968\ \text{atm}$$
+
+**Step 2 — apply the ideal gas equation** with the *corrected* pressure:
+
+$$n=\frac{PV}{RT}=\frac{0.968\,\text{atm}\times0.153\,\text{L}}{0.0821\times296.9\,\text{K}}=6.08\times10^{-3}\ \text{mol}$$
+
+Skipping step 1 would give $6.26\times10^{-3}$ mol — about 3% too high. The correction is small but systematic, and it is always in the same direction: forgetting it always overstates your yield.
+:::
+::::
+
+> **Where this goes next.** You can now calculate with gases confidently. §5.4 asks the harder question: *why* does one equation work for every gas? The answer is a picture of what molecules are doing.
+
+## 5.4 The Kinetic Molecular Theory of Gases{{attrs[#blk-ch05sec04]}}
+
+:::success
+**Learning Objectives**
+- Define energy, work, and kinetic energy.
+- {{sp[info] Objective 5.4a}} State the four assumptions of the kinetic molecular theory.
+- {{sp[info] Objective 5.4a}} Use the theory to explain each gas law.
+- {{sp[info] Objective 5.4a}} Describe the distribution of molecular speeds and calculate $u_{rms}$.
+- {{sp[info] Objective 5.4b}} Distinguish diffusion from effusion and apply Graham's law.
+:::
+
+### Energy, work, and kinetic energy
+
+The theory is built on molecular motion, so three mechanical terms are needed first — and Chapter 6 will assume all three.
+
+**Energy** is the capacity to do work or produce change. **Work**, in mechanics, is force times distance. Since energy can be measured as work done:
+
+$$\text{energy} = \text{work} = \text{force}\times\text{distance}$$
+
+The SI unit is the **joule**:
+
+$$1\ \text{J} = 1\ \text{kg}\cdot\text{m}^2/\text{s}^2 = 1\ \text{N}\cdot\text{m}$$
+
+**Kinetic energy** is the energy of motion, $KE = \frac{1}{2}mu^2$ for a particle of mass $m$ moving at speed $u$.
+
+### The four assumptions
+
+1. A gas consists of molecules separated by distances **far greater than their own size**. They have mass but effectively no volume.
+2. Molecules are in **constant random motion** and collide frequently. All collisions are **perfectly elastic** — an elastic collision is one in which the total kinetic energy afterwards equals the total before, so no energy is lost to the collision itself.
+3. Molecules exert **neither attractive nor repulsive forces** on one another.
+4. The **average kinetic energy is proportional to the absolute temperature**:
+$$\overline{KE}=\tfrac{1}{2}m\overline{u^2}\ \propto\ T$$
+
+Assumption 4 carries a consequence worth stating on its own: **any two gases at the same temperature have the same average kinetic energy**. Not the same speed — the same energy. Since $KE$ depends on both mass and speed, a heavier molecule must be moving more slowly to have the same energy as a lighter one. That single fact drives the rest of this section.
+
+### Why each gas law holds
+
+![Molecular pictures explaining the gas laws](../assets/kmt_explains_gas_laws.svg =820x)
+*Figure 5.6 — Pressure is molecules striking the walls, so any change to the rate or force of those impacts changes the pressure. Compressing the gas packs the same molecules into less space, so they hit the walls more often (Boyle). Heating them makes each impact faster and harder, so the gas expands until the pressure balances again (Charles).*
+
+Figure 5.6 draws the two that are hardest to see in words.
+
+- **Compressibility.** Assumption 1: the molecules are mostly far apart, so there is empty space to remove.
+- **Boyle's law.** Pressure comes from the rate of wall collisions, which is proportional to the number of molecules per unit volume. Halve the volume and you double the number density, so you double the collision rate — and therefore the pressure. Hence $P \propto 1/V$.
+- **Charles's law.** Assumption 4 says raising the temperature raises the average kinetic energy, so molecules strike the walls both more often and harder. At fixed external pressure the gas must expand until the reduced number density brings the pressure back into balance. Hence $V \propto T$.
+- **Avogadro's law.** If two gases are at the same $P$, $V$, and $T$, then by $PV=nRT$ they must contain the same $n$ — equal volumes hold equal numbers of molecules, whatever they are.
+- **Dalton's law.** Assumption 3: molecules ignore one another, so the presence of a second gas does not change how the first one strikes the walls. The pressures therefore simply add.
+
+:::: tabs
+::: tab Problem
+A sealed rigid container of gas is heated. Using the kinetic molecular theory rather than the gas laws, explain why the pressure rises — and identify which assumption does the work.
+:::
+::: tab Solution
+Start from what pressure *is*: molecules striking the walls. The pressure depends on how often they strike and how hard.
+
+**Assumption 4** is the one that matters: average kinetic energy is proportional to absolute temperature. Heating the gas therefore raises the average kinetic energy, so the molecules move faster.
+
+Two consequences follow, and both push the pressure the same way:
+1. Faster molecules cross the container more often, so the **collision rate rises**.
+2. Each collision carries more momentum, so **each impact is harder**.
+
+The container is rigid, so the gas cannot relieve either effect by expanding. The pressure must rise.
+
+Note the contrast with Charles's law, where the *pressure* is held fixed instead and the gas expands until the falling number density cancels the faster impacts. Same mechanism, different constraint — and the constraint is what decides which quantity changes.
+:::
+::::
+
+### Molecular speeds
+
+Molecules do not all move at the same speed; there is a distribution, and it has a characteristic shape. A convenient single number to summarize it is the **root-mean-square speed**:
+
+$$u_{rms}=\sqrt{\frac{3RT}{\mathcal{M}}}$$
+
+with $R = 8.314$ J/(K·mol) and $\mathcal{M}$ the molar mass **in kg/mol**.
+
+![Maxwell-Boltzmann speed distributions by molar mass and by temperature](../assets/molecular_speed_distribution.svg =840x)
+*Figure 5.7 — The spread of molecular speeds. **Left:** three gases at the same temperature. All three have the same average kinetic energy, so the heaviest moves slowest — $\ce{CO2}$ peaks far below helium. **Right:** one gas at three temperatures. Heating shifts the whole distribution to higher speeds and spreads it out. Dashed lines mark $u_{rms}$ in each case.*
+
+Figure 5.7 shows what those distributions look like. The square root is worth dwelling on, because it makes mass matter much less than students expect. ==A molecule 100 times heavier moves not 100 times slower, but $\sqrt{100} = 10$ times slower.==
+
+:::: tabs
+::: tab Problem
+Calculate $u_{rms}$ for $\ce{N2}$ (28.02 g/mol) and for He (4.003 g/mol) at 25 °C.
+:::
+::: tab Solution
+Convert molar masses to kg/mol — this is the step people miss — and the temperature to kelvin (298 K).
+
+$$u_{rms}(\ce{N2})=\sqrt{\frac{3\times8.314\times298}{0.02802}}=515\ \text{m/s}$$
+$$u_{rms}(\ce{He})=\sqrt{\frac{3\times8.314\times298}{0.004003}}=1363\ \text{m/s}$$
+
+Helium is about 2.6 times faster. Check that against the square-root rule: $\sqrt{28.02/4.003}=\sqrt{7.00}=2.65$. ✓
+
+Both figures are startlingly large — 515 m/s is faster than a rifle bullet. Molecules do not travel far at that speed before colliding, which is why gases mix in seconds rather than instantly.
+:::
+::::
+
+### Diffusion and effusion
+
+**Diffusion** is the gradual mixing of one gas through another by molecular motion. **Effusion** is the escape of a gas through a small opening into a vacuum. They are different processes, but both are governed by molecular speed, so both obey the same relation — **Graham's law**:
+
+$$\frac{r_1}{r_2}=\frac{t_2}{t_1}=\sqrt{\frac{\mathcal{M}_2}{\mathcal{M}_1}}$$
+
+where $r$ is a rate and $t$ is the time taken. Note the inversion: the *lighter* gas has the *larger* rate, so its molar mass appears in the *denominator* on the right. Figure 5.8 puts numbers to it.
+
+![Bar chart of relative effusion rates for 5 gases](../assets/grahams_law_effusion.svg =520x)
+*Figure 5.8 — Lighter molecules move faster at the same temperature, so they effuse faster: $\ce{H2}$ effuses roughly 4.7× faster than $\ce{CO2}$, matching $\sqrt{44.01/2.02}\approx4.67$.*
+
+:::: tabs
+::: tab Problem
+How much faster does helium (4.003 g/mol) effuse than argon (39.95 g/mol)?
+:::
+::: tab Solution
+Put the gas whose rate you want in position 1:
+
+$$\frac{r_{\ce{He}}}{r_{\ce{Ar}}}=\sqrt{\frac{\mathcal{M}_{\ce{Ar}}}{\mathcal{M}_{\ce{He}}}}=\sqrt{\frac{39.95}{4.003}}=\sqrt{9.98}=3.16$$
+
+Helium effuses **3.16 times faster**.
+
+Sanity check the direction: helium is lighter, so it should be faster, and 3.16 > 1. ✓ If your answer comes out less than 1 for the lighter gas, you have the ratio upside down.
+:::
+::::
+
+:::: tabs
+::: tab Problem
+An unknown gas effuses 0.355 times as fast as helium (4.003 g/mol) under the same conditions. What is its molar mass?
+:::
+::: tab Solution
+This runs Graham's law backwards — you have the rate ratio and want a molar mass.
+
+$$\frac{r_{\text{unk}}}{r_{\ce{He}}}=\sqrt{\frac{\mathcal{M}_{\ce{He}}}{\mathcal{M}_{\text{unk}}}} \;\Longrightarrow\; 0.355=\sqrt{\frac{4.003}{\mathcal{M}_{\text{unk}}}}$$
+
+Square both sides and solve:
+
+$$0.126=\frac{4.003}{\mathcal{M}_{\text{unk}}} \;\Longrightarrow\; \mathcal{M}_{\text{unk}}=\frac{4.003}{0.126}=31.8\ \text{g/mol}$$
+
+About 32 g/mol — consistent with $\ce{O2}$. Sanity check: the gas is slower than helium, so it must be heavier, and 31.8 > 4.003. ✓
+
+This is how effusion measurements identify unknown gases, and — at industrial scale — how uranium isotopes were first separated.
+:::
+::::
+
+> **Where this goes next.** Every assumption in §5.4 was an idealization: molecules with no volume, exerting no forces. §5.5 asks what happens when those assumptions stop being safe.
+
+## 5.5 Deviations from Ideal Behavior{{attrs[#blk-ch05sec05]}}
+
+:::success
+**Learning Objectives**
+- {{sp[info] Objective 5.5a}} Explain why real gases deviate from ideal behavior.
+- {{sp[info] Objective 5.5a}} Predict the conditions under which deviations become significant.
+- {{sp[info] Objective 5.5a}} Interpret the compressibility factor.
+- {{sp[info] Objective 5.5a}} Recognize the van der Waals equation and what each correction term does.
+:::
+
+### Where the model fails
+
+Two of the kinetic-theory assumptions are simply false for real molecules:
+
+- **Molecules do occupy volume.** Assumption 1 treated them as points. The volume available for a molecule to move in is the container's volume *minus* the space the other molecules take up — so the free volume is always less than $V$.
+- **Molecules do attract one another.** Assumption 3 denied it. A molecule approaching the wall is pulled back slightly by its neighbors, so it strikes with less force than it otherwise would — meaning the observed pressure is *lower* than the ideal equation predicts.
+
+Both effects exist always. What matters is when they become large enough to notice, and the answer follows from the two bullets:
+
+- At **high pressure**, molecules are crowded, so the space they occupy is a significant fraction of the container.
+- At **low temperature**, molecules move slowly, so attractive forces have time to act and are no longer negligible compared with the kinetic energy.
+
+==Deviations are largest at high pressure and low temperature — precisely the conditions under which a gas is on the verge of condensing into a liquid.== A model that ignores intermolecular forces is bound to fail exactly where those forces are about to win.
+
+![Schematic compressibility-factor chart](../assets/real_gas_deviation.svg =520x)
+*Figure 5.9 — The compressibility factor $Z=PV/nRT$ equals exactly 1 for an ideal gas at every pressure. Real gases with weak attractions (H₂, He) drift above 1 almost immediately; most real gases first dip below 1 (attraction dominates) before rising above 1 at very high pressure (molecular volume dominates).*
+
+The compressibility factor $Z = PV/nRT$ is a convenient way to measure the failure, because it is exactly 1 for an ideal gas at all conditions. Reading a real gas's curve tells you which effect is winning: $Z < 1$ means attractions dominate (the gas is more compressible than ideal), and $Z > 1$ means molecular volume dominates (less compressible than ideal).
+
+:::: tabs
+::: tab Problem
+A gas is compressed at constant temperature and its measured $Z = PV/nRT$ falls to 0.85. Which effect is dominating, and what does it say about the gas's molar volume compared with the ideal prediction?
+:::
+::: tab Solution
+$Z < 1$ means $PV < nRT$, so the actual volume is *smaller* than the ideal gas equation predicts at that pressure.
+
+That is the signature of **attraction dominating**: the molecules are pulling on one another, which effectively helps the compression along, so the gas takes up less room than an ideal gas would.
+
+Had the answer been $Z > 1$, the opposite would apply — the molecules' own finite volume would be resisting further compression, and the gas would occupy more room than ideal. The crossover from one regime to the other is what produces the dip-then-rise shape of the curves in Figure 5.9.
+:::
+::::
+
+### The van der Waals equation
+
+The van der Waals equation repairs the ideal gas equation by correcting each failure directly:
+
+$$\left(P+\frac{an^2}{V^2}\right)(V-nb)=nRT$$
+
+- The **$an^2/V^2$ term is added to $P$**, compensating for the pressure lost to intermolecular attraction. Larger $a$ means stronger attractions.
+- The **$nb$ term is subtracted from $V$**, removing the space the molecules themselves occupy. Larger $b$ means bigger molecules.
+
+Both $a$ and $b$ are measured experimentally and are specific to each gas. Set them both to zero and the equation collapses back to $PV = nRT$ — the ideal gas equation is the special case in which molecules have no size and no attractions.
+
+:::: tabs
+::: tab Problem
+Which gas would you expect to behave more ideally at room temperature and 1 atm: helium or water vapor? Which has the larger van der Waals $a$?
+:::
+::: tab Solution
+**Helium behaves more ideally.** It is a small, nonpolar atom with only very weak attractions between atoms, so both corrections are tiny.
+
+Water molecules are polar and hydrogen-bond strongly to one another (Chapter 11), so their attractions are large — which is why water is a *liquid* at room temperature while helium remains a gas down to nearly absolute zero.
+
+**Water has the much larger $a$**, since $a$ measures the strength of intermolecular attraction. The two facts are the same fact: strong attractions cause both large deviations from ideality and high boiling points.
+:::
+::::
+
+## Synthesis
+
+==This chapter builds one equation, $PV=nRT$, three ways over: assembled from three experimental laws in §5.2, explained from molecular motion in §5.4, and then bounded in §5.5 by identifying exactly where its assumptions fail.== That progression — empirical law, then mechanism, then limits — is the shape of most of what follows in this course.
+
+Backwards, the chapter rests entirely on Chapter 3: every gas-stoichiometry problem is the mole road map with one extra step. Forwards, the kinetic picture developed in §5.4 is reused immediately. Chapter 6 defines work as a gas expanding against a pressure. Chapter 11 takes the intermolecular attractions that §5.5 treats as a nuisance and makes them the entire subject, explaining why substances condense at all. Chapter 13 uses molecular speeds and collision frequencies to explain reaction rates. And the ideal gas equation itself reappears whenever a gas is a reactant or a product, from equilibrium constants in Chapter 14 to electrochemical cells in Chapter 18.
+
+## Asset and License Record for This Chapter
+
+| Asset | Source URL | License | Attribution |
+|---|---|---|---|
+| `assets/pressure_and_barometer.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib; released under this package's CC BY 4.0 license. |
+| `assets/gas_laws_panels.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib; released under this package's CC BY 4.0 license. |
+| `assets/hot_air_balloon.jpg` | https://commons.wikimedia.org/wiki/File:Inside_an_inflating_hot_air_balloon.jpg | CC BY 2.0 | Ville Miettinen, via Wikimedia Commons (originally Flickr), CC BY 2.0. Resized from the original for web use. |
+| `assets/gas_stoichiometry_road_map.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib; released under this package's CC BY 4.0 license. |
+| `assets/gas_collected_over_water.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib; released under this package's CC BY 4.0 license. |
+| `assets/kmt_explains_gas_laws.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib; released under this package's CC BY 4.0 license. |
+| `assets/molecular_speed_distribution.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib; released under this package's CC BY 4.0 license. |
+| `assets/grahams_law_effusion.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib using real molar masses; released under this package's CC BY 4.0 license. |
+| `assets/real_gas_deviation.svg` | — (self-generated, matplotlib) | CC BY 4.0 | Self-generated with matplotlib, schematic; released under this package's CC BY 4.0 license. |
+
+</script>
+
+<!-- orz-markdown renderer (parent) -->
+<script data-orz-asset="engine" src="https://cdn.jsdelivr.net/npm/orz-mdhtml-browser@0.9.0/orzmd.browser.js"></script>
+
+<!-- in-file app config + runtime -->
+<script data-orz-asset="config">window.__ORZ_MDHTML__ = {"filename":"Untitled","docId":"246f3dc4-8ad4-4de6-95ce-d0a3720fe441","rendererVersion":"0.9.0","defaultTheme":"light-academic-1","themes":[{"id":"light-neat-3","name":"Orchard","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-neat-3.css"},{"id":"light-neat-1","name":"Neat","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-neat-1.css"},{"id":"light-neat-2","name":"Neat 2","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-neat-2.css"},{"id":"light-academic-1","name":"Academic","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-academic-1.css"},{"id":"light-academic-2","name":"Academic 2","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-academic-2.css"},{"id":"beige-decent-1","name":"Beige","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/beige-decent-1.css"},{"id":"beige-decent-2","name":"Beige 2","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/beige-decent-2.css"},{"id":"light-playful-1","name":"Playful","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-playful-1.css"},{"id":"light-playful-2","name":"Playful 2","scheme":"light","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/light-playful-2.css"},{"id":"dark-elegant-1","name":"Dark Elegant","scheme":"dark","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/dark-elegant-1.css"},{"id":"dark-elegant-2","name":"Dark Elegant 2","scheme":"dark","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/dark-elegant-2.css"},{"id":"dark-elegant-3","name":"Nocturne","scheme":"dark","href":"https://cdn.jsdelivr.net/npm/orz-markdown@1.6.0/themes/dark-elegant-3.css"}],"frame":{"katexCss":"https://cdn.jsdelivr.net/npm/katex@0.16.35/dist/katex.min.css","hljsLightCss":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css","hljsDarkCss":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css","hljsJs":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js","mermaidJs":"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js","smilesJs":"https://unpkg.com/smiles-drawer@1.0.10/dist/smiles-drawer.min.js","chartJs":"https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"},"editorLibs":{"codemirrorCss":"https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css","codemirrorLightThemeCss":"https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/eclipse.min.css","codemirrorDarkThemeCss":"https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material-darker.min.css","codemirrorJs":"https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js","codemirrorMarkdownJs":"https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/markdown/markdown.min.js","codemirrorContinuelistJs":"https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/continuelist.min.js","morphdomJs":"https://cdn.jsdelivr.net/npm/morphdom@2.7.4/dist/morphdom-umd.min.js"},"runtime":"\n(function (global) {\n  var expandedQr = null;\n  var expandedSourceQr = null;\n\n  function collapseQr() {\n    if (!expandedQr) return;\n\n    if (expandedSourceQr) {\n      expandedSourceQr.classList.remove('is-expanded');\n      expandedSourceQr.setAttribute('aria-expanded', 'false');\n    }\n\n    if (expandedQr.parentNode) {\n      expandedQr.parentNode.removeChild(expandedQr);\n    }\n\n    if (global.document && global.document.body) {\n      global.document.body.style.overflow = '';\n    }\n    expandedQr = null;\n    expandedSourceQr = null;\n  }\n\n  function toggleQr(node) {\n    if (expandedSourceQr === node) {\n      collapseQr();\n      return;\n    }\n\n    collapseQr();\n    if (!global.document || !global.document.body) {\n      return;\n    }\n\n    expandedSourceQr = node;\n    expandedSourceQr.classList.add('is-expanded');\n    expandedSourceQr.setAttribute('aria-expanded', 'true');\n\n    expandedQr = node.cloneNode(true);\n    expandedQr.classList.add('qrcode-overlay', 'is-expanded');\n    expandedQr.setAttribute('aria-hidden', 'true');\n    expandedQr.removeAttribute('aria-expanded');\n    expandedQr.removeAttribute('tabindex');\n    expandedQr.removeAttribute('role');\n    expandedQr.addEventListener('click', function (event) {\n      event.stopPropagation();\n      collapseQr();\n    });\n\n    global.document.body.appendChild(expandedQr);\n\n    if (global.document && global.document.body) {\n      global.document.body.style.overflow = 'hidden';\n    }\n  }\n\n  function initQrCodes(root) {\n    if (!root || typeof root.querySelectorAll !== 'function') return;\n\n    Array.prototype.slice.call(root.querySelectorAll('.qrcode')).forEach(function (node) {\n      if (node.getAttribute('data-qr-ready') === '1') return;\n\n      node.setAttribute('data-qr-ready', '1');\n      node.addEventListener('click', function (event) {\n        event.stopPropagation();\n        toggleQr(node);\n      });\n      node.addEventListener('keydown', function (event) {\n        if (event.key === 'Enter' || event.key === ' ') {\n          event.preventDefault();\n          toggleQr(node);\n        }\n        if (event.key === 'Escape') {\n          collapseQr();\n        }\n      });\n    });\n  }\n\n  function initTabs(root) {\n    if (!root || typeof root.querySelectorAll !== 'function') return;\n    Array.prototype.slice.call(root.querySelectorAll('.tabs')).forEach(function (tabs) {\n      // data-js both guards re-init and switches the theme CSS from the no-JS\n      // fallback (all panels shown) to JS mode (only the .active panel shown).\n      if (tabs.getAttribute('data-js') === '1') return;\n      var panels = Array.prototype.slice.call(tabs.querySelectorAll(':scope > .tab'));\n      if (!panels.length) return;\n      tabs.setAttribute('data-js', '1');\n\n      var bar = global.document.createElement('div');\n      bar.className = 'tabs-bar';\n      panels.forEach(function (panel, i) {\n        var label = panel.getAttribute('data-label') || 'Tab ' + (i + 1);\n        var btn = global.document.createElement('button');\n        btn.className = 'tabs-bar-btn' + (i === 0 ? ' active' : '');\n        btn.textContent = label;\n        btn.addEventListener('click', function () {\n          Array.prototype.slice.call(tabs.querySelectorAll('.tabs-bar-btn')).forEach(function (b) { b.classList.remove('active'); });\n          panels.forEach(function (p) { p.classList.remove('active'); });\n          btn.classList.add('active');\n          panel.classList.add('active');\n        });\n        bar.appendChild(btn);\n      });\n      tabs.insertBefore(bar, tabs.firstChild);\n      panels[0].classList.add('active');\n    });\n  }\n\n  function init(root) {\n    var r = root || global.document;\n    initQrCodes(r);\n    initTabs(r);\n  }\n\n  // ---- copy-as-markdown: DOM -> Markdown walker ---------------------------\n  // Converts a selected DOM fragment back to Markdown so that copying rendered\n  // content yields source, not HTML. Standard constructs are reconstructed from\n  // their tags; generated constructs (math, mermaid, smiles, qr, youtube, chart) carry\n  // a [data-md] breadcrumb that is emitted verbatim. Written without template\n  // literals/backticks because this whole file is a String.raw template.\n  var BT = String.fromCharCode(96);\n  var FENCE = BT + BT + BT;\n\n  function rt_repeat(s, n) {\n    var out = '';\n    for (var i = 0; i < n; i++) out += s;\n    return out;\n  }\n\n  function rt_attr(node, name) {\n    return node && node.getAttribute ? node.getAttribute(name) : null;\n  }\n\n  function rt_isBlockElement(node) {\n    if (!node || node.nodeType !== 1) return false;\n    if (rt_attr(node, 'data-md') != null) return true;\n    var tag = node.tagName.toLowerCase();\n    if (/^(p|div|section|article|figure|h[1-6]|ul|ol|li|blockquote|pre|table|thead|tbody|tr|hr|details)$/.test(tag)) return true;\n    if (node.classList && (node.classList.contains('katex-display') || node.classList.contains('mermaid'))) return true;\n    return false;\n  }\n\n  function rt_katex(node, display) {\n    var ann = node.querySelector ? node.querySelector('annotation[encoding=\"application/x-tex\"]') : null;\n    var tex = (ann ? ann.textContent : node.textContent) || '';\n    tex = tex.replace(/^\\s+|\\s+$/g, '');\n    if (display) return '$$\\n' + tex + '\\n$$';\n    return '$' + tex + '$';\n  }\n\n  function rt_img(node) {\n    var alt = rt_attr(node, 'alt') || '';\n    var src = rt_attr(node, 'src') || '';\n    var title = rt_attr(node, 'title');\n    return '![' + alt + '](' + src + (title ? ' \"' + title + '\"' : '') + ')';\n  }\n\n  function rt_inlineChildren(node) {\n    var out = '';\n    var kids = node.childNodes;\n    for (var i = 0; i < kids.length; i++) out += rt_inlineNode(kids[i]);\n    return out;\n  }\n\n  function rt_inlineNode(node) {\n    if (node.nodeType === 3) return node.nodeValue.replace(/\\s+/g, ' ');\n    if (node.nodeType !== 1) return '';\n    var dm = rt_attr(node, 'data-md');\n    if (dm != null) return dm;\n    if (node.classList && node.classList.contains('katex')) return rt_katex(node, false);\n    var tag = node.tagName.toLowerCase();\n    switch (tag) {\n      case 'strong': case 'b': return '**' + rt_inlineChildren(node) + '**';\n      case 'em': case 'i': return '*' + rt_inlineChildren(node) + '*';\n      case 'code': return BT + (node.textContent || '') + BT;\n      case 'a':\n        var href = rt_attr(node, 'href') || '';\n        var title = rt_attr(node, 'title');\n        return '[' + rt_inlineChildren(node) + '](' + href + (title ? ' \"' + title + '\"' : '') + ')';\n      case 'del': case 's': return '~~' + rt_inlineChildren(node) + '~~';\n      case 'ins': return '++' + rt_inlineChildren(node) + '++';\n      case 'mark': return '==' + rt_inlineChildren(node) + '==';\n      case 'sub': return '~' + rt_inlineChildren(node) + '~';\n      case 'sup': return '^' + rt_inlineChildren(node) + '^';\n      case 'br': return '  \\n';\n      case 'img': return rt_img(node);\n      case 'input': return '';\n      case 'span':\n        var spCls = (rt_attr(node, 'class') || '').trim();\n        return spCls ? '{{sp[' + spCls + '] ' + rt_inlineChildren(node) + '}}' : rt_inlineChildren(node);\n      default: return rt_inlineChildren(node);\n    }\n  }\n\n  function rt_align(cell) {\n    var style = (rt_attr(cell, 'style') || '').toLowerCase();\n    if (style.indexOf('center') !== -1) return 'center';\n    if (style.indexOf('right') !== -1) return 'right';\n    if (style.indexOf('left') !== -1) return 'left';\n    return '';\n  }\n\n  function rt_sep(align) {\n    if (align === 'center') return ':---:';\n    if (align === 'right') return '---:';\n    if (align === 'left') return ':---';\n    return '---';\n  }\n\n  function rt_tableRows(headRow, bodyRows) {\n    var rows = [];\n    var header = [];\n    var aligns = [];\n    if (headRow) {\n      var hc = headRow.children;\n      for (var i = 0; i < hc.length; i++) { header.push(rt_inlineChildren(hc[i]).trim()); aligns.push(rt_align(hc[i])); }\n    }\n    rows.push('| ' + header.join(' | ') + ' |');\n    var seps = [];\n    for (var s = 0; s < header.length; s++) seps.push(rt_sep(aligns[s]));\n    rows.push('| ' + seps.join(' | ') + ' |');\n    for (var r = 0; r < bodyRows.length; r++) {\n      var cells = [];\n      var tds = bodyRows[r].children;\n      for (var c = 0; c < tds.length; c++) cells.push(rt_inlineChildren(tds[c]).trim());\n      rows.push('| ' + cells.join(' | ') + ' |');\n    }\n    return rows.join('\\n');\n  }\n\n  function rt_table(tbl) {\n    var headRow = tbl.querySelector ? tbl.querySelector('thead tr') : null;\n    var bodyRows = tbl.querySelectorAll ? tbl.querySelectorAll('tbody tr') : [];\n    return rt_tableRows(headRow, bodyRows);\n  }\n\n  // Reconstruct a table from bare table-internal nodes (thead/tbody/tr), e.g.\n  // when a selection inside a table loses its <table> wrapper.\n  function rt_tableFromParts(parts) {\n    var headRow = null;\n    var bodyRows = [];\n    for (var i = 0; i < parts.length; i++) {\n      var p = parts[i];\n      var tag = p.tagName.toLowerCase();\n      if (tag === 'thead') { var tr = p.querySelector ? p.querySelector('tr') : null; if (tr && !headRow) headRow = tr; }\n      else if (tag === 'tbody') { var trs = p.querySelectorAll ? p.querySelectorAll('tr') : []; for (var j = 0; j < trs.length; j++) bodyRows.push(trs[j]); }\n      else if (tag === 'tr') { if (!headRow) headRow = p; else bodyRows.push(p); }\n    }\n    return rt_tableRows(headRow, bodyRows);\n  }\n\n  function rt_codeBlock(pre) {\n    var code = pre.querySelector ? (pre.querySelector('code') || pre) : pre;\n    var lang = '';\n    var cls = rt_attr(code, 'class') || '';\n    var m = cls.match(/language-([A-Za-z0-9_+#-]+)/);\n    if (m) lang = m[1];\n    var text = (code.textContent || '').replace(/\\n$/, '');\n    return FENCE + lang + '\\n' + text + '\\n' + FENCE;\n  }\n\n  function rt_list(node, ordered, depth) {\n    var items = [];\n    var idx = 1;\n    var kids = node.childNodes;\n    for (var i = 0; i < kids.length; i++) {\n      var li = kids[i];\n      if (li.nodeType !== 1 || li.tagName.toLowerCase() !== 'li') continue;\n      items.push(rt_listItem(li, ordered, idx, depth));\n      idx++;\n    }\n    return items.join('\\n');\n  }\n\n  function rt_listItem(li, ordered, idx, depth) {\n    var indent = rt_repeat('  ', depth);\n    var marker = ordered ? (idx + '. ') : '- ';\n    var task = '';\n    var cb = li.querySelector ? li.querySelector('input[type=\"checkbox\"]') : null;\n    if (cb) task = (cb.checked || rt_attr(cb, 'checked') != null) ? '[x] ' : '[ ] ';\n    var inlineParts = '';\n    var nested = '';\n    var kids = li.childNodes;\n    for (var i = 0; i < kids.length; i++) {\n      var c = kids[i];\n      if (c.nodeType === 1 && /^(ul|ol)$/.test(c.tagName.toLowerCase())) {\n        nested += '\\n' + rt_list(c, c.tagName.toLowerCase() === 'ol', depth + 1);\n      } else {\n        inlineParts += rt_inlineNode(c);\n      }\n    }\n    inlineParts = inlineParts.replace(/\\s+/g, ' ').trim();\n    return indent + marker + task + inlineParts + nested;\n  }\n\n  function rt_blockquote(node) {\n    var inner = rt_blockChildren(node);\n    var lines = inner.split('\\n');\n    var out = [];\n    for (var i = 0; i < lines.length; i++) out.push(lines[i] ? '> ' + lines[i] : '>');\n    return out.join('\\n');\n  }\n\n  function rt_blockChildren(node) {\n    var parts = [];\n    var kids = node.childNodes;\n    var i = 0;\n    while (i < kids.length) {\n      var k = kids[i];\n      // A selection can contain bare <li> elements (when the user selects a\n      // list's contents rather than the <ul>/<ol> wrapper). Group a run of them\n      // into a bullet list instead of emitting each as a separate block.\n      if (k.nodeType === 1 && k.tagName.toLowerCase() === 'li') {\n        var lis = [];\n        while (i < kids.length) {\n          var kk = kids[i];\n          if (kk.nodeType === 1 && kk.tagName.toLowerCase() === 'li') { lis.push(kk); i++; }\n          else if (kk.nodeType === 3 && !(kk.nodeValue || '').trim()) { i++; }\n          else break;\n        }\n        var items = [];\n        for (var j = 0; j < lis.length; j++) items.push(rt_listItem(lis[j], false, j + 1, 0));\n        parts.push(items.join('\\n'));\n        continue;\n      }\n      // Bare table-internal nodes (selection inside a table that lost its\n      // <table> wrapper) — reconstruct a Markdown table.\n      if (k.nodeType === 1 && /^(thead|tbody|tr)$/.test(k.tagName.toLowerCase())) {\n        var trows = [];\n        while (i < kids.length) {\n          var tk = kids[i];\n          if (tk.nodeType === 1 && /^(thead|tbody|tr)$/.test(tk.tagName.toLowerCase())) { trows.push(tk); i++; }\n          else if (tk.nodeType === 3 && !(tk.nodeValue || '').trim()) { i++; }\n          else break;\n        }\n        parts.push(rt_tableFromParts(trows));\n        continue;\n      }\n      var s = rt_blockNode(k);\n      if (s && s.replace(/\\s/g, '') !== '') parts.push(s.replace(/\\s+$/, ''));\n      i++;\n    }\n    return parts.join('\\n\\n');\n  }\n\n  var rt_containerNames = ['info', 'success', 'warning', 'danger', 'left', 'right', 'center', 'cols', 'col', 'tabs', 'tab'];\n  // A markdown-it-container div.name (or details.spoil) -> its ::: name\n  // directive name, or null if the node is not a container.\n  function rt_containerName(node) {\n    if (node.nodeType !== 1 || !node.classList) return null;\n    var tag = node.tagName.toLowerCase();\n    if (tag === 'details' && node.classList.contains('spoil')) {\n      var sum = node.querySelector ? node.querySelector('summary') : null;\n      var title = sum ? (sum.textContent || '').trim() : '';\n      return title ? 'spoil ' + title : 'spoil';\n    }\n    if (tag !== 'div') return null;\n    for (var i = 0; i < rt_containerNames.length; i++) {\n      var n = rt_containerNames[i];\n      if (node.classList.contains(n)) {\n        if (n === 'tab') { var lbl = rt_attr(node, 'data-label'); return lbl ? 'tab ' + lbl : 'tab'; }\n        return n;\n      }\n    }\n    return null;\n  }\n  // Emit a ::: name ... ::: block, using a fence longer than any inner fence so\n  // nested containers (cols > col, tabs > tab) re-parse correctly.\n  function rt_containerMd(node, name) {\n    var parts = [];\n    var kids = node.childNodes;\n    for (var i = 0; i < kids.length; i++) {\n      var k = kids[i];\n      if (k.nodeType === 1) {\n        var ktag = k.tagName.toLowerCase();\n        if (ktag === 'summary') continue; // spoil title, captured in the name\n        if (k.classList && k.classList.contains('tabs-bar')) continue; // JS-injected tab buttons\n      }\n      var m = rt_blockNode(k);\n      if (m && m.trim()) parts.push(m.trim());\n    }\n    var inner = parts.join('\\n\\n');\n    var maxFence = 2;\n    var lines = inner.split('\\n');\n    for (var j = 0; j < lines.length; j++) {\n      var mm = lines[j].match(/^(:{3,})/);\n      if (mm && mm[1].length > maxFence) maxFence = mm[1].length;\n    }\n    var fence = rt_repeat(':', Math.max(3, maxFence + 1));\n    return fence + ' ' + name + '\\n' + inner + '\\n' + fence;\n  }\n\n  function rt_blockNode(node) {\n    if (node.nodeType === 3) {\n      var t = node.nodeValue;\n      return (t && t.trim()) ? t.replace(/\\s+/g, ' ').trim() : '';\n    }\n    if (node.nodeType !== 1) return '';\n    var dm = rt_attr(node, 'data-md');\n    if (dm != null) return dm;\n    if (node.classList) {\n      // Display math: the katex-display span OR its katex-block <p> wrapper.\n      // Without this the wrapper is walked as a paragraph and the inner katex is\n      // emitted as inline math instead of a block equation.\n      if (node.classList.contains('katex-display') || node.classList.contains('katex-block')) {\n        var k = node.querySelector ? node.querySelector('.katex') : null;\n        return rt_katex(k || node, true);\n      }\n      if (node.classList.contains('mermaid')) return '{{mermaid\\n' + (node.textContent || '').trim() + '\\n}}';\n    }\n    var tag = node.tagName.toLowerCase();\n    var hm = tag.match(/^h([1-6])$/);\n    if (hm) return rt_repeat('#', parseInt(hm[1], 10)) + ' ' + rt_inlineChildren(node).trim();\n    switch (tag) {\n      case 'p': return rt_inlineChildren(node).trim();\n      case 'ul': return rt_list(node, false, 0);\n      case 'ol': return rt_list(node, true, 0);\n      case 'pre': return rt_codeBlock(node);\n      case 'blockquote': return rt_blockquote(node);\n      case 'table': return rt_table(node);\n      case 'hr': return '---';\n      case 'li': return rt_inlineChildren(node).trim();\n      case 'figure': case 'div': case 'section': case 'article': case 'details': case 'summary':\n        var cn = rt_containerName(node);\n        if (cn) return rt_containerMd(node, cn);\n        return rt_blockChildren(node);\n      default: return rt_inlineNode(node).trim();\n    }\n  }\n\n  function elementToMarkdown(root) {\n    if (!root) return '';\n    var hasBlock = false;\n    var kids = root.childNodes || [];\n    for (var i = 0; i < kids.length; i++) {\n      if (rt_isBlockElement(kids[i])) { hasBlock = true; break; }\n    }\n    var out = hasBlock ? rt_blockChildren(root) : rt_inlineChildren(root);\n    return out.replace(/[ \\t]+\\n/g, '\\n').replace(/\\n{3,}/g, '\\n\\n').replace(/^\\s+|\\s+$/g, '');\n  }\n\n  function rt_isEditable(node) {\n    while (node) {\n      if (node.nodeType === 1) {\n        var tag = node.tagName.toLowerCase();\n        if (tag === 'input' || tag === 'textarea') return true;\n        if (node.isContentEditable) return true;\n      }\n      node = node.parentNode;\n    }\n    return false;\n  }\n\n  function rt_isCopyRoot(node) {\n    return node.nodeType === 1 && node.classList &&\n      (node.classList.contains('markdown-body') || rt_attr(node, 'data-orz-copy') != null);\n  }\n  function rt_withinCopyRoot(node) {\n    while (node) {\n      if (rt_isCopyRoot(node)) return true;\n      node = node.parentNode;\n    }\n    return false;\n  }\n\n  // When a selection sits entirely within one table/blockquote/pre — or inside a\n  // ::: container — copy that whole block, so the wrapper is included (a partial\n  // table/quote fragment isn't valid Markdown, and a copied container should keep\n  // its ::: fence). Browsers often clone such selections without the wrapper.\n  // Tables/quotes/code don't nest, so the innermost wins; containers DO nest\n  // (cols > col, tabs > tab), so promote to the OUTERMOST one.\n  function rt_promotableBlock(node) {\n    var container = null;\n    while (node && !rt_isCopyRoot(node)) {\n      if (node.nodeType === 1) {\n        var tag = node.tagName.toLowerCase();\n        if (tag === 'table' || tag === 'blockquote' || tag === 'pre') return node;\n        // A selection inside a display equation copies the whole block equation;\n        // a partial KaTeX fragment is not valid Markdown.\n        if (node.classList &&\n            (node.classList.contains('katex-block') || node.classList.contains('katex-display'))) return node;\n        if (rt_containerName(node)) container = node;\n      }\n      node = node.parentNode;\n    }\n    return container;\n  }\n\n  function onCopy(event) {\n    if (!global.document) return;\n    var sel = global.getSelection ? global.getSelection()\n      : (global.document.getSelection ? global.document.getSelection() : null);\n    if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return;\n    if (rt_isEditable(sel.anchorNode) || rt_isEditable(sel.focusNode)) return;\n    if (!rt_withinCopyRoot(sel.anchorNode) && !rt_withinCopyRoot(sel.focusNode)) return;\n\n    var md;\n    var range0 = sel.getRangeAt(0);\n    var common = range0.commonAncestorContainer;\n    var promoted = rt_promotableBlock(common.nodeType === 1 ? common : common.parentNode);\n    if (promoted && sel.rangeCount === 1) {\n      var pwrap = global.document.createElement('div');\n      pwrap.appendChild(promoted.cloneNode(true));\n      md = elementToMarkdown(pwrap);\n    } else {\n      var container = global.document.createElement('div');\n      for (var i = 0; i < sel.rangeCount; i++) container.appendChild(sel.getRangeAt(i).cloneContents());\n      md = elementToMarkdown(container);\n    }\n    if (!md) return;\n    var cd = event.clipboardData || global.clipboardData;\n    if (cd && cd.setData) {\n      cd.setData('text/plain', md);\n      if (event.preventDefault) event.preventDefault();\n    }\n  }\n\n  function bindGlobalHandlers() {\n    if (!global.document || global.__orzMarkdownRuntimeBound) return;\n    global.__orzMarkdownRuntimeBound = true;\n\n    global.document.addEventListener('click', function (event) {\n      if (expandedQr && !expandedQr.contains(event.target)) {\n        collapseQr();\n      }\n    });\n\n    global.document.addEventListener('keydown', function (event) {\n      if (event.key === 'Escape') {\n        collapseQr();\n      }\n    });\n\n    // Copy rendered selections as Markdown source.\n    global.document.addEventListener('copy', onCopy);\n  }\n\n  global.OrzMarkdownRuntime = Object.assign({}, global.OrzMarkdownRuntime, {\n    init: init,\n    initQrCodes: initQrCodes,\n    initTabs: initTabs,\n    collapseQr: collapseQr,\n    elementToMarkdown: elementToMarkdown,\n  });\n\n  bindGlobalHandlers();\n\n  if (global.document) {\n    if (global.document.readyState === 'loading') {\n      global.document.addEventListener('DOMContentLoaded', function () {\n        init(global.document);\n      }, { once: true });\n    } else {\n      init(global.document);\n    }\n  }\n})(typeof globalThis !== 'undefined' ? globalThis : window);\n"};</script>
+<script data-orz-asset="app">/* orz-mdhtml in-file runtime.
+ *
+ * A document that is quietly editable. By default it shows the rendered
+ * Markdown in an <iframe> (full theme isolation) with one small edit button.
+ * Editing reveals a CodeMirror editor beside a live, incrementally-updated
+ * preview. The embedded <script type="text/markdown"> is the single source of
+ * truth; Save re-serializes the outer document. Editor libraries are
+ * lazy-loaded on first edit so reading stays lightweight.
+ *
+ * Config arrives on window.__ORZ_MDHTML__ (themes, frame/editor CDN assets,
+ * the orz-markdown browser runtime).
+ */
+(function () {
+  'use strict';
+
+  var CFG = window.__ORZ_MDHTML__ || {};
+  var root = document.documentElement;
+  var frame = document.getElementById('orz-frame');
+  var textarea = document.getElementById('orz-textarea');
+  var themeSelect = document.getElementById('orz-theme');
+
+  var currentTheme = CFG.defaultTheme;
+  var cm = null;
+  var libsLoading = null;
+  var dirty = false;
+  var fileHandle = null;
+
+  // ---- source helpers ------------------------------------------------------
+  function unescapeSource(s) { return s.replace(/<\\\/(script)/gi, '</$1'); }
+  function escapeSource(s) { return s.replace(/<\/(script)/gi, '<\\/$1'); }
+  function embeddedSource() {
+    var el = document.getElementById('orz-src');
+    return el ? unescapeSource(el.textContent || '').replace(/^\n/, '').replace(/\n$/, '') : '';
+  }
+  function currentSource() {
+    if (cm) return cm.getValue();
+    if (textarea && textarea.value) return textarea.value;
+    return embeddedSource();
+  }
+
+  function themeById(id) {
+    for (var i = 0; i < CFG.themes.length; i++) if (CFG.themes[i].id === id) return CFG.themes[i];
+    return CFG.themes[0];
+  }
+
+  // ---- preview iframe ------------------------------------------------------
+  // Inline scripts written into the iframe must not contain a literal
+  // <\/script>; escape defensively (the orz runtime is JS, so <\/script is fine).
+  function guard(js) { return String(js).replace(/<\/(script)/gi, '<\\/$1'); }
+
+  function frameHtml(theme) {
+    var f = CFG.frame;
+    var hljsCss = theme.scheme === 'dark' ? f.hljsDarkCss : f.hljsLightCss;
+    return '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
+      + '<meta name="viewport" content="width=device-width, initial-scale=1">'
+      + '<link id="orz-theme-css" rel="stylesheet" href="' + theme.href + '">'
+      + '<link rel="stylesheet" href="' + f.katexCss + '">'
+      + '<link id="orz-hljs-css" rel="stylesheet" href="' + hljsCss + '">'
+      // bottom padding so the last content clears the floating reader tools
+      + '<style>html,body{margin:0}body{padding-bottom:84px}</style></head><body>'
+      + '<article class="markdown-body" id="orz-doc"></article>'
+      + '<script src="' + f.hljsJs + '"><\/script>'
+      + '<script src="' + f.mermaidJs + '"><\/script>'
+      + '<script src="' + f.smilesJs + '"><\/script>'
+      + '<script src="' + f.chartJs + '"><\/script>'
+      + '<script>try{mermaid.initialize({startOnLoad:false})}catch(e){}<\/script>'
+      + '<script>' + guard(CFG.runtime) + '<\/script>'
+      + '<script>window.__orzEnhance=function(){'
+      + 'try{if(window.hljs){document.querySelectorAll("#orz-doc pre code:not(.hljs)").forEach(function(b){window.hljs.highlightElement(b)})}}catch(e){}'
+      + 'try{if(window.mermaid){window.mermaid.run({querySelector:"#orz-doc .mermaid:not([data-processed])"})}}catch(e){}'
+      // SMILES: draw each canvas once (tracked via a JS prop so morphdom keeps
+      // the drawn canvas across edits — DOM attributes stay identical).
+      + 'try{if(window.SmilesDrawer){document.querySelectorAll("#orz-doc canvas[data-smiles]").forEach(function(c){if(c.__orzSmilesDone)return;var s=c.getAttribute("data-smiles");if(!s)return;if(c.__orzOrigW===undefined){c.__orzOrigW=c.width;c.__orzOrigH=c.height;}c.width=c.__orzOrigW;c.height=c.__orzOrigH;c.__orzSmilesDone=true;var dr=new window.SmilesDrawer.Drawer({width:c.__orzOrigW,height:c.__orzOrigH});window.SmilesDrawer.parse(s,function(t){try{dr.draw(t,c,window.__orzSmilesTheme||"light",false)}catch(e){}},function(){})})}}catch(e){}'
+      + 'try{if(window.Chart){document.querySelectorAll("#orz-doc canvas.orz-chart[data-chart]").forEach(function(c){if(c.__orzChartDone)return;c.__orzChartDone=true;var w=c.ownerDocument.createElement("div");w.style.cssText="position:relative;width:100%;max-width:520px;margin:.6em auto";c.parentNode.insertBefore(w,c);w.appendChild(c);c.removeAttribute("width");c.removeAttribute("height");try{var cfg=JSON.parse(c.getAttribute("data-chart")||"{}");cfg.options=Object.assign({responsive:true,maintainAspectRatio:true,animation:false},cfg.options||{});new window.Chart(c,cfg)}catch(e){}})}}catch(e){}'
+      // Tabs init runs in the runtime on load (empty #orz-doc); re-run now that
+      // content is injected, and after each incremental update. Idempotent.
+      + 'try{if(window.OrzMarkdownRuntime&&window.OrzMarkdownRuntime.initTabs){window.OrzMarkdownRuntime.initTabs(document)}}catch(e){}'
+      + '};<\/script></body></html>';
+  }
+
+  function frameDoc() { return frame.contentDocument || (frame.contentWindow && frame.contentWindow.document); }
+
+  function buildFrame(theme) {
+    var doc = frameDoc();
+    doc.open(); doc.write(frameHtml(theme)); doc.close();
+  }
+
+  function applyThemeToFrame(theme) {
+    var doc = frameDoc(); if (!doc) return;
+    var link = doc.getElementById('orz-theme-css'); if (link) link.href = theme.href;
+    var hl = doc.getElementById('orz-hljs-css');
+    if (hl) hl.href = theme.scheme === 'dark' ? CFG.frame.hljsDarkCss : CFG.frame.hljsLightCss;
+  }
+
+  function renderHtml(src) {
+    ensureIncludes(src); // async: fetch any un-cached web includes via the host
+    var s = applyIncludes(src); // sync: inline what's already cached
+    return (window.orzmd && window.orzmd.render) ? window.orzmd.render(s) : '';
+  }
+
+  function enhance() {
+    var w = frame.contentWindow;
+    if (!w) return;
+    try { w.__orzSmilesTheme = themeById(currentTheme).scheme === 'dark' ? 'dark' : 'light'; } catch (e) {}
+    if (typeof w.__orzEnhance === 'function') { try { w.__orzEnhance(); } catch (e) {} }
+  }
+
+  // Re-draw SMILES canvases in the current light/dark theme (after a theme
+  // switch). Just clear the done flag; the draw hook resets each canvas to its
+  // original dimensions before redrawing, so sizes never drift.
+  function redrawSmiles() {
+    var doc = frameDoc(); if (!doc) return;
+    Array.prototype.forEach.call(doc.querySelectorAll('#orz-doc canvas[data-smiles]'), function (c) {
+      c.__orzSmilesDone = false;
+    });
+    enhance();
+  }
+  // CDN libs inside the iframe load async — retry enhance a few times.
+  function enhanceSoon() { enhance(); setTimeout(enhance, 150); setTimeout(enhance, 600); setTimeout(enhance, 1500); }
+
+  function firstPaint() {
+    var doc = frameDoc();
+    var container = doc.getElementById('orz-doc');
+    if (container) container.innerHTML = renderHtml(currentSource());
+    enhanceSoon();
+    scheduleAnchors();
+  }
+
+  function patch(src) {
+    var doc = frameDoc(); if (!doc) return;
+    var container = doc.getElementById('orz-doc'); if (!container) return;
+    var next = doc.createElement('article');
+    next.className = 'markdown-body'; next.id = 'orz-doc';
+    next.innerHTML = renderHtml(src);
+    if (window.morphdom) {
+      window.morphdom(container, next, {
+        onBeforeElUpdated: function (fromEl, toEl) {
+          if (fromEl.isEqualNode && fromEl.isEqualNode(toEl)) return false;
+          // Keep an already-rendered generated construct (mermaid / smiles / qr /
+          // youtube) when its source is unchanged. These are client-rendered into
+          // canvases / SVGs / iframes, so letting morphdom touch them would wipe
+          // the drawing (e.g. a SMILES canvas disappearing when nearby text is
+          // edited). data-md carries the source; skip the whole subtree on match.
+          var dm = fromEl.getAttribute && fromEl.getAttribute('data-md');
+          if (dm != null && toEl.getAttribute && dm === toEl.getAttribute('data-md')) return false;
+          // keep highlighted code when the text is unchanged
+          if (fromEl.nodeName === 'CODE' && fromEl.classList && fromEl.classList.contains('hljs') &&
+              fromEl.textContent === toEl.textContent) return false;
+          return true;
+        },
+      });
+    } else {
+      container.innerHTML = next.innerHTML;
+    }
+    enhance();
+    scheduleAnchors();
+  }
+
+  var updTimer = null;
+  function scheduleUpdate() { if (updTimer) clearTimeout(updTimer); updTimer = setTimeout(function () { patch(currentSource()); }, 120); }
+
+  // ---- editor <-> preview scroll sync -------------------------------------
+  // Source-line mapped (not percentage): each preview block carries
+  // data-src-line (stamped by the renderer). We map between CodeMirror lines
+  // and preview offsets, interpolating between anchors.
+  var anchors = [];
+  var activePane = null;   // 'editor' | 'preview' — whichever the user drives
+  var syncWired = false;
+  var syncEnabled = true;  // user-toggleable; persisted in localStorage
+
+  function scroller() { var d = frameDoc(); return d ? (d.scrollingElement || d.documentElement) : null; }
+
+  function rebuildAnchors() {
+    var doc = frameDoc(); if (!doc) { anchors = []; return; }
+    var sc = scroller();
+    var st = sc ? sc.scrollTop : 0;
+    var els = doc.querySelectorAll('#orz-doc [data-src-line]');
+    var arr = [];
+    for (var i = 0; i < els.length; i++) {
+      var line = parseInt(els[i].getAttribute('data-src-line'), 10);
+      if (isNaN(line)) continue;
+      // document-space offset: rect is viewport-relative, add the scroll position
+      arr.push({ line: line, top: els[i].getBoundingClientRect().top + st });
+    }
+    arr.sort(function (a, b) { return a.top - b.top; });
+    anchors = arr;
+  }
+  function scheduleAnchors() {
+    requestAnimationFrame(rebuildAnchors);
+    setTimeout(rebuildAnchors, 350); // after async mermaid/image layout
+  }
+
+  function lineToTop(line) {
+    if (!anchors.length) return 0;
+    var prev = anchors[0], next = anchors[anchors.length - 1], found = false;
+    for (var i = 0; i < anchors.length; i++) {
+      if (anchors[i].line <= line) prev = anchors[i];
+      if (anchors[i].line > line) { next = anchors[i]; found = true; break; }
+    }
+    if (!found || next.line === prev.line) return prev.top;
+    var f = (line - prev.line) / (next.line - prev.line);
+    return prev.top + f * (next.top - prev.top);
+  }
+  function topToLine(top) {
+    if (!anchors.length) return 0;
+    var prev = anchors[0], next = anchors[anchors.length - 1], found = false;
+    for (var i = 0; i < anchors.length; i++) {
+      if (anchors[i].top <= top) prev = anchors[i];
+      if (anchors[i].top > top) { next = anchors[i]; found = true; break; }
+    }
+    if (!found || next.top === prev.top) return prev.line;
+    var f = (top - prev.top) / (next.top - prev.top);
+    return prev.line + f * (next.line - prev.line);
+  }
+
+  function syncPreviewFromEditor() {
+    if (!syncEnabled || !cm || !isEdit()) return;
+    var sc = scroller(); if (!sc) return;
+    rebuildAnchors(); // fresh offsets (fonts/images may have changed heights)
+    // first visible source line: the line at the top edge of the editor viewport
+    var wrapTop = cm.getWrapperElement().getBoundingClientRect().top;
+    var line = cm.lineAtHeight(wrapTop, 'window');
+    sc.scrollTop = lineToTop(line);
+  }
+  function syncEditorFromPreview() {
+    if (!syncEnabled || !cm || !isEdit()) return;
+    var sc = scroller(); if (!sc) return;
+    rebuildAnchors();
+    cm.scrollTo(null, cm.heightAtLine(Math.round(topToLine(sc.scrollTop)), 'local'));
+  }
+
+  function rafThrottle(fn) {
+    var queued = false;
+    return function () { if (queued) return; queued = true; requestAnimationFrame(function () { queued = false; fn(); }); };
+  }
+
+  function wireScrollSync() {
+    if (syncWired || !cm) return;
+    syncWired = true;
+    var onEd = rafThrottle(function () { if (activePane === 'editor') syncPreviewFromEditor(); });
+    var onPv = rafThrottle(function () { if (activePane === 'preview') syncEditorFromPreview(); });
+    cm.on('scroll', onEd);
+    cm.getWrapperElement().addEventListener('mouseenter', function () { activePane = 'editor'; });
+    cm.on('focus', function () { activePane = 'editor'; });
+    var fw = frame.contentWindow;
+    if (fw) fw.addEventListener('scroll', onPv, { passive: true });
+    frame.addEventListener('mouseenter', function () { activePane = 'preview'; });
+  }
+
+  // ---- lazy editor libs ----------------------------------------------------
+  function loadScript(src) {
+    return new Promise(function (res, rej) {
+      var s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej;
+      document.head.appendChild(s);
+    });
+  }
+  function loadCss(href) {
+    if (!href) return;
+    var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = href; document.head.appendChild(l);
+  }
+
+  function ensureLibs() {
+    if (libsLoading) return libsLoading;
+    var L = CFG.editorLibs;
+    loadCss(L.codemirrorCss); loadCss(L.codemirrorLightThemeCss); loadCss(L.codemirrorDarkThemeCss);
+    libsLoading = loadScript(L.morphdomJs)
+      .then(function () { return loadScript(L.codemirrorJs); })
+      .then(function () { return loadScript(L.codemirrorMarkdownJs); })
+      .then(function () { return loadScript(L.codemirrorContinuelistJs); });
+    return libsLoading;
+  }
+
+  function cmTheme(scheme) { return scheme === 'dark' ? 'material-darker' : 'eclipse'; }
+
+  function initEditor() {
+    if (cm || !window.CodeMirror) return;
+    textarea.value = currentSource();
+    cm = window.CodeMirror.fromTextArea(textarea, {
+      mode: 'markdown', lineNumbers: true, lineWrapping: true,
+      tabSize: 2, indentUnit: 2, indentWithTabs: false, smartIndent: false,
+      theme: cmTheme(themeById(currentTheme).scheme),
+      extraKeys: {
+        'Enter': 'newlineAndIndentContinueMarkdownList',
+        'Tab': function (c) { c.execCommand('indentMore'); },
+        'Shift-Tab': function (c) { c.execCommand('indentLess'); },
+        'Cmd-S': function () { save(); },
+        'Ctrl-S': function () { save(); },
+      },
+    });
+    cm.on('change', function () { markDirty(); scheduleUpdate(); aiHideAll(); });
+    cm.on('cursorActivity', function () { aiRefresh(); });
+    wireScrollSync();
+  }
+
+  // ---- edit mode (slide-in popout) -----------------------------------------
+  function isEdit() { return root.getAttribute('data-mode') === 'edit'; }
+
+  // Draggable divider — sets the editor/preview split (relative width). The
+  // iframe swallows pointer events, so disable them on the frame while dragging
+  // (otherwise the parent stops receiving mousemove/mouseup and the drag sticks).
+  var dividerWired = false;
+  function wireDivider() {
+    if (dividerWired) return; dividerWired = true;
+    var d = document.getElementById('orz-divider'); if (!d) return;
+    var dragging = false;
+    d.addEventListener('mousedown', function (e) {
+      dragging = true; d.classList.add('dragging'); e.preventDefault();
+      document.body.style.userSelect = 'none'; frame.style.pointerEvents = 'none';
+    });
+    document.addEventListener('mousemove', function (e) {
+      if (!dragging) return;
+      var pct = Math.max(20, Math.min(78, (e.clientX / window.innerWidth) * 100));
+      root.style.setProperty('--orz-split', pct + '%');
+    });
+    document.addEventListener('mouseup', function () {
+      if (!dragging) return;
+      dragging = false; d.classList.remove('dragging');
+      document.body.style.userSelect = ''; frame.style.pointerEvents = '';
+      if (cm) cm.refresh(); scheduleAnchors();
+    });
+  }
+
+  function enterEdit() {
+    root.setAttribute('data-mode', 'edit');
+    checkVersion(); // edit view only — broad viewers never see the update banner
+    wireDivider();
+    ensureLibs().then(function () {
+      initEditor();
+      if (cm) setTimeout(function () { cm.refresh(); cm.focus(); }, 30);
+      scheduleAnchors();
+    }).catch(function () {
+      // offline / lib load failed: the bare textarea is still editable
+      textarea.focus();
+      toast('Editor libraries unavailable — basic editing');
+    });
+  }
+  function exitEdit() {
+    root.removeAttribute('data-mode');
+    aiHideAll();
+    if (dirty) toast('Unsaved changes — press ' + (isMac() ? '⌘' : 'Ctrl') + '+S to save');
+  }
+  function isMac() { return /Mac|iPhone|iPad/.test(navigator.platform || ''); }
+
+  function setSyncEnabled(on) {
+    syncEnabled = !!on;
+    var btn = document.getElementById('orz-sync');
+    if (btn) {
+      btn.setAttribute('aria-pressed', syncEnabled ? 'true' : 'false');
+      btn.title = syncEnabled ? 'Scroll sync on' : 'Scroll sync off';
+    }
+    try { localStorage.setItem('orz-mdhtml:scrollsync', syncEnabled ? '1' : '0'); } catch (e) {}
+    if (syncEnabled && activePane === 'editor') syncPreviewFromEditor();
+  }
+
+  // ---- theme ---------------------------------------------------------------
+  function setTheme(id) {
+    currentTheme = id;
+    var t = themeById(id);
+    root.setAttribute('data-chrome', t.scheme);
+    if (themeSelect) themeSelect.value = id;
+    applyThemeToFrame(t);
+    redrawSmiles(); // pick up the new light/dark SMILES palette
+    if (cm) cm.setOption('theme', cmTheme(t.scheme));
+    markDirty();
+  }
+
+  // ---- dirty ---------------------------------------------------------------
+  function markDirty() { if (!dirty) { dirty = true; root.setAttribute('data-dirty', '1'); hostPostDirty(true); } }
+  function clearDirty() { if (dirty) hostPostDirty(false); dirty = false; root.setAttribute('data-dirty', '0'); }
+
+  // ---- host embedding (orz-host-save@1) -------------------------------------
+  // When a platform embeds this file in an iframe and announces the
+  // orz-host-save protocol (see PROTOCOL.md), Save posts the document to the
+  // host instead of touching the file system. Never enabled without the host's
+  // hello; protocol messages are accepted only from window.parent, and after
+  // the handshake only from the recorded host origin. Message content is read
+  // as data, never evaluated. Export/download keeps working unchanged.
+  var HOST_PROTOCOL = 'orz-host-save';
+  var HOST_VERSION = 1;
+  var hostOrigin = null;    // recorded at handshake; null = unhosted
+  var hostSaveTimer = null; // watchdog for a save awaiting acknowledgement
+
+  function isHosted() { return hostOrigin !== null; }
+  // An opaque embedder (sandboxed/srcdoc host) serializes as the string 'null',
+  // which postMessage rejects as a targetOrigin — fall back to '*' (the payload
+  // contains nothing the host doesn't already have).
+  function hostTarget() { return hostOrigin && hostOrigin !== 'null' ? hostOrigin : '*'; }
+  function hostPost(msg) { try { window.parent.postMessage(msg, hostTarget()); } catch (e) {} }
+  function hostPostDirty(d) {
+    if (!isHosted()) return;
+    hostPost({ type: 'orz-host-dirty', protocol: HOST_PROTOCOL, version: HOST_VERSION, dirty: !!d });
+  }
+  function hostSave(src, html) {
+    if (hostSaveTimer) return; // one save in flight at a time
+    hostSaveTimer = setTimeout(function () {
+      hostSaveTimer = null;
+      toast('Save failed — no response from the host'); // document intact, still dirty
+    }, 10000);
+    hostPost({ type: 'orz-host-save', protocol: HOST_PROTOCOL, version: HOST_VERSION, source: src, html: html, theme: currentTheme });
+  }
+  // ---- host AI assistant (orz-host-ai@1) ------------------------------------
+  // When the host advertises AI operations, selecting text in the editor shows
+  // an "Improve selection" affordance; picking an op sends the passage to the
+  // host, which returns a suggested replacement to apply. File owns the UI; the
+  // host owns the model + governance. Additive — no host, no affordance.
+  var AI_PROTOCOL = 'orz-host-ai';
+  var AI_VERSION = 1;
+  var aiOps = null;      // advertised operations, or null when no AI host
+  var aiOrigin = null;   // recorded at the AI handshake
+  var aiSeq = 0;
+  var aiPending = {};    // requestId -> resolve
+  var aiTrigger = null;  // the floating "Improve selection" chip
+  var aiPanel = null;    // the menu / result popover
+  var aiRect = null;     // anchor rect {left,top,bottom} for the active popover
+
+  function aiTarget() { return aiOrigin && aiOrigin !== 'null' ? aiOrigin : '*'; }
+  function aiPost(msg) { try { window.parent.postMessage(msg, aiTarget()); } catch (e) {} }
+  function aiRequest(op, text, sel) {
+    return new Promise(function (resolve) {
+      var id = 'ai' + (++aiSeq);
+      aiPending[id] = resolve;
+      aiPost({ type: 'orz-host-ai-request', protocol: AI_PROTOCOL, version: AI_VERSION, requestId: id, op: op, text: text, selection: !!sel });
+      setTimeout(function () { if (aiPending[id]) { delete aiPending[id]; resolve({ ok: false, error: 'No response from the host.' }); } }, 30000);
+    });
+  }
+
+  function aiBox() {
+    var b = document.createElement('div');
+    b.style.cssText = 'position:fixed;z-index:60;background:Canvas;color:CanvasText;border:1px solid GrayText;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.28);font:13px system-ui,sans-serif;padding:4px;';
+    return b;
+  }
+  // Position `el` (already in the DOM, so it can be measured) just below the
+  // selection end; if it would overflow the bottom, flip it ABOVE the selection;
+  // if it fits neither, pin near the top and let it scroll. Clamp horizontally.
+  function aiSelRect() {
+    var to = cm.cursorCoords(cm.getCursor('to'), 'window');
+    var fr = cm.cursorCoords(cm.getCursor('from'), 'window');
+    return { left: to.left, top: fr.top, bottom: to.bottom };
+  }
+  function aiElRect(el) { var b = el.getBoundingClientRect(); return { left: b.left, top: b.top, bottom: b.bottom }; }
+  function aiPlace(el) {
+    if (!el) return;
+    var r = aiRect || (cm ? aiSelRect() : { left: 8, top: 8, bottom: 40 });
+    var w = el.offsetWidth || 240;
+    var h = el.offsetHeight || 40;
+    var left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
+    var top = r.bottom + 6;
+    if (top + h > window.innerHeight - 8) {
+      var above = r.top - h - 6;
+      if (above >= 8) {
+        top = above;
+      } else {
+        top = 8;
+        el.style.maxHeight = (window.innerHeight - 16) + 'px';
+        el.style.overflowY = 'auto';
+      }
+    }
+    el.style.left = left + 'px';
+    el.style.top = top + 'px';
+  }
+  function aiHidePanel() { if (aiPanel) { try { aiPanel.remove(); } catch (e) {} aiPanel = null; } }
+  function aiHideTrigger() { if (aiTrigger) { try { aiTrigger.remove(); } catch (e) {} aiTrigger = null; } }
+  function aiHideAll() { aiHidePanel(); aiHideTrigger(); }
+
+  // Open the ops menu anchored at `rect`, operating on `text` (a selection when
+  // isSel, else the whole document).
+  function aiOpen(rect, text, isSel) {
+    aiHideAll();
+    aiRect = rect;
+    aiPanel = aiBox();
+    aiOps.forEach(function (op) {
+      var btn = document.createElement('button');
+      btn.textContent = op.title;
+      btn.style.cssText = 'display:block;width:220px;text-align:left;background:none;border:0;color:inherit;font:inherit;padding:6px 10px;border-radius:6px;cursor:pointer;';
+      btn.onmouseenter = function () { btn.style.background = 'rgba(127,127,127,.16)'; };
+      btn.onmouseleave = function () { btn.style.background = 'none'; };
+      btn.onclick = function () { aiRun(op, text, isSel); };
+      aiPanel.appendChild(btn);
+    });
+    document.body.appendChild(aiPanel);
+    aiPlace(aiPanel);
+  }
+
+  function aiRun(op, text, isSel) {
+    aiHideAll();
+    aiPanel = aiBox();
+    aiPanel.style.padding = '10px';
+    aiPanel.style.width = (isSel ? '340px' : '460px');
+    aiPanel.textContent = 'Thinking…';
+    document.body.appendChild(aiPanel);
+    aiPlace(aiPanel);
+    aiRequest(op.id, text, isSel).then(function (r) {
+      if (!aiPanel) return;
+      aiPanel.textContent = '';
+      if (!r.ok) { aiPanel.textContent = r.error || 'That didn’t work.'; aiPlace(aiPanel); return; }
+      var label = document.createElement('div');
+      label.textContent = isSel ? 'Suggested replacement — edit before applying'
+                                 : 'Suggested rewrite of the whole document — edit before applying';
+      label.style.cssText = 'font-size:11px;opacity:.7;margin-bottom:4px;';
+      var ta = document.createElement('textarea');
+      ta.value = r.proposed || '';
+      ta.style.cssText = 'width:100%;height:' + (isSel ? '130px' : '240px') + ';box-sizing:border-box;font:12px ui-monospace,monospace;resize:vertical;';
+      var row = document.createElement('div');
+      row.style.cssText = 'display:flex;justify-content:flex-end;gap:6px;margin-top:6px;';
+      var cancel = document.createElement('button');
+      cancel.textContent = 'Cancel'; cancel.style.cssText = 'padding:4px 10px;cursor:pointer;';
+      cancel.onclick = aiHidePanel;
+      var apply = document.createElement('button');
+      apply.textContent = isSel ? 'Replace' : 'Replace document'; apply.style.cssText = 'padding:4px 10px;cursor:pointer;font-weight:600;';
+      apply.onclick = function () {
+        if (isSel) { cm.replaceSelection(ta.value); }
+        else { var c = cm.getCursor(); cm.setValue(ta.value); try { cm.setCursor(c); } catch (e) {} }
+        aiHidePanel(); markDirty(); scheduleUpdate();
+      };
+      row.appendChild(cancel); row.appendChild(apply);
+      aiPanel.appendChild(label); aiPanel.appendChild(ta); aiPanel.appendChild(row);
+      aiPlace(aiPanel);
+      ta.focus();
+    });
+  }
+
+  // Called on selection change: show the chip when there's a usable selection.
+  function aiRefresh() {
+    if (!aiOps || !aiOps.length || !cm || !isEdit()) { aiHideAll(); return; }
+    if (aiPanel) return; // don't fight an open menu/result
+    var sel = cm.getSelection();
+    if (!sel || sel.trim().length < 2) { aiHideTrigger(); return; }
+    if (!aiTrigger) {
+      aiTrigger = document.createElement('button');
+      aiTrigger.textContent = '✦ Improve selection';
+      aiTrigger.style.cssText = 'position:fixed;z-index:55;background:Canvas;color:CanvasText;border:1px solid GrayText;border-radius:999px;font:12px system-ui,sans-serif;padding:4px 10px;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.22);';
+      aiTrigger.onmousedown = function (e) { e.preventDefault(); }; // keep the cm selection
+      aiTrigger.onclick = function (e) { e.stopPropagation(); aiOpen(aiSelRect(), cm.getSelection(), true); };
+      document.body.appendChild(aiTrigger);
+    }
+    aiRect = aiSelRect();
+    aiPlace(aiTrigger);
+  }
+  document.addEventListener('mousedown', function (e) {
+    if (aiPanel && !aiPanel.contains(e.target)) aiHidePanel();
+  });
+
+  // ---- host-provided includes (orz-host-include@1) --------------------------
+  // When a host offers include resolution, `{{md-include URL}}` / `{{markdown
+  // URL}}` directives are resolved by the host (which owns the fetch + allowlist)
+  // and inlined into the PREVIEW render only. The editable source keeps the
+  // directive. STANDALONE (no host) the directives are left as-is — the file
+  // NEVER auto-fetches a URL from the viewer's browser.
+  var INCLUDE_PROTOCOL = 'orz-host-include';
+  var INCLUDE_VERSION = 1;
+  var includeOrigin = null;     // set at the include handshake; null = no host
+  var includeSeq = 0;
+  var includePending = {};      // requestId -> resolve
+  var includeCache = {};        // url -> markdown | null (null = declined)
+  var includeInflight = {};     // url -> true while a request is outstanding
+
+  function includeTarget() { return includeOrigin && includeOrigin !== 'null' ? includeOrigin : '*'; }
+  function includePost(msg) { try { window.parent.postMessage(msg, includeTarget()); } catch (e) {} }
+
+  function includeRequest(url) {
+    return new Promise(function (resolve) {
+      var id = 'inc' + (++includeSeq);
+      includePending[id] = resolve;
+      includePost({ type: 'orz-host-include-request', protocol: INCLUDE_PROTOCOL, version: INCLUDE_VERSION, requestId: id, url: url });
+      setTimeout(function () { if (includePending[id]) { delete includePending[id]; resolve(null); } }, 30000);
+    });
+  }
+
+  // Sync: substitute each cached include directive; leave un-cached ones as-is
+  // (they render empty via the fs include plugin — a transient "loading" state).
+  function applyIncludes(src) {
+    if (includeOrigin === null) return src; // unhosted → never resolve
+    return src.replace(/\{\{(?:markdown|md-include)\s+(https?:\/\/[^\s}]+)\}\}/g, function (whole, url) {
+      var v = includeCache[url];
+      return (typeof v === 'string') ? v : whole;
+    });
+  }
+
+  // Async: request any include URL not yet cached; on arrival, cache + re-render.
+  function ensureIncludes(src) {
+    if (includeOrigin === null) return;
+    var re = /\{\{(?:markdown|md-include)\s+(https?:\/\/[^\s}]+)\}\}/g;
+    var m, seen = {};
+    while ((m = re.exec(src))) {
+      var url = m[1];
+      if (seen[url]) continue; seen[url] = true;
+      if (Object.prototype.hasOwnProperty.call(includeCache, url) || includeInflight[url]) continue;
+      includeInflight[url] = true;
+      (function (u) {
+        includeRequest(u).then(function (md) {
+          includeCache[u] = (typeof md === 'string') ? md : null;
+          delete includeInflight[u];
+          scheduleUpdate(); // re-render with the now-cached content
+        });
+      })(url);
+    }
+  }
+
+  function onHostMessage(event) {
+    // only the embedding parent may speak the protocol
+    if (window.parent === window || event.source !== window.parent) return;
+    var d = event.data;
+    if (!d || typeof d !== 'object') return;
+    // after the handshake, hold the parent to the origin it introduced itself with
+    if (isHosted() && hostOrigin !== 'null' && event.origin !== hostOrigin) return;
+    if (d.type === 'orz-host-hello' && d.protocol === HOST_PROTOCOL && typeof d.version === 'number' && d.version >= 1) {
+      hostOrigin = event.origin;
+      // reply with the highest version we support ≤ the host's (we speak only 1)
+      hostPost({ type: 'orz-host-ready', protocol: HOST_PROTOCOL, version: HOST_VERSION, kind: 'md' });
+      if (dirty) hostPostDirty(true); // catch the host up on edits made pre-handshake
+    } else if (d.type === 'orz-host-saved' && hostSaveTimer) {
+      clearTimeout(hostSaveTimer); hostSaveTimer = null;
+      if (d.ok) { clearDirty(); toast('Saved'); }
+      else { toast('Save failed' + (d.error ? ' — ' + String(d.error) : '')); }
+    } else if (d.type === 'orz-host-ai-hello' && d.protocol === AI_PROTOCOL && Array.isArray(d.operations)) {
+      aiOrigin = event.origin;
+      aiOps = d.operations.filter(function (o) { return o && o.id && o.title; });
+      aiPost({ type: 'orz-host-ai-ready', protocol: AI_PROTOCOL, version: AI_VERSION });
+      // Reveal the toolbar's page-wide AI button — runs an op on the whole doc.
+      var aiBtn = document.getElementById('orz-ai');
+      if (aiBtn && aiOps.length) {
+        aiBtn.style.display = '';
+        aiBtn.onclick = function () { if (cm) aiOpen(aiElRect(aiBtn), cm.getValue(), false); };
+      }
+    } else if (d.type === 'orz-host-ai-result' && d.requestId && aiPending[d.requestId]) {
+      var aiRes = aiPending[d.requestId]; delete aiPending[d.requestId];
+      aiRes({ ok: !!d.ok, proposed: d.proposed, error: d.error });
+    } else if (d.type === 'orz-host-include-hello' && d.protocol === INCLUDE_PROTOCOL && typeof d.version === 'number' && d.version >= 1) {
+      includeOrigin = event.origin;
+      includePost({ type: 'orz-host-include-ready', protocol: INCLUDE_PROTOCOL, version: INCLUDE_VERSION, kind: 'md' });
+      scheduleUpdate(); // re-render now that web includes can resolve
+    } else if (d.type === 'orz-host-include-result' && d.requestId && includePending[d.requestId]) {
+      var incRes = includePending[d.requestId]; delete includePending[d.requestId];
+      incRes(d.ok ? d.markdown : null);
+    }
+  }
+  // listen from script load so an early hello isn't missed
+  window.addEventListener('message', onHostMessage);
+
+  // ---- save (self-reproducing) --------------------------------------------
+  function serializeDoc(src) {
+    var clone = root.cloneNode(true);
+    var s = clone.querySelector('#orz-src');
+    if (s) s.textContent = '\n' + escapeSource(src) + '\n';
+    clone.removeAttribute('data-mode');
+    clone.setAttribute('data-chrome', themeById(currentTheme).scheme);
+    clone.setAttribute('data-theme', currentTheme); // persist theme choice
+    clone.removeAttribute('data-dirty');
+    // never bake in the (edit-only) update banner so a viewer can't see it
+    var ub = clone.querySelector('#orz-update'); if (ub) { ub.classList.remove('show'); ub.removeAttribute('data-latest'); }
+    // strip live editor DOM (CodeMirror) — restore a clean textarea
+    var ed = clone.querySelector('#orz-editor');
+    if (ed) ed.innerHTML = '<textarea id="orz-textarea" spellcheck="false"></textarea>';
+    return '<!DOCTYPE html>\n' + clone.outerHTML + '\n';
+  }
+
+  // IndexedDB: persist the save handle so a reopened file can be saved with a
+  // one-click permission grant instead of the full picker. Best-effort — it
+  // no-ops gracefully where unavailable (e.g. file:// opaque origins).
+  function idbOpen() {
+    return new Promise(function (res, rej) {
+      var r = indexedDB.open('orz-mdhtml', 1);
+      r.onupgradeneeded = function () { r.result.createObjectStore('handles'); };
+      r.onsuccess = function () { res(r.result); };
+      r.onerror = function () { rej(r.error); };
+    });
+  }
+  function idbGet(key) {
+    return idbOpen().then(function (db) {
+      return new Promise(function (res, rej) {
+        var t = db.transaction('handles', 'readonly');
+        var g = t.objectStore('handles').get(key);
+        g.onsuccess = function () { res(g.result || null); };
+        g.onerror = function () { rej(g.error); };
+      });
+    }).catch(function () { return null; });
+  }
+  function idbPut(key, val) {
+    return idbOpen().then(function (db) {
+      return new Promise(function (res, rej) {
+        var t = db.transaction('handles', 'readwrite');
+        var p = t.objectStore('handles').put(val, key);
+        p.onsuccess = function () { res(); };
+        p.onerror = function () { rej(p.error); };
+      });
+    }).catch(function () {});
+  }
+
+  function pickAndStore() {
+    return window.showSaveFilePicker({
+      suggestedName: (CFG.filename || 'document') + '.md.html',
+      types: [{ description: 'Markdown HTML', accept: { 'text/html': ['.md.html', '.html'] } }],
+    }).then(function (h) { fileHandle = h; if (CFG.docId) idbPut(CFG.docId, h); return h; });
+  }
+
+  // Resolve a writable handle: in-memory → persisted (re-grant permission) → picker.
+  function acquireHandle() {
+    if (fileHandle) return Promise.resolve(fileHandle);
+    if (!CFG.docId) return pickAndStore();
+    return idbGet(CFG.docId).then(function (saved) {
+      if (!saved || !saved.queryPermission) return pickAndStore();
+      return saved.queryPermission({ mode: 'readwrite' }).then(function (p) {
+        if (p === 'granted') return saved;
+        // Chrome shows a prompt naming the file — a deliberate one-click gate.
+        return saved.requestPermission({ mode: 'readwrite' }).then(function (p2) {
+          return p2 === 'granted' ? saved : null;
+        });
+      }).then(function (h) {
+        if (h) { fileHandle = h; return h; }
+        return pickAndStore();
+      });
+    }).catch(function () { return pickAndStore(); });
+  }
+
+  function isServed() {
+    return location.protocol === 'http:' || location.protocol === 'https:';
+  }
+
+  function save() {
+    var src = currentSource();
+    var html = serializeDoc(src);
+    var s = document.getElementById('orz-src');
+    if (s) s.textContent = '\n' + escapeSource(src) + '\n';
+
+    // A hosting platform (verified handshake) receives the save instead of the
+    // file system; the host acknowledges with orz-host-saved (see PROTOCOL.md).
+    if (isHosted()) { hostSave(src, html); return; }
+
+    // On a published (served) page with no prior file handle, the reader has no
+    // write access to the server. Only nag — once they've actually edited — that
+    // they should download a local copy. (Never shown on open or on a no-op save.)
+    if (isServed() && !fileHandle) { if (dirty) showServedNote(); return; }
+
+    if (window.showSaveFilePicker) {
+      acquireHandle()
+        .then(function (h) { return h.createWritable(); })
+        .then(function (w) { return Promise.resolve(w.write(html)).then(function () { return w.close(); }); })
+        .then(function () { clearDirty(); toast('Saved'); })
+        .catch(function (err) { if (err && err.name === 'AbortError') return; downloadFile(html); clearDirty(); toast('Saved a local copy'); });
+    } else {
+      downloadFile(html); clearDirty(); toast('Saved a local copy');
+    }
+  }
+
+  function downloadFile(text) {
+    var blob = new Blob([text], { type: 'text/html' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = (CFG.filename || 'document') + '.md.html';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  }
+
+  function exportCopy() { downloadFile(serializeDoc(currentSource())); toast('Downloaded a local copy'); }
+
+  function showServedNote() {
+    var n = document.getElementById('orz-served-note');
+    if (n) n.classList.add('show');
+  }
+
+  // ---- version check -------------------------------------------------------
+  // True only when `a` is a strictly newer semver than `b` (so an older
+  // resolved version never shows a bogus "update available").
+  function isNewer(a, b) {
+    var pa = String(a).split('.'), pb = String(b).split('.');
+    for (var i = 0; i < 3; i++) {
+      var x = parseInt(pa[i], 10) || 0, y = parseInt(pb[i], 10) || 0;
+      if (x > y) return true;
+      if (x < y) return false;
+    }
+    return false;
+  }
+  // SECURITY: the update source is HARDCODED here, never read from the file's
+  // config — a tampered/forged file cannot redirect "Update" to attacker code.
+  // Host is fixed to jsDelivr/HTTPS; the exact URLs are confirmed with the user.
+  // (Protects genuine files; a wholly-malicious file controls this code too — see
+  // the README security note. Clicking Update trusts npm + jsDelivr.)
+  var UPD = {
+    host: 'https://cdn.jsdelivr.net/npm/',
+    manifest: 'https://data.jsdelivr.com/v1/packages/npm/orz-mdhtml-browser/resolved',
+    enginePkg: 'orz-mdhtml-browser', engineFile: 'orzmd.browser.js', appPkg: 'orz-mdhtml'
+  };
+  function checkVersion() {
+    if (!CFG.rendererVersion) return;
+    try {
+      var cached = JSON.parse(localStorage.getItem('orz-mdhtml:vercheck') || 'null');
+      if (cached && (Date.now() - cached.t) < 86400000) {
+        if (cached.v && isNewer(cached.v, CFG.rendererVersion)) showUpdate(cached.v);
+        return;
+      }
+    } catch (e) {}
+    fetch(UPD.manifest).then(function (r) { return r.json(); }).then(function (j) {
+      var latest = j && j.version;
+      try { localStorage.setItem('orz-mdhtml:vercheck', JSON.stringify({ t: Date.now(), v: latest })); } catch (e) {}
+      if (latest && isNewer(latest, CFG.rendererVersion)) showUpdate(latest);
+    }).catch(function () {});
+  }
+  function showUpdate(latest) {
+    var bar = document.getElementById('orz-update'); if (!bar) return;
+    bar.querySelector('.upd-text').textContent = 'Framework ' + latest + ' available (file uses ' + CFG.rendererVersion + ').';
+    bar.setAttribute('data-latest', latest);
+    bar.classList.add('show');
+  }
+  /** One-click update: re-fetch the engine bundle + app.js at the latest version,
+   *  re-inline them, bump the version, save in place, and reload. */
+  function applyUpdate() {
+    var bar = document.getElementById('orz-update'); var latest = bar && bar.getAttribute('data-latest'); if (!latest) return;
+    var engineUrl = UPD.host + UPD.enginePkg + '@' + latest + '/' + UPD.engineFile;
+    var appUrl = UPD.host + UPD.appPkg + '@' + latest + '/assets/app.js';
+    if (!window.confirm('Update the framework to ' + latest + '?\n\nThis downloads and runs code from:\n  ' + engineUrl + '\n  ' + appUrl + '\n\nOnly proceed if you trust this document and its publisher.')) return;
+    toast('Downloading framework ' + latest + '…');
+    Promise.all([
+      fetch(engineUrl).then(function (r) { if (!r.ok) throw new Error('engine'); return r.text(); }),
+      fetch(appUrl).then(function (r) { if (!r.ok) throw new Error('app'); return r.text(); }),
+    ]).then(function (res) {
+      var es = document.querySelector('script[data-orz-asset="engine"]');
+      if (es) { if (es.getAttribute('src')) es.setAttribute('src', engineUrl); else es.textContent = res[0]; }
+      var as = document.querySelector('script[data-orz-asset="app"]');
+      if (as) as.textContent = res[1];
+      var cs = document.querySelector('script[data-orz-asset="config"]');
+      if (cs) { CFG.version = latest; CFG.rendererVersion = latest; cs.textContent = 'window.__ORZ_MDHTML__ = ' + JSON.stringify(CFG) + ';'; }
+      bar.classList.remove('show');
+      var html = serializeDoc(currentSource());
+      if (isServed() && !fileHandle) { showServedNote(); return; }
+      if (window.showSaveFilePicker) {
+        return acquireHandle()
+          .then(function (h) { return h.createWritable(); })
+          .then(function (w) { return Promise.resolve(w.write(html)).then(function () { return w.close(); }); })
+          .then(function () { toast('Updated to ' + latest + ' — reloading…'); setTimeout(function () { location.reload(); }, 700); });
+      }
+      downloadFile(html); toast('Updated copy downloaded — reopen it to use the new framework.');
+    }).catch(function () { toast('Update failed — check your connection.'); });
+  }
+
+  // ---- toast ---------------------------------------------------------------
+  var toastTimer = null;
+  function toast(msg) {
+    var t = document.getElementById('orz-toast'); if (!t) return;
+    t.textContent = msg; t.classList.add('show');
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove('show'); }, 1800);
+  }
+
+  // ---- wiring --------------------------------------------------------------
+  function wireUi() {
+    document.getElementById('orz-edit-fab').addEventListener('click', enterEdit);
+    document.getElementById('orz-close').addEventListener('click', exitEdit);
+    document.getElementById('orz-save').addEventListener('click', save);
+    document.getElementById('orz-download').addEventListener('click', exportCopy);
+    document.getElementById('orz-served-download').addEventListener('click', function () {
+      exportCopy();
+      document.getElementById('orz-served-note').classList.remove('show');
+    });
+    document.getElementById('orz-served-dismiss').addEventListener('click', function () {
+      document.getElementById('orz-served-note').classList.remove('show');
+    });
+    document.getElementById('orz-upd-dismiss').addEventListener('click', function () {
+      document.getElementById('orz-update').classList.remove('show');
+    });
+    var ua = document.getElementById('orz-upd-apply');
+    if (ua) ua.addEventListener('click', applyUpdate);
+    if (themeSelect) themeSelect.addEventListener('change', function () { setTheme(this.value); });
+    var syncBtn = document.getElementById('orz-sync');
+    if (syncBtn) syncBtn.addEventListener('click', function () { setSyncEnabled(!syncEnabled); });
+    // plain-textarea fallback live updates (when CodeMirror isn't active)
+    textarea.addEventListener('input', function () { if (!cm) { markDirty(); scheduleUpdate(); } });
+    document.addEventListener('keydown', function (e) {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 's') { e.preventDefault(); save(); }
+      else if (e.key === 'Escape' && isEdit()) { exitEdit(); }
+    });
+    // Warn before losing unsaved edits (close / reload / navigate away).
+    window.addEventListener('beforeunload', function (e) {
+      if (dirty) { e.preventDefault(); e.returnValue = ''; }
+    });
+  }
+
+  // ---- boot ----------------------------------------------------------------
+  function boot() {
+    currentTheme = root.getAttribute('data-theme') || CFG.defaultTheme;
+    var t = themeById(currentTheme);
+    root.setAttribute('data-chrome', t.scheme);
+    if (themeSelect) themeSelect.value = currentTheme;
+    textarea.value = embeddedSource();
+    buildFrame(t);
+    firstPaint();
+    wireUi();
+    try { if (localStorage.getItem('orz-mdhtml:scrollsync') === '0') syncEnabled = false; } catch (e) {}
+    setSyncEnabled(syncEnabled);
+    // version check runs on entering edit (edit view only), not on load
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>
+</body>
+</html>
